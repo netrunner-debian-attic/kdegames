@@ -2,9 +2,7 @@ Source: kdegames
 Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
- libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
- libfam-dev, libbz2-dev, libpcre++-dev,
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.90.1),
  ggzcore-bin
 Standards-Version: 3.7.2
 
