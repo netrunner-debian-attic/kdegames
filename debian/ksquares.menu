@@ -1,0 +1,8 @@
+?package(ksquares):\
+        needs="x11"\
+        section="Games/Board"\
+        hints="KDE"\
+        title="KSquares"\
+	icon32x32="/usr/share/pixmaps/ksquares.xpm"\
+	icon16x16="/usr/share/pixmaps/ksquares-16.xpm"\
+        command="/usr/games/ksquares"

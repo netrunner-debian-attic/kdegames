@@ -8,3 +8,5 @@
 /usr/share/icons/hicolor/48x48/apps/kiriki.png
 /usr/share/icons/hicolor/64x64/apps/kiriki.png
 /usr/share/icons/hicolor/128x128/apps/kiriki.png
+../icons/kiriki.xpm /usr/share/pixmaps
+../icons/kiriki-16.xpm /usr/share/pixmaps

@@ -11,3 +11,5 @@
 /usr/share/icons/hicolor/128x128/apps/ksquares.png
 /usr/share/icons/hicolor/scalable/actions/ksquares_ai.svgz
 /usr/share/icons/hicolor/scalable/actions/ksquares_display.svgz
+../icons/ksquares.xpm /usr/share/pixmaps
+../icons/ksquares-16.xpm /usr/share/pixmaps

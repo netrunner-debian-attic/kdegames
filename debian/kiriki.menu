@@ -1,0 +1,8 @@
+?package(kiriki):\
+        needs="x11"\
+        section="Games/Board"\
+        hints="KDE"\
+        title="Kiriki"\
+	icon32x32="/usr/share/pixmaps/kiriki.xpm"\
+	icon16x16="/usr/share/pixmaps/kiriki-16.xpm"\
+        command="/usr/games/kiriki"
