@@ -1,0 +1,5 @@
+/usr/include
+/usr/lib/libkdegames.so
+/usr/lib/libkmahjongglib.so
+/usr/lib/libksirtetlib.so
+/usr/share/apps/cmake/modules/FindLibKDEGames.cmake

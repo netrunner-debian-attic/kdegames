@@ -1,0 +1,12 @@
+/usr/share/apps/kbattleship/*
+/usr/share/icons/hicolor/128x128/apps/kbattleship.png
+/usr/share/icons/hicolor/64x64/apps/kbattleship.png
+/usr/share/icons/hicolor/48x48/apps/kbattleship.png
+/usr/share/icons/hicolor/32x32/apps/kbattleship.png
+/usr/share/icons/hicolor/22x22/apps/kbattleship.png
+/usr/share/icons/hicolor/16x16/apps/kbattleship.png
+/usr/share/applications/kde4/kbattleship.desktop
+/usr/games/kbattleship
+/usr/share/doc/HTML/en/kbattleship/*
+../icons/kbattleship.xpm /usr/share/pixmaps
+../icons/kbattleship-16.xpm /usr/share/pixmaps

@@ -1,0 +1,12 @@
+/usr/games/lskat
+/usr/share/doc/HTML/en/lskat/*
+/usr/share/apps/lskat/*
+/usr/share/icons/hicolor/128x128/apps/lskat.png
+/usr/share/icons/hicolor/64x64/apps/lskat.png
+/usr/share/icons/hicolor/48x48/apps/lskat.png
+/usr/share/icons/hicolor/32x32/apps/lskat.png
+/usr/share/icons/hicolor/22x22/apps/lskat.png
+/usr/share/icons/hicolor/16x16/apps/lskat.png
+/usr/share/applications/kde4/lskat.desktop
+../icons/lskat.xpm /usr/share/pixmaps
+../icons/lskat-16.xpm /usr/share/pixmaps
