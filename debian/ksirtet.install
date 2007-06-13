@@ -8,6 +8,6 @@
 /usr/share/apps/ksirtet/*
 /usr/games/ksirtet
 /usr/share/config.kcfg/ksirtet.kcfg
-/usr/share/doc/HTML/en/ksirtet/*
+/usr/share/doc/kde/HTML/en/ksirtet/*
 ../icons/ksirtet.xpm /usr/share/pixmaps
 ../icons/ksirtet-16.xpm /usr/share/pixmaps

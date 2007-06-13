@@ -7,6 +7,6 @@
 /usr/share/icons/hicolor/16x16/apps/kblackbox.png
 /usr/share/applications/kde4/kblackbox.desktop
 /usr/games/kblackbox
-/usr/share/doc/HTML/en/kblackbox/*
+/usr/share/doc/kde/HTML/en/kblackbox/*
 ../icons/kblackbox.xpm /usr/share/pixmaps
 ../icons/kblackbox-16.xpm /usr/share/pixmaps

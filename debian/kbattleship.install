@@ -7,6 +7,6 @@
 /usr/share/icons/hicolor/16x16/apps/kbattleship.png
 /usr/share/applications/kde4/kbattleship.desktop
 /usr/games/kbattleship
-/usr/share/doc/HTML/en/kbattleship/*
+/usr/share/doc/kde/HTML/en/kbattleship/*
 ../icons/kbattleship.xpm /usr/share/pixmaps
 ../icons/kbattleship-16.xpm /usr/share/pixmaps

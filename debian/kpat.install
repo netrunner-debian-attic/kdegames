@@ -7,6 +7,6 @@
 /usr/share/apps/kpat/*
 /usr/share/applications/kde4/kpat.desktop
 /usr/games/kpat
-/usr/share/doc/HTML/en/kpat/*
+/usr/share/doc/kde/HTML/en/kpat/*
 ../icons/kpat.xpm /usr/share/pixmaps
 ../icons/kpat-16.xpm /usr/share/pixmaps

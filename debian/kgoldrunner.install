@@ -7,6 +7,6 @@
 /usr/share/icons/hicolor/128x128/apps/kgoldrunner.png
 /usr/share/applications/kde4/KGoldrunner.desktop
 /usr/games/kgoldrunner
-/usr/share/doc/HTML/en/kgoldrunner/*
+/usr/share/doc/kde/HTML/en/kgoldrunner/*
 ../icons/kgoldrunner.xpm /usr/share/pixmaps
 ../icons/kgoldrunner-16.xpm /usr/share/pixmaps

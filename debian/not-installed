@@ -1,2 +1,2 @@
-usr/share/apps/cmake/modules/GGZ.cmake
-usr/lib/libkolflib.so
+./usr/share/apps/cmake/modules/GGZ.cmake
+./usr/lib/libkolflib.so

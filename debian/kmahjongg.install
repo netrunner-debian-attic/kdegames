@@ -8,6 +8,6 @@
 /usr/share/applications/kde4/kmahjongg.desktop
 /usr/games/kmahjongg
 /usr/share/config.kcfg/kmahjongg.kcfg
-/usr/share/doc/HTML/en/kmahjongg/*
+/usr/share/doc/kde/HTML/en/kmahjongg/*
 ../icons/kmahjongg.xpm /usr/share/pixmaps
 ../icons/kmahjongg-16.xpm /usr/share/pixmaps

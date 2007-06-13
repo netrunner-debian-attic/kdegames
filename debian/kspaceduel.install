@@ -8,6 +8,6 @@
 /usr/share/applications/kde4/kspaceduel.desktop
 /usr/games/kspaceduel
 /usr/share/config.kcfg/kspaceduel.kcfg
-/usr/share/doc/HTML/en/kspaceduel/*
+/usr/share/doc/kde/HTML/en/kspaceduel/*
 ../icons/kspaceduel.xpm /usr/share/pixmaps
 ../icons/kspaceduel-16.xpm /usr/share/pixmaps

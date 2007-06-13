@@ -5,7 +5,7 @@
 /usr/share/icons/hicolor/32x32/apps/ktuberling.png
 /usr/share/icons/hicolor/22x22/apps/ktuberling.png
 /usr/share/icons/hicolor/16x16/apps/ktuberling.png
-/usr/share/doc/HTML/en/ktuberling/*
+/usr/share/doc/kde/HTML/en/ktuberling/*
 /usr/share/applications/kde4/ktuberling.desktop
 /usr/share/apps/ktuberling/*
 ../icons/ktuberling.xpm /usr/share/pixmaps

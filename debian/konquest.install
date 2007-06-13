@@ -7,6 +7,6 @@
 /usr/share/icons/hicolor/16x16/apps/konquest.png
 /usr/share/applications/kde4/konquest.desktop
 /usr/games/konquest
-/usr/share/doc/HTML/en/konquest/*
+/usr/share/doc/kde/HTML/en/konquest/*
 ../icons/konquest.xpm /usr/share/pixmaps
 ../icons/konquest-16.xpm /usr/share/pixmaps

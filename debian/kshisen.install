@@ -8,6 +8,6 @@
 /usr/share/icons/hicolor/16x16/apps/kshisen.png
 /usr/share/applications/kde4/kshisen.desktop
 /usr/games/kshisen
-/usr/share/doc/HTML/en/kshisen/*
+/usr/share/doc/kde/HTML/en/kshisen/*
 ../icons/kshisen.xpm /usr/share/pixmaps
 ../icons/kshisen-16.xpm /usr/share/pixmaps

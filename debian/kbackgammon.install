@@ -11,6 +11,6 @@
 /usr/share/icons/hicolor/48x48/apps/kbackgammon_engine.png
 /usr/share/icons/hicolor/32x32/apps/kbackgammon_engine.png
 /usr/share/icons/hicolor/16x16/apps/kbackgammon_engine.png
-/usr/share/doc/HTML/en/kbackgammon/*
+/usr/share/doc/kde/HTML/en/kbackgammon/*
 ../icons/kbackgammon.xpm /usr/share/pixmaps
 ../icons/kbackgammon-16.xpm /usr/share/pixmaps

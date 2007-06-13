@@ -7,6 +7,6 @@
 /usr/share/applications/kde4/kmines.desktop
 /usr/share/apps/kmines/*
 /usr/games/kmines
-/usr/share/doc/HTML/en/kmines/*
+/usr/share/doc/kde/HTML/en/kmines/*
 ../icons/kmines.xpm /usr/share/pixmaps
 ../icons/kmines-16.xpm /usr/share/pixmaps

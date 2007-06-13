@@ -7,6 +7,6 @@
 /usr/share/icons/hicolor/64x64/apps/kbounce.png
 /usr/share/icons/hicolor/128x128/apps/kbounce.png
 /usr/games/kbounce
-/usr/share/doc/HTML/en/kbounce/*
+/usr/share/doc/kde/HTML/en/kbounce/*
 ../icons/kbounce.xpm /usr/share/pixmaps
 ../icons/kbounce-16.xpm /usr/share/pixmaps
