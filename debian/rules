@@ -13,3 +13,8 @@ DEB_DH_MAKESHLIBS_ARGS_libkdegames5 := -Vlibkdegames5
 DEB_DH_MAKESHLIBS_ARGS_kolf := -V
 
 PACKAGES_WITH_LIBS := libkdegames5 kolf
+
+generate-icons:
+	while read src dest; do \
+		convert debian/tmp/$$src debian/icons/$$dest; \
+	done <debian/icon-list

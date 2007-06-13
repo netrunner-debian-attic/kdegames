@@ -1,7 +1,7 @@
 /* XPM */
 static char *kbackgammon-16[] = {
 /* columns rows colors chars-per-pixel */
-"16 16 209 2",
+"16 16 210 2",
 "   c black",
 ".  c #050100",
 "X  c #100800",
@@ -210,22 +210,23 @@ static char *kbackgammon-16[] = {
 "3X c #FFF0C0",
 "4X c #FFFFCC",
 "5X c #FFFFD5",
-"6X c None",
+"6X c gray100",
+"7X c None",
 /* pixels */
-"6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X",
-"X ~ d s k a D p M K J ~ d Q 9.. ",
-"+ 5Xh.g.>X3 z._._.w 4 ;Xf.j.4XO ",
-"# 1Xp.i.OX8 x.>.R.k.0 +Xi.s.<XO ",
-"$ :XN.N.XXF ].;.>.`.H XXM.m.,X@ ",
+"7X7X7X7X7X7X7X7X7X7X7X7X7X7X7X7X",
+"X ~ d s k a D p M K J ! d Q 9.. ",
+"+ 5Xh.g.>X3 z._._.w 4 >Xf.j.4XO ",
+"# 1Xp.i.OX8 x.>.R.k.8 #Xu.s.<Xo ",
+"$ :XN.N.XXF ].;.>.`.H XXm.C.>X@ ",
 "& =XK.I./.v.#X*.-.|.n./.P.L.3X% ",
-"= *XE.W.H.~.}.*.=.{.Q.G.!.D.&X* ",
-"; &XT.S.8.A.Y.B &.Y.F.6.4.` .X- ",
-": OX( e.b.5.J.B Y 8./ ^ o.U .X> ",
-"> 7.A #.y.W 0.x m 3.Q t.$.S '.t ",
-"f I 7 ..C Z <.l n ,.P V ..9 l.i ",
-"g q 2 @.< 1 1.z c 2.r., O.6 5 g ",
-"h [.G #XV.V.2XN %.-X).d.$Xa.c.j ",
+"= *XE.W.H.~.}.*.=.{.Q.G.!.8.%X* ",
+"; &XT.S.8.A.Y.B &.Y.F.e.4.` XX- ",
+": OX( e.b.5.J.B Y 8./ ^ ' U XX> ",
+"r 7.A #.y.W 0.x m 3.Q t.$.S '.t ",
+"u I 7 ..C Z <.l n ,.P V ..9 l.i ",
+"f q 2 @.< 1 1.z c 2.r., O.6 5 g ",
+"h [.G #XV.B.2XN %.-X).d.$Xa.c.j ",
 "e q.O._ | } ] v b ' { X.) [ w.y ",
 "                                ",
-"6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X"
+"7X7X7X7X7X7X7X7X7X7X7X7X7X7X7X7X"
 };
