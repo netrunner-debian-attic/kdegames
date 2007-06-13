@@ -83,6 +83,9 @@ Set XIM server.
 .TP
 .B \-\-noxim
 Disable XIM.
+.TP
+.B \-\-reverse
+Mirrors the whole layout of widgets.
 .SH KDE OPTIONS
 .TP
 .B \-\-caption \fI<caption>\fB
@@ -91,11 +94,8 @@ Use `caption' as name in the titlebar.
 .B \-\-icon \fI<icon>\fB
 Use `icon' as the application icon.
 .TP
-.B \-\-miniicon \fI<icon>\fB
-Use `icon' as the icon in the titlebar.
-.TP
-.B \-\-dcopserver \fI<server>\fB
-Use the DCOP Server specified by `server'.
+.B \-\-config \fI<filename>\fB
+Use alternative configuration file.
 .TP
 .B \-\-nocrashhandler
 Disable crash handler, to get core dumps.
