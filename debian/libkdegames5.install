@@ -1,8 +1,11 @@
 /usr/lib/libkdegames.so.*
+usr/lib/libkggzgames.so.4
+usr/lib/libkggzgames.so.4.0.0
+usr/lib/libkggzmod.so.4
+usr/lib/libkggzmod.so.4.0.0
+usr/lib/libkggznet.so.4
+usr/lib/libkggznet.so.4.0.0
 /usr/lib/libkmahjongglib.so.*
-/usr/lib/libksirtetlib.so.*
-/usr/share/apps/kdegames/pics/star.png
 /usr/share/icons/oxygen/16x16/actions/endturn.png
-/usr/share/icons/oxygen/16x16/actions/highscore.png
 /usr/share/icons/oxygen/32x32/actions/endturn.png
-/usr/share/icons/oxygen/32x32/actions/highscore.png
+usr/share/kde4/apps/kdegames/pics/star.png

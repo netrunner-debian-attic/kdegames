@@ -1,3 +1,13 @@
+kdegames (4:3.94.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update *.install files.
+  * Update *.links files.
+  * Add kjumpingcube and ksudoku and remove ksirtet.
+  * Replace ${Source-Version} with ${binary:Version}
+
+ -- Armin Berres <trigger+debian@space-based.de>  Mon, 15 Oct 2007 22:55:18 +0200
+
 kdegames (4:3.90.1-2) unstable; urgency=low
 
   * Bring previous debian packaging over, update for KDE4.

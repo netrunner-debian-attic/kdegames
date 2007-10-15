@@ -2,15 +2,15 @@ Source: kdegames
 Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.90.1),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.94.0),
  groff-base, ggzcore-bin
 Standards-Version: 3.7.2
 
 Package: kdegames
 Architecture: all
 Section: kde
-Depends: katomic (>= ${Source-Version}), kbackgammon (>= ${Source-Version}), kbattleship (>= ${Source-Version}), kblackbox (>= ${Source-Version}), kbounce (>= ${Source-Version}), kgoldrunner (>= ${Source-Version}), kiriki (>= ${Source-Version}), klines (>= ${Source-Version}), kmahjongg (>= ${Source-Version}), kmines (>= ${Source-Version}), knetwalk (>= ${Source-Version}), kolf (>= ${Source-Version}), konquest (>= ${Source-Version}), kpat (>= ${Source-Version}), kreversi (>= ${Source-Version}), ksame (>= ${Source-Version}), kshisen (>= ${Source-Version}), ksirtet (>= ${Source-Version}), kspaceduel (>= ${Source-Version}), ksquares (>= ${Source-Version}), ktuberling (>= ${Source-Version}), kwin4 (>= ${Source-Version}), lskat (>= ${Source-Version})
-Suggests: kdegames-doc-html (>= ${Source-Version})
+Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbackgammon (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kwin4 (>= ${binary:Version}), lskat (>= ${binary:Version})
+Suggests: kdegames-doc-html (>= ${source:Version})
 Description: games from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -32,8 +32,8 @@ Description: KDE games documentation in HTML format
  read with any web browser.
  .
  The documentation will be installed into the usual directories
- /usr/share/doc/kde/HTML/en/<package>/, for instance
- /usr/share/doc/kde/HTML/en/kasteroids/.
+ /usr/share/doc/kde4/HTML/en/<package>/, for instance
+ /usr/share/doc/kde4/HTML/en/kasteroids/.
  .
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
@@ -64,7 +64,7 @@ Description: debugging symbols for kdegames
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:3.90.1), libkdegames5 (= ${Source-Version})
+Depends: kdelibs5-dev (>= 4:3.90.1), libkdegames5 (= ${source:Version})
 Description: KDE games library headers
  This package is necessary if you want to develop your own games using
  the KDE games library.
@@ -89,6 +89,25 @@ Description: Tilesets and backgrounds for Mahjongg games
  .
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
+
+Package: bovo
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}
+Description: classic pen and paper game for KDE
+ Bovo is a KDE 4 game, modeled upon a classic pen and paper game, where
+ you try to connect five in a row prior to your opponent.
+ .
+ Players take turn to place their marks (X or O) on the playing board.
+ A player cannot move their already placed mark or put their mark upon
+ an already placed mark. Neither can they pass their turn. Whoever reaches
+ five marks connected in a straight line (be it vertical, horizontal or
+ diagonal) wins.
+ .
+ This package is part of KDE, and a component of the KDE games module.
+ See the 'kde' and 'kdegames' packages for more information.
+ .
+  Homepage: http://kdebovo.googlepages.com/
 
 Package: katomic
 Architecture: any
@@ -204,6 +223,18 @@ Description: KDE version of Yahtzee
  rolls, you choose a slot in a score table to fill in according to the
  results of the roll.  At the end of the game, the player with the
  most points wins.
+ .
+ This package is part of KDE, and a component of the KDE games module.
+ See the 'kde' and 'kdegames' packages for more information.
+
+Package: kjumpingcube
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}
+Description: tactical one- or two-player game for KDE
+ KJumpingCube is a tactical one or two-player game. The playing field
+ consists of squares that contains points which can be increased. By
+ this you can gain more fields and finally win the board over.
  .
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
@@ -345,23 +376,6 @@ Description: Shisen-Sho for KDE
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
 
-Package: ksirtet
-Architecture: any
-Section: games
-Depends: ${shlibs:Depends}
-Description: Tetris and Puyo-Puyo games for KDE
- This program is a clone of the well known game Tetris. You must fit
- the falling pieces to form full lines. You can rotate and translate
- the falling piece. The game ends when no more piece can fall ie when
- your incomplete lines reach the top of the board.
- .
- Every time you have destroyed 10 lines, you gain a level and the
- pieces fall quicker (exactly the piece falls from a line each
- 1/(1+level) second).
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
-
 Package: kspaceduel
 Architecture: any
 Section: games
@@ -389,6 +403,22 @@ Description: Dots and Boxes game for KDE
  .
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
+
+Package: ksudoku
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}
+Description: Sudoku puzzle generator/solver for KDE
+ KSudoku is an interface for creating and solving sudoku puzzles, which
+ are grid-based placement puzzles that require time and logic to solve.
+ KSudoku is able to work with both 2D and 3D versions of these puzzles,
+ in grids of any square layout up to 25x25. It can also generate
+ configurable symmetric puzzles and other special types.
+ .
+ This package is part of KDE, and a component of the KDE games module.
+ See the 'kde' and 'kdegames' packages for more information.
+ .
+  Homepage: http://ksudoku.sourceforge.net/
 
 Package: ktuberling
 Architecture: any

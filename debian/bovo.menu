@@ -1,0 +1,7 @@
+?package(bovo):\
+	needs="x11"\
+	section="Games/Board"\
+	hints="KDE"\
+	title="Bovo"\
+	command="/usr/games/bovo"
+

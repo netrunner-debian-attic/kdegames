@@ -1,13 +1,13 @@
-/usr/share/apps/kolf/*
+../icons/kolf-16.xpm /usr/share/pixmaps
+../icons/kolf.xpm /usr/share/pixmaps
 /usr/games/kolf
+/usr/lib/libkolflib.so.*
 /usr/share/applications/kde4/kolf.desktop
-/usr/share/doc/kde/HTML/en/kolf/*
+/usr/share/doc/kde4/HTML/en/kolf/*
+/usr/share/icons/hicolor/128x128/apps/kolf.png
 /usr/share/icons/hicolor/16x16/apps/kolf.png
 /usr/share/icons/hicolor/22x22/apps/kolf.png
 /usr/share/icons/hicolor/32x32/apps/kolf.png
 /usr/share/icons/hicolor/48x48/apps/kolf.png
 /usr/share/icons/hicolor/64x64/apps/kolf.png
-/usr/share/icons/hicolor/128x128/apps/kolf.png
-/usr/lib/libkolflib.so.*
-../icons/kolf.xpm /usr/share/pixmaps
-../icons/kolf-16.xpm /usr/share/pixmaps
+/usr/share/kde4/apps/kolf/*

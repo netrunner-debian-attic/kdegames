@@ -1,5 +1,8 @@
-/usr/include
+/usr/include/*
 /usr/lib/libkdegames.so
+usr/lib/libkggzgames.so
+usr/lib/libkggzmod.so
+usr/lib/libkggznet.so
 /usr/lib/libkmahjongglib.so
-/usr/lib/libksirtetlib.so
-/usr/share/apps/cmake/modules/FindLibKDEGames.cmake
+usr/share/kde4/apps/cmake/modules/FindLibKDEGames.cmake
+usr/share/kde4/apps/cmake/modules/GGZ.cmake

@@ -1,0 +1,18 @@
+etc/kde4/ksudokurc
+../icons/ksudoku-16.xpm /usr/share/pixmaps
+../icons/ksudoku.xpm /usr/share/pixmaps
+usr/games/ksudoku
+usr/share/applications/kde4/ksudoku.desktop
+usr/share/doc/kde4/HTML/en/ksudoku/index.docbook
+usr/share/icons/hicolor/128x128/apps/ksudoku.png
+usr/share/icons/hicolor/16x16/apps/ksudoku.png
+usr/share/icons/hicolor/32x32/apps/ksudoku.png
+usr/share/kde4/apps/ksudoku/4x4.desktop
+usr/share/kde4/apps/ksudoku/4x4.xml
+usr/share/kde4/apps/ksudoku/Jigsaw.desktop
+usr/share/kde4/apps/ksudoku/Jigsaw.xml
+usr/share/kde4/apps/ksudoku/ksudokuui.rc
+usr/share/kde4/apps/ksudoku/Samurai.desktop
+usr/share/kde4/apps/ksudoku/Samurai.xml
+usr/share/kde4/apps/ksudoku/XSudoku.desktop
+usr/share/kde4/apps/ksudoku/XSudoku.xml

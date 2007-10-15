@@ -1,0 +1,8 @@
+?package(kjumpingcube):\
+	needs="x11"\
+	section="Games/Puzzles"\
+	hints="KDE"\
+	title="KJumpingCube"\
+	icon32x32="/usr/share/pixmaps/kjumpingcube.xpm"\
+	icon16x16="/usr/share/pixmaps/kjumpingcube-16.xpm"\
+	command="/usr/games/kjumpingcube"

@@ -1,12 +1,12 @@
-/usr/share/apps/konquest/*
-/usr/share/icons/hicolor/128x128/apps/konquest.png
-/usr/share/icons/hicolor/64x64/apps/konquest.png
-/usr/share/icons/hicolor/48x48/apps/konquest.png
-/usr/share/icons/hicolor/32x32/apps/konquest.png
-/usr/share/icons/hicolor/22x22/apps/konquest.png
-/usr/share/icons/hicolor/16x16/apps/konquest.png
-/usr/share/applications/kde4/konquest.desktop
-/usr/games/konquest
-/usr/share/doc/kde/HTML/en/konquest/*
-../icons/konquest.xpm /usr/share/pixmaps
 ../icons/konquest-16.xpm /usr/share/pixmaps
+../icons/konquest.xpm /usr/share/pixmaps
+/usr/games/konquest
+/usr/share/applications/kde4/konquest.desktop
+/usr/share/doc/kde4/HTML/en/konquest/*
+/usr/share/icons/hicolor/128x128/apps/konquest.png
+/usr/share/icons/hicolor/16x16/apps/konquest.png
+/usr/share/icons/hicolor/22x22/apps/konquest.png
+/usr/share/icons/hicolor/32x32/apps/konquest.png
+/usr/share/icons/hicolor/48x48/apps/konquest.png
+/usr/share/icons/hicolor/64x64/apps/konquest.png
+/usr/share/kde4/apps/konquest/*
