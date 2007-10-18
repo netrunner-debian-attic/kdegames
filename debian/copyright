@@ -34,6 +34,10 @@ This program is distributed under the terms of the GPL v2.
 
 KBattleship was written by
     Paolo Capriotti <p.capriotti@gmail.com>
+    Nikolas Zimmermann <wildfox@kde.org>
+    Daniel Molkentin <molkentin@kde.org>
+    Kevin Krammer <kevin.krammer@gmx.at>
+(c) 2000-2005  Nikolas Zimmermann, Daniel Molkentin
 (c) 2007 Paolo Capriotti
 This program is distributed under the terms of the GPL v2.
 
@@ -53,8 +57,8 @@ This program is distributed under the terms of the GPL v2.
 
 KGoldrunner was written by
     Ian Wadham <ianw2@optusnet.com.au>
-    Marco Krger
-(C) 2003 Ian Wadham and Marco Krger
+    Marco Krüger <grisuji@gmx.de>
+(C) 2003 Ian Wadham and Marco Krüger
 This program is distributed under the terms of the GPL v2.
 
 Kiriki was written by
@@ -65,7 +69,7 @@ This program is distributed under the terms of the GPL v2.
 KJumpingcube was written by
     Matthias Kiefer <matthias.kiefer@gmx.de>
     Benjamin Meyer <ben at meyerhome dot net>
-Copyright (C) 1998-2007 by Matthias Kiefer <matthias.kiefer@gmx.de>
+(c) 1998-2007 by Matthias Kiefer <matthias.kiefer@gmx.de>
 This program is distributed under the terms of the GPL v2 or any later version.
 
 Kolor Lines (klines) was written by
@@ -86,14 +90,22 @@ This program is distributed under the terms of the GPL v2.
 
 KMines was written by
     Nicolas Hadacek <hadacek@kde.org>
-(c) 1996-2005, Nicolas Hadacek
-(c) 2001, Mikhail Kourinny
+    Mauricio Piacentini <mauricio@tabuleiro.com>
+    Dmitry Suzdalev <dimsuz@gmail.com">
+
+(c) 1996-2005, Nicolas Hadacek <hadacek@kde.org>
+(c) 2001, Mikhail Kourinny <mkourinny@yahoo.com>
+(c) 2006-2007, Mauricio Piacentini <mauricio@tabuleiro.com>
+(c) 2007, Dmitry Suzdalev <dimsuz@gmail.com>
 This program is distributed under the terms of the GPL v2.
 
 knetwalk was written by
+    Fela Winkelmolen <fela.kde@gmail.com>
     Andi Peredri <andi@ukr.net>
     Thomas Nagy <tnagy2^8@yahoo.fr>
-(C) 2004, 2005 Andi Peredri, ported to KDE by Thomas Nagy
+    Reinhold Kainhofer <reinhold@kainhofer.com>
+(c) 2004, 2005 Andi Peredri, ported to KDE by Thomas Nagy
+(c) 2007 Fela Winkelmolen
 This program is distributed under the terms of the GPL v2.
 
 Kolf was written by
@@ -107,7 +119,11 @@ Kolf was written by
 This program is distributed under the terms of the GPL v2.
 
 Konquest was written by
-    Russ Steffen <rsteffen@bayarea.net>
+  Russell Steffen <rsteffen@bayarea.net>
+  Stephan Zehetner <s.zehetner@nevox.org>
+  Dmitry Suzdalev <dimsuz@gmail.com>
+  Inge Wallin   <inge@lysator.liu.se>
+  Pierre Ducroquet <pinaraf@gmail.com>
 Copyright (c) 1999-2006, Developers
 This program is distributed under the terms of the GPL v2.
 
@@ -125,6 +141,7 @@ KPatience was written by
     Josh Metzler <joshdeb@metzlers.org>
     Maren Pakura <maren@kde.org>
     Inge Wallin <inge@lysator.liu.se>
+    Simon Hürlimann <simon.huerlimann@huerlisi.ch>
 (c) 1995, Paul Olav Tvete
 (c) 2000 Stephan Kulow
 This program is distributed under the terms of the GPL v2.
@@ -138,22 +155,17 @@ KReversi was written by
 (c) 2006, Dmitry Suzdalev
 This program is distributed under the terms of the GPL v2.
 
-SameGame was written by
+KSame was written by
     Henrique Pinto <henrique.pinto@kdemail.net>
     Marcus Kreutzberger <kreutzbe@informatik.mu-luebeck.de>
 (c) 1997-1998 Marcus Kreutzberger
 This program is distributed under the terms of the GPL v2.
 
-Shisen-Sho was written by
+KShisen was written by
     Dave Corrie <kde@davecorrie.com>
     Mario Weilguni <mweilguni@sime.com>
 (c) 1997, Maio Weilguni
-This program is distributed under the terms of the GPL v2.
-
-KSirtet was written by
-    Nicolas Hadacek <hadacek@kde.org>
-(c) 1995, Eirik Eng
-(c) 1996-2004, Nicolas Hadacek
+(c) 2002-2004 Dave Corrie
 This program is distributed under the terms of the GPL v2.
 
 KSpaceDuel was written by
@@ -164,7 +176,7 @@ This program is distributed under the terms of the GPL v2.
 
 KSquares was written by
     Matt Williams <matt@milliams.com>
-(C) 2006-2007 Matt Williams
+(c) 2006-2007 Matt Williams
 This program is distributed under the terms of the GPL v2.
 
 KSudoku was written by
@@ -174,7 +186,7 @@ KSudoku was written by
 (c) 2005-2007 The Ksudoku authors
 This program is distributed under the terms of the GPL v2.
 The ArcBall.cpp and ArcBall.h files are
-(C) 1999-2003 Terence Grant (tatewake.com). They are released under the
+(c) 1999-2003 Terence Grant (tatewake.com). They are released under the
 MIT license:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -204,20 +216,23 @@ I'm currently busy with a few projects for a college class so I won't
 be able to "officially" change it until late next week or so.
 """
 KTuberling was written by
-    Eric Bischoff <ebischoff@nerim.net>
+    Éric Bischoff <ebischoff@nerim.net>
     John Calhoun
+    Albert Astals Cid <aacid@kde.org>
 (c) 1996-2006, The KTuberling Developers
 This program is distributed under the terms of the GPL v2.
 
 KWin4 was written by
     Martin Heni <kde@heni-online.de>
     Johann Ollivier Lapeyre <johann.ollivierlapeyre@gmail.com>
+    Eugene Trounev <eugene.trounev@gmail.com>
     Benjamin Meyer
 (c) 1995-2007, Martin Heni
 This program is distributed under the terms of the GPL v2.
 
 LSkat was written by
     Martin Heni <kde@heni-online.de>
+    Eugene Trounev <eugene.trounev@gmail.com>
     Benjamin Meyer
 (c) 1995-2007, Martin Heni
 This program is distributed under the terms of the GPL v2.
@@ -230,31 +245,6 @@ libkdegames is distributed under the GNU Lesser General Public License.
 --
 
 libkmahjongg is distributed under the GNU General Public License.
-
---
-
-libksirtet is:
-
-Copyright (c) 1995      Eirik ENG
-Copyright (c) 1996-2004 Nicolas HADACEK (hadacek@kde.org)
-
-
-This file is part of the KDE ksirtet library
-Copyright (C) 2001 Andreas Beckermann (b_mann@gmx.de)
-
-This library is free software; you can redistribute it and/or
-modify it under the terms of the GNU Library General Public
-License version 2 as published by the Free Software Foundation.
-
-This library is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-Library General Public License for more details.
-
-You should have received a copy of the GNU Library General Public License
-along with this library; see the file COPYING.LIB.  If not, write to
-the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-Boston, MA 02110-1301, USA.
 
 --
 
@@ -399,6 +389,28 @@ the License, or (at your option) any later version.
 
 --
 
+Copyright for the "Light Wood" Mahjongg background:
+
+Copyright (C) 2007 Raquel Ravanini <raquel@tabuleiro.com>
+
+This background is free; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+--
+
+Copyright for the "Alphabet" Mahjongg tileset:
+
+Copyright (C) 2007 Raquel Ravanini <raquel@tabuleiro.com>
+
+This tileset is free; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+--
+
 Copyright for the "Classic" Mahjongg tileset:
 
 Copyright (C) 2006 Robert Buchholz <robertbuchholz@gmx.de>
@@ -413,6 +425,17 @@ the License, or (at your option) any later version.
 Copyright for the "Default" Mahjongg tileset:
 
 Copyright (C) 2006 Raquel Ravanini <raquel@tabuleiro.com>
+
+This tileset is free; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+--
+
+Copyright for the "Traditional" Mahjongg tileset:
+
+Copyright (C) 2007 James L. Hammons <jlhamm@acm.org>
 
 This tileset is free; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
