@@ -3,6 +3,7 @@ etc/kde4/ksudokurc
 ../icons/ksudoku.xpm /usr/share/pixmaps
 usr/games/ksudoku
 usr/share/applications/kde4/ksudoku.desktop
+usr/share/doc/kde4/HTML/en/ksudoku/index.cache.bz2
 usr/share/doc/kde4/HTML/en/ksudoku/index.docbook
 usr/share/icons/hicolor/128x128/apps/ksudoku.png
 usr/share/icons/hicolor/16x16/apps/ksudoku.png

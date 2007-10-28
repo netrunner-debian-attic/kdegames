@@ -1,12 +1,14 @@
 ../icons/knetwalk-16.xpm /usr/share/pixmaps
 ../icons/knetwalk.xpm /usr/share/pixmaps
-/usr/games/knetwalk
-/usr/share/applications/kde4/knetwalk.desktop
-/usr/share/icons/hicolor/128x128/apps/knetwalk.png
-/usr/share/icons/hicolor/16x16/apps/knetwalk.png
-/usr/share/icons/hicolor/22x22/apps/knetwalk.png
-/usr/share/icons/hicolor/32x32/apps/knetwalk.png
-/usr/share/icons/hicolor/48x48/apps/knetwalk.png
-/usr/share/icons/hicolor/64x64/apps/knetwalk.png
-/usr/share/icons/hicolor/scalable/apps/knetwalk.svgz
-/usr/share/kde4/apps/knetwalk
+usr/games/knetwalk
+usr/share/applications/kde4/knetwalk.desktop
+usr/share/doc/kde4/HTML/en/knetwalk/index.cache.bz2
+usr/share/doc/kde4/HTML/en/knetwalk/index.docbook
+usr/share/icons/hicolor/128x128/apps/knetwalk.png
+usr/share/icons/hicolor/16x16/apps/knetwalk.png
+usr/share/icons/hicolor/22x22/apps/knetwalk.png
+usr/share/icons/hicolor/32x32/apps/knetwalk.png
+usr/share/icons/hicolor/48x48/apps/knetwalk.png
+usr/share/icons/hicolor/64x64/apps/knetwalk.png
+usr/share/icons/hicolor/scalable/apps/knetwalk.svgz
+usr/share/kde4/apps/knetwalk

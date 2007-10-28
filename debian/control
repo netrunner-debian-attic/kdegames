@@ -2,7 +2,7 @@ Source: kdegames
 Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.94.0),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.95.0),
  groff-base, ggzcore-bin
 Standards-Version: 3.7.2
 
@@ -38,7 +38,7 @@ Description: KDE games documentation in HTML format
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
 
-Package: libkdegames5
+Package: libkdegames4
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
@@ -64,7 +64,7 @@ Description: debugging symbols for kdegames
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:3.90.1), libkdegames5 (= ${source:Version})
+Depends: kdelibs5-dev (>= 4:3.95.1), libkdegames4 (= ${source:Version})
 Description: KDE games library headers
  This package is necessary if you want to develop your own games using
  the KDE games library.
@@ -252,7 +252,7 @@ Description: Color lines for KDE
  .
  The main rules of the game are as simple as possible: you move (using
  the mouse) marbles from cell to cell and build lines (horizontal,
- vertical or diagonal). When a line contains 5 or more marbles, they
+ vertical or diagonal). When a line contains five or more marbles, they
  are removed and your score grows. After each turn the computer drops
  three more marbles.
  .
