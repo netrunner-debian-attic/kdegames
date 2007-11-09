@@ -3,14 +3,14 @@ Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.95.0),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.95.2),
  groff-base, ggzcore-bin
 Standards-Version: 3.7.2
 
 Package: kdegames
 Architecture: all
 Section: kde
-Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbackgammon (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kwin4 (>= ${binary:Version}), lskat (>= ${binary:Version})
+Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kwin4 (>= ${binary:Version}), lskat (>= ${binary:Version})
 Suggests: kdegames-doc-html (>= ${source:Version})
 Description: games from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -65,7 +65,7 @@ Description: debugging symbols for kdegames
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:3.95.1), libkdegames4 (= ${source:Version})
+Depends: kdelibs5-dev (>= 4:3.95.2), libkdegames4 (= ${source:Version})
 Description: KDE games library headers
  This package is necessary if you want to develop your own games using
  the KDE games library.
@@ -119,21 +119,6 @@ Description: Atomic Entertainment game for KDE
  from its atoms on a Sokoban-like board.  On each move, an atom goes
  as far as it can in a specified direction before being stopped by a
  wall or another atom.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
-
-Package: kbackgammon
-Architecture: any
-Section: games
-Depends: ${shlibs:Depends}
-Suggests: gnubg
-Description: A Backgammon game for KDE
- KBackgammon is a backgammon program for KDE2. It is based on the
- code, ideas and concepts of KFibs (which is a FIBS client for
- KDE1). For a short time, KBackgammon was called bacKgammon (if you
- know somebody who is still using bacKgammon, please force them to
- upgrade :-)).
  .
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
