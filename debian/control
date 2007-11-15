@@ -3,7 +3,7 @@ Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.95.2),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.96.0),
  groff-base, ggzcore-bin
 Standards-Version: 3.7.2
 
@@ -65,7 +65,7 @@ Description: debugging symbols for kdegames
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:3.95.2), libkdegames4 (= ${source:Version})
+Depends: kdelibs5-dev (>= 4:3.96.0), libkdegames4 (= ${source:Version})
 Description: KDE games library headers
  This package is necessary if you want to develop your own games using
  the KDE games library.
