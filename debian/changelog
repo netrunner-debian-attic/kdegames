@@ -1,3 +1,12 @@
+kdegames (4:3.97.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
+  * Build depend on kdelibs5-dev >= 4:3.97.0.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sat, 08 Dec 2007 01:12:20 +0100
+
 kdegames (4:3.96.0-1) experimental; urgency=low
 
     * New upstream release.
