@@ -10,7 +10,7 @@ Standards-Version: 3.7.2
 Package: kdegames
 Architecture: all
 Section: kde
-Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kwin4 (>= ${binary:Version}), lskat (>= ${binary:Version})
+Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kfourinline (>= ${binary:Version}), lskat (>= ${binary:Version})
 Suggests: kdegames-doc-html (>= ${source:Version})
 Description: games from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -430,7 +430,7 @@ Description: Potato Guy for KDE
  This package is part of KDE, and a component of the KDE games module.
  See the 'kde' and 'kdegames' packages for more information.
 
-Package: kwin4
+Package: kfourinline
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
