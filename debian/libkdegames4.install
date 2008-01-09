@@ -1,9 +1,10 @@
-/usr/lib/libkdegames.so.*
+etc/ggz.modules
+usr/lib/libkdegames.so.*
 usr/lib/libkggzgames.so.4
 usr/lib/libkggzgames.so.4.0.0
 usr/lib/libkggzmod.so.4
 usr/lib/libkggzmod.so.4.0.0
 usr/lib/libkggznet.so.4
 usr/lib/libkggznet.so.4.0.0
-/usr/lib/libkmahjongglib.so.*
+usr/lib/libkmahjongglib.so.*
 usr/share/kde4/apps/kdegames/pics/star.png

@@ -4,7 +4,7 @@ kdegames (4:4.0.0-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * TODO: find out where to ship /etc/ggz.modules
+  * Ship /etc/ggz.modules in libkdegames4.
 
   +++ Changes by Matthew Rosewarne:
 
