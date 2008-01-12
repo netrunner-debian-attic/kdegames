@@ -5,12 +5,14 @@ kdegames (4:4.0.0-1) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Ship /etc/ggz.modules in libkdegames4.
+  * Add versioned depends to kpat. Thanks to Matthieu Gallien. (Closes: #460208)
+  * Add versioned depends where needed.
 
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jan 2008 15:07:37 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2008 13:16:51 +0100
 
 kdegames (4:3.98.0~svn755919-1) experimental; urgency=low
 
