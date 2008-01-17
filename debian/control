@@ -2,7 +2,7 @@ Source: kdegames
 Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
+Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:4.0.0-1),
  libphonon-dev (>= 4:4.0.0-1), groff-base, ggzcore-bin
 Standards-Version: 3.7.3 
@@ -13,52 +13,33 @@ Architecture: all
 Section: kde
 Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kfourinline (>= ${binary:Version}), lskat (>= ${binary:Version})
 Suggests: kdegames-doc-html (>= ${source:Version})
-Description: games from the official KDE release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
+Description: games from the official KDE 4 release
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
  .
- This metapackage includes a collection of games provided with
- the official release of KDE.
-
-Package: kdegames-doc-html
-Architecture: all
-Section: doc
-Suggests: konqueror | www-browser, kdegames (>= ${binary:Version})
-Description: KDE games documentation in HTML format
- By default the games provided with KDE (the K Desktop Environment)
- only provide their documentation in KDE docbook format, which can
- only be read by Konqueror or KHelpCenter.  This package provides all
- of the KDE games documentation converted to HTML format so it can be
- read with any web browser.
- .
- The documentation will be installed into the usual directories
- /usr/share/doc/kde4/HTML/en/<package>/, for instance
- /usr/share/doc/kde4/HTML/en/kasteroids/.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This metapackage includes a collection of games provided with the official
+ release of KDE 4.
 
 Package: libkdegames4
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
 Replaces: libkdegames1
-Description: KDE games library and common files
- This library provides a common infrastructure for several of the
- games in the KDE distribution. Features include standardized menu
- items, high score handling, card display, and network connections
- including chat capabilities.
+Description: Libraries and common files for KDE 4 games
+ This package contains shared libraries and common infrastructure used by KDE 4
+ games, including support for the GNU Gaming Zone online gaming environment.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kdegames-dbg
 Architecture: any
 Priority: extra
 Section: kde
-Description: debugging symbols for kdegames
+Description: Debugging symbols for kdegames
  This package contains the debugging symbols associated with kdegames.
  They will automatically be used by gdb for debugging kdegames-related
  issues.
@@ -67,402 +48,277 @@ Package: libkdegames-dev
 Architecture: any
 Section: libdevel
 Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${binary:Version})
-Description: KDE games library headers
- This package is necessary if you want to develop your own games using
- the KDE games library.
+Description: Development files for the KDE 4 games libraries
+ This package contains headers and other related files needed to build KDE 4
+ applications that use the KDE 4 games libraries.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kdegames-card-data
 Architecture: all
 Section: games
-Description: Card decks for KDE games
- Several different collections of card images for use by KDE games.
+Description: Card decks for KDE 4 games
+ This package contains a collection of playing card themes for KDE 4 card games.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kdegames-mahjongg-data
 Architecture: all
 Section: games
 Description: Tilesets and backgrounds for Mahjongg games
- This package contains tilesets and backgrounds for kmahjongg and kshisen.
+ This package contains a collection of tilesets and backgrounds for KMahjongg
+ and KShisen.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: bovo
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: classic pen and paper game for KDE
- Bovo is a KDE 4 game, modeled upon a classic pen and paper game, where
- you try to connect five in a row prior to your opponent.
+Description: Gomoku board game for KDE 4
+ Bovo is a game where two players take turns placing markers on the board,
+ the winner being the first to complete a line of five markers.
  .
- Players take turn to place their marks (X or O) on the playing board.
- A player cannot move their already placed mark or put their mark upon
- an already placed mark. Neither can they pass their turn. Whoever reaches
- five marks connected in a straight line (be it vertical, horizontal or
- diagonal) wins.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
- .
-  Homepage: http://kdebovo.googlepages.com/
+ This package is part of the KDE 4 games module.
 
 Package: katomic
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Atomic Entertainment game for KDE
- This is a puzzle game, in which the object is to assemble a molecule
- from its atoms on a Sokoban-like board.  On each move, an atom goes
- as far as it can in a specified direction before being stopped by a
- wall or another atom.
+Description: Atomix puzzle game for KDE 4
+ KAtomic is a puzzle game in which the player slides atoms around the board to
+ assemble a molecule.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kbattleship
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Battleship game for KDE
- This is an implementation of the Battleship game.  Each player tries
- to be the first to sink all the opponent's ships by firing "blindly"
- at them.  The game has options to play over a network connection or
- against the computer.
+Description: Battleship board game for KDE 4
+ KBattleship is an implementation of the Battleship game, where two players
+ take turns firing at the opponent's ships by guessing their coordinates.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kblackbox
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: A simple logical game for the KDE project
- KBlackBox is a game of hide and seek played on an grid of boxes. Your
- opponent (Random number generator, in this case) has hidden several
- balls within this box. By shooting rays into the box and observing
- where they emerge it is possible to deduce the positions of the
- hidden balls. The fewer rays you use to find the balls, the lower
- your score.
+Description: Black Box puzzle game for KDE 4
+ KBlackBox is a game of hide and seek played on an grid of boxes, where the
+ player shoots rays into the grid to deduce the positions of hidden objects.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kbounce
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Jezzball clone for the K Desktop Environment
- This is a clone of the popular Jezzball game originally created by
- Microsoft. Jezzball is one of the rare and simple games requiring
- skill, timing, and patience in order to be successful.  A ball begins
- to bounce off of an area enclosed by four borders (like a
- square). You must move your pointer to certain areas within the
- square. Upon clicking, a new border is constructed at a relatively
- quick pace. You can change the direction of the borders by 90 degrees
- as well. Ultimately, you must force the ball to bounce around in a
- smaller, and smaller area as time goes by without the ball ever
- touching the borders as they are being constructed. If a ball touches
- a certain part of the border as it is being built, the game is over.
- After 75% of the original space has been blocked off from the moving
- ball, you advance one level, and one more ball is added to the mix in
- the following level.
+Description: Jezzball arcade game for KDE 4
+ KBounce is a game where the player builds walls to confine a number of
+ bouncing balls.
  .
- This game was previously known as kjezz.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kgoldrunner
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: A KDE clone of the Loderunner arcade game
- KGoldrunner, a game of action and puzzle solving.  Run through the
- maze, dodge your enemies, collect all the gold and climb up to the
- next level.
+Description: Lode Runner arcade game for KDE 4
+ KGoldrunner is a fast-paced platform game where the player must navigate a
+ maze while collecting gold nuggets and avoiding enemies.  A variety of level
+ packs are included, as well as an editor to create new levels.
  .
- You must guide the hero with the mouse or keyboard and collect all
- the gold nuggets, then you can climb up into the next level.  Your
- enemies are also after the gold and they will kill you if they catch
- you!
- .
- The problem is you have no weapon to kill them.  All you can do is
- run away, dig holes in the floor to trap them or lure them into some
- area where they cannot hurt you.  After a short time a trapped enemy
- climbs out of his hole, but if it closes before that, he will die and
- reappear somewhere else.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kiriki
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: KDE version of Yahtzee
- In this game, you get three chances to roll five dice, keeping
- whichever dice you want from the first two rolls.  After the three
- rolls, you choose a slot in a score table to fill in according to the
- results of the roll.  At the end of the game, the player with the
- most points wins.
+Description: Yahtzee dice game for KDE 4
+ Kiriki is a dice game for up to six players, where each player rolls five dice
+ to make combinations with the highest score.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kjumpingcube
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: tactical one- or two-player game for KDE
- KJumpingCube is a tactical one or two-player game. The playing field
- consists of squares that contains points which can be increased. By
- this you can gain more fields and finally win the board over.
+Description: Simple tactical game for KDE 4
+ KJumpingcube is a simple tactical game for one or two players, played on a
+ grid of numbered squares.  Each turn, players compete for control of the board
+ by capturing or adding to one square.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: klines
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Color lines for KDE
- KLines is a simple game. It is played by one player, so there is only
- one winner :-). You play for fun and against the high score. It was
- inspired by a well known game - "Color lines", written for DOS by
- Olga Demina, Igor Demina, Igor Ivkin and Gennady Denisov back in
- 1992.
+Description: Color Lines game for KDE 4
+ KLines is a single-player game where the player removes colored balls from the
+ board by arranging them into lines of five or more.  However, every time the
+ player moves a ball, three more balls are added to the board.
  .
- The main rules of the game are as simple as possible: you move (using
- the mouse) marbles from cell to cell and build lines (horizontal,
- vertical or diagonal). When a line contains five or more marbles, they
- are removed and your score grows. After each turn the computer drops
- three more marbles.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kmahjongg
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${binary:Version})
-Description: the classic mahjongg game for KDE project
- Your mission in this game is to remove all tiles from the game board. A
- matching pair of tiles can be removed, if they are 'free', which means that
- no other tiles block them on the left or right side.
+Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${source:Version})
+Description: Mahjongg solitaire game for KDE 4
+ KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
+ to clear the board.  A variety of tile layouts are included, as well as an
+ editor to create new layouts.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kmines
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Minesweeper for KDE
- KMines is the classic Minesweeper game. You must uncover all the
- empty cases without blowing on a mine.
+Description: Minesweeper game for KDE 4
+ KMines is a game where the player finds hidden mines without setting them off.
  .
- When you uncover a case, a number appears : it indicates how many
- mines surround this case. If there is no number the neighbour cases
- are automatically uncovered. In your process of uncovering secure
- cases, it is very useful to put a flag on the cases which contain a
- mine.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: knetwalk
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: A game for system administrators
- This game presents the player with a rectangular field consisting of
- a server, several clients, and pieces of wire.  The object is to
- rotate these elements until every client is connected to the server,
- and no wires are left unconnected.
+Description: Wire puzzle game for KDE 4
+ KNetwalk is a puzzle game where the player arranges sections of wire to
+ connect all the computers on the board.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kolf
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Minigolf game for KDE
- This is a minigolf game for KDE that allows you to go through different
- golf courses and waste an exorbitant amount of time.
+Description: Miniature golf game for KDE 4
+ Kolf is a miniature golf game for one to ten players.  A variety of courses
+ are included, as well as an editor to create new courses.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: konquest
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: KDE based GNU-Lactic Konquest game
- This the KDE version of Gnu-Lactic Konquest, a multi-player strategy
- game. The goal of the game is to expand your interstellar empire
- across the galaxy and, of course, crush your rivals in the process.
+Description: Simple turn-based strategy game for KDE 4
+ Konquest is a game of galactic conquest for KDE 4, where rival empires vie to
+ conquer planets and crush all opposition.  The game can be played with up to
+ nine empires, commanded either by the computer or by puny earthlings.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kpat
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, kdebase-data (>= ${binary:Version}), kdegames-card-data (>= ${binary:Version})
-Description: KDE solitaire patience game
- KPatience is a collection of 14 card games. All the games are single
- player games.
+Depends: ${shlibs:Depends}, kdebase-data (>= 4:4.0.0-1),
+ kdegames-card-data (>= ${source:Version})
+Description: Solitaire card games for KDE 4
+ KPatience is a collection of fourteen solitaire card games, including Klondike,
+ Spider, and FreeCell.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kreversi
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Reversi for KDE
- Reversi is a simple strategy game that is played by two
- players. There is only one type of piece - one side of it is black,
- the other white. If a player captures a piece on the board, that
- piece is turned and belongs to that player. The winner is the person
- that has more pieces of his own color on the board and if there are
- no more moves possible.
+Description: Reversi board game for KDE 4
+ KReversi is a board game where two players place pieces on the board to flip
+ the opponent's pieces.  When neither player can flip any more pieces, the
+ player with the most pieces on the board wins the game.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: ksame
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: SameGame for KDE
- KSame is a simple game. It's played by one player, so there is only
- one winner :-) You play for fun and against the high score. It has
- been inspired by SameGame, that is only famous on the Macintosh
- platform.
+Description: SameGame puzzle game for KDE 4
+ KSame is a puzzle game where the player removes groups of colored marbles to
+ clear the board.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kshisen
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${binary:Version})
-Description: Shisen-Sho for KDE
- KShisen-Sho is a single-player-game similar to Mahjongg and uses the
- same set of tiles as Mahjongg.
+Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${source:Version})
+Description: Shisen-Sho solitaire game for KDE 4
+ KShisen is a Shisen-Sho game where the player removes adjascent pairs of
+ Mahjongg tiles to clear the board.
  .
- The object of the game is to remove all tiles from the field.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kspaceduel
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Arcade two-player space game for KDE
- KSpaceduel is an space arcade game for two players.
+Description: SpaceWar! arcade game for KDE 4
+ KSpaceduel is a space battle game for one or two players, where two ships fly
+ around a star in a struggle to be the only survivor.
  .
- Each player controls a ship that flies around the sun and tries to
- shoot at the other ship. You can play KSpaceduel with another person,
- against the computer, or you can have the computer control both ships
- and play each other.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: ksquares
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Dots and Boxes game for KDE
- In this game, two players take turns drawing lines on a grid.  If you
- complete one or more boxes with a move, you mark those boxes as yours
- and get another move.  At the end of the game, the player with the
- most boxes wins.
+Description: Dots and Boxes game for KDE 4
+ KSquares is a game where two players take turns connecting dots on a grid to
+ complete the most squares.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: ksudoku
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Sudoku puzzle generator/solver for KDE
- KSudoku is an interface for creating and solving sudoku puzzles, which
- are grid-based placement puzzles that require time and logic to solve.
- KSudoku is able to work with both 2D and 3D versions of these puzzles,
- in grids of any square layout up to 25x25. It can also generate
- configurable symmetric puzzles and other special types.
+Description: Sudoku puzzle game and solver for KDE 4
+ KSudoku is a Sudoku game and solver, supporting a range of 2D and 3D Sudoku
+ variants.  In addition to playing Sudoku, it can print Sudoku puzzle sheets
+ and find the solution to any Sudoku puzzle.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
- .
-  Homepage: http://ksudoku.sourceforge.net/
+ This package is part of the KDE 4 games module.
 
 Package: ktuberling
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Potato Guy for KDE
- KTuberling is a game intended for small children. Of course, it may
- be suitable for adults who have remained young at heart.
+Description: Stamp drawing toy for KDE 4
+ KTuberling is a drawing toy for small children with several activites.
  .
- It is a potato editor. That means that you can drag and drop eyes,
- mouths, moustache, and other parts of face and goodies onto a
- potato-like guy.  Similarly, you have a penguin on which you can drop
- other stuff.
+  * Give the potato a funny face, clothes, and other goodies
+  * Build a small town, complete with school, zoo, and fire department
+  * Create a fantastic moonscape with spaceships and aliens
  .
- There is no winner for the game. The only purpose is to make the
- funniest faces you can.
+ KTuberling can speak the name of each the object in several languages,
+ to assist in learning basic vocabulary.
  .
- There is a museum (like a "Madame Tusseau" gallery) where you can
- find many funny examples of decorated potatoes. Of course, you can
- send your own creations to the programmer, Eric Bischoff, who will
- include them in the museum if he gets some spare time.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: kfourinline
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Connect Four clone for KDE
- Four wins is a game for two players. Each player is represented by a
- colour (yellow and red). The goal of the game is to get four
- connected pieces of your colour into a row, column or any
- diagonal. This is done by placing one of your pieces into any of the
- seven columns. A piece will begin to fill a column from the bottom,
- i.e. it will fall down until it reaches the ground level or another
- stone. After a move is done it is the turn of the other player. This
- is repeated until the game is over, i.e. one of the players has four
- pieces in a row, column or diagonal or no more moves are possible
- because the board is filled.
+Description: Connect Four game for KDE
+ KFourInLine is a game where two players take turns dropping pieces into a grid,
+ the winner being the first to place four pieces in a line.
  .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
 
 Package: lskat
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, kdegames-card-data (>= ${binary:Version})
+Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
 Description: Lieutnant Skat card game for KDE
- Lieutnant Skat (from German Offiziersskat) is a card game for two
- players. It is roughly played according to the rules of Skat but with
- only two players and simplified rules.
+ Lieutnant Skat is a simplified variant of the Skat card game for two players.
  .
- Every player has a set of cards in front of him/her, half of them
- covered and half of them open. Both players try to win more than 60
- of the 120 possible points. After 16 moves all cards are played and
- the game ends.
- .
- This package is part of KDE, and a component of the KDE games module.
- See the 'kde' and 'kdegames' packages for more information.
+ This package is part of the KDE 4 games module.
