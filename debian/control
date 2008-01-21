@@ -39,6 +39,7 @@ Package: kdegames-dbg
 Architecture: any
 Priority: extra
 Section: kde
+Depends: kdebase-runtime-dbg
 Description: Debugging symbols for kdegames
  This package contains the debugging symbols associated with kdegames.
  They will automatically be used by gdb for debugging kdegames-related
