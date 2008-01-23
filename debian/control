@@ -11,9 +11,19 @@ Homepage: http://games.kde.org/
 Package: kdegames
 Architecture: all
 Section: kde
-Depends: bovo (>= ${binary:Version}), katomic (>= ${binary:Version}), kbattleship (>= ${binary:Version}), kblackbox (>= ${binary:Version}), kbounce (>= ${binary:Version}), kgoldrunner (>= ${binary:Version}), kiriki (>= ${binary:Version}), kjumpingcube (>= ${binary:Version}), klines (>= ${binary:Version}), kmahjongg (>= ${binary:Version}), kmines (>= ${binary:Version}), knetwalk (>= ${binary:Version}), kolf (>= ${binary:Version}), konquest (>= ${binary:Version}), kpat (>= ${binary:Version}), kreversi (>= ${binary:Version}), ksame (>= ${binary:Version}), kshisen (>= ${binary:Version}), kspaceduel (>= ${binary:Version}), ksudoku (>= ${binary:Version}), ksquares (>= ${binary:Version}), ktuberling (>= ${binary:Version}), kfourinline (>= ${binary:Version}), lskat (>= ${binary:Version})
-Suggests: kdegames-doc-html (>= ${source:Version})
-Description: games from the official KDE 4 release
+Depends: bovo (>= ${source:Version}), katomic (>= ${source:Version}),
+ kbattleship (>= ${source:Version}), kblackbox (>= ${source:Version}),
+ kbounce (>= ${source:Version}), kgoldrunner (>= ${source:Version}),
+ kiriki (>= ${source:Version}), kjumpingcube (>= ${source:Version}),
+ klines (>= ${source:Version}), kmahjongg (>= ${source:Version}),
+ kmines (>= ${source:Version}), knetwalk (>= ${source:Version}),
+ kolf (>= ${source:Version}), konquest (>= ${source:Version}),
+ kpat (>= ${source:Version}), kreversi (>= ${source:Version}),
+ ksame (>= ${source:Version}), kshisen (>= ${source:Version}),
+ kspaceduel (>= ${source:Version}), ksudoku (>= ${source:Version}),
+ ksquares (>= ${source:Version}), ktuberling (>= ${source:Version}),
+ kfourinline (>= ${source:Version}), lskat (>= ${source:Version})
+Description: Games from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -40,15 +50,16 @@ Architecture: any
 Priority: extra
 Section: kde
 Depends: kdebase-runtime-dbg
+Suggests: kdegames (= ${source:Version})
 Description: Debugging symbols for kdegames
  This package contains the debugging symbols associated with kdegames.
  They will automatically be used by gdb for debugging kdegames-related
  issues.
 
 Package: libkdegames-dev
-Architecture: any
+Architecture: all
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${binary:Version})
+Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${source:Version})
 Description: Development files for the KDE 4 games libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the KDE 4 games libraries.
@@ -57,7 +68,7 @@ Description: Development files for the KDE 4 games libraries
 
 Package: kdegames-card-data
 Architecture: all
-Section: games
+Section: kde
 Description: Card decks for KDE 4 games
  This package contains a collection of playing card themes for KDE 4 card games.
  .
@@ -65,7 +76,7 @@ Description: Card decks for KDE 4 games
 
 Package: kdegames-mahjongg-data
 Architecture: all
-Section: games
+Section: kde
 Description: Tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg
  and KShisen.
