@@ -57,9 +57,9 @@ Description: Debugging symbols for kdegames
  issues.
 
 Package: libkdegames-dev
-Architecture: all
+Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${source:Version})
+Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${binary:Version})
 Description: Development files for the KDE 4 games libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the KDE 4 games libraries.
