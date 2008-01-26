@@ -23,7 +23,7 @@ Depends: bovo (>= ${source:Version}), katomic (>= ${source:Version}),
  kspaceduel (>= ${source:Version}), ksudoku (>= ${source:Version}),
  ksquares (>= ${source:Version}), ktuberling (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version})
-Description: Games from the official KDE 4 release
+Description: games from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -39,7 +39,7 @@ Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
 Replaces: libkdegames1
-Description: Libraries and common files for KDE 4 games
+Description: libraries and common files for KDE 4 games
  This package contains shared libraries and common infrastructure used by KDE 4
  games, including support for the GNU Gaming Zone online gaming environment.
  .
@@ -51,7 +51,7 @@ Priority: extra
 Section: kde
 Depends: kdebase-runtime-dbg
 Suggests: kdegames (= ${source:Version})
-Description: Debugging symbols for kdegames
+Description: debugging symbols for kdegames
  This package contains the debugging symbols associated with kdegames.
  They will automatically be used by gdb for debugging kdegames-related
  issues.
@@ -60,7 +60,7 @@ Package: libkdegames-dev
 Architecture: any
 Section: libdevel
 Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${binary:Version})
-Description: Development files for the KDE 4 games libraries
+Description: development files for the KDE 4 games libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the KDE 4 games libraries.
  .
@@ -69,7 +69,7 @@ Description: Development files for the KDE 4 games libraries
 Package: kdegames-card-data
 Architecture: all
 Section: kde
-Description: Card decks for KDE 4 games
+Description: card decks for KDE 4 games
  This package contains a collection of playing card themes for KDE 4 card games.
  .
  This package is part of the KDE 4 games module.
@@ -77,7 +77,7 @@ Description: Card decks for KDE 4 games
 Package: kdegames-mahjongg-data
 Architecture: all
 Section: kde
-Description: Tilesets and backgrounds for Mahjongg games
+Description: tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg
  and KShisen.
  .
@@ -158,7 +158,7 @@ Package: kjumpingcube
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Simple tactical game for KDE 4
+Description: simple tactical game for KDE 4
  KJumpingcube is a simple tactical game for one or two players, played on a
  grid of numbered squares.  Each turn, players compete for control of the board
  by capturing or adding to one square.
@@ -200,7 +200,7 @@ Package: knetwalk
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Wire puzzle game for KDE 4
+Description: wire puzzle game for KDE 4
  KNetwalk is a puzzle game where the player arranges sections of wire to
  connect all the computers on the board.
  .
@@ -210,7 +210,7 @@ Package: kolf
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Miniature golf game for KDE 4
+Description: miniature golf game for KDE 4
  Kolf is a miniature golf game for one to ten players.  A variety of courses
  are included, as well as an editor to create new courses.
  .
@@ -220,7 +220,7 @@ Package: konquest
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Simple turn-based strategy game for KDE 4
+Description: simple turn-based strategy game for KDE 4
  Konquest is a game of galactic conquest for KDE 4, where rival empires vie to
  conquer planets and crush all opposition.  The game can be played with up to
  nine empires, commanded either by the computer or by puny earthlings.
@@ -232,7 +232,7 @@ Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, kdebase-data (>= 4:4.0.0-1),
  kdegames-card-data (>= ${source:Version})
-Description: Solitaire card games for KDE 4
+Description: solitaire card games for KDE 4
  KPatience is a collection of fourteen solitaire card games, including Klondike,
  Spider, and FreeCell.
  .
@@ -304,7 +304,7 @@ Package: ktuberling
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Stamp drawing toy for KDE 4
+Description: stamp drawing toy for KDE 4
  KTuberling is a drawing toy for small children with several activites.
  .
   * Give the potato a funny face, clothes, and other goodies
