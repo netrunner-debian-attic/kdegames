@@ -51,20 +51,17 @@ Priority: extra
 Section: kde
 Depends: kdebase-runtime-dbg
 Suggests: kdegames (= ${source:Version})
-Description: debugging symbols for kdegames
- This package contains the debugging symbols associated with kdegames.
- They will automatically be used by gdb for debugging kdegames-related
- issues.
+Description: debugging symbols for the KDE 4 games module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 games module.
 
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
 Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${binary:Version})
-Description: development files for the KDE 4 games libraries
- This package contains headers and other related files needed to build KDE 4
- applications that use the KDE 4 games libraries.
- .
- This package is part of the KDE 4 games module.
+Description: development files for the KDE 4 games module
+ This package contains development files for building software that uses
+ libraries from the KDE 4 games module.
 
 Package: kdegames-card-data
 Architecture: all
