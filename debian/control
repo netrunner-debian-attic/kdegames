@@ -3,8 +3,8 @@ Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:4.0.0-1),
- libphonon-dev (>= 4:4.0.0-1), groff-base, ggzcore-bin
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdelibs5-dev (>= 4:4.0.1-1),
+ libphonon-dev (>= 4:4.0.1-1), groff-base, ggzcore-bin
 Standards-Version: 3.7.3 
 Homepage: http://games.kde.org/
 
@@ -58,7 +58,7 @@ Description: debugging symbols for the KDE 4 games module
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:4.0.0-1), libkdegames4 (= ${binary:Version})
+Depends: kdelibs5-dev (>= 4:4.0.1-1), libkdegames4 (= ${binary:Version})
 Description: development files for the KDE 4 games module
  This package contains development files for building software that uses
  libraries from the KDE 4 games module.
@@ -227,7 +227,7 @@ Description: simple turn-based strategy game for KDE 4
 Package: kpat
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, kdebase-data (>= 4:4.0.0-1),
+Depends: ${shlibs:Depends}, kdebase-data (>= 4:4.0.1-1),
  kdegames-card-data (>= ${source:Version})
 Description: solitaire card games for KDE 4
  KPatience is a collection of fourteen solitaire card games, including Klondike,
