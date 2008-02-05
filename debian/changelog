@@ -1,6 +1,5 @@
 kdegames (4:4.0.1-1) UNRELEASED; urgency=low
 
-  [ Debian Qt/KDE Maintainers ]
   * New upstream release.
 
   +++ Changes by Matthew Rosewarne:
