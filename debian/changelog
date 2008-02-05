@@ -1,5 +1,6 @@
 kdegames (4:4.0.1-1) UNRELEASED; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * New upstream release.
 
   +++ Changes by Matthew Rosewarne:
@@ -17,6 +18,10 @@ kdegames (4:4.0.1-1) UNRELEASED; urgency=low
 
   * Update to debhelper 6.
   * Bump build-depends to >= 4:4.0.1.
+
+  +++ Armin Berres:
+  
+  * Update installed files. 
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 04:36:00 +0100
 

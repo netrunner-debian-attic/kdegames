@@ -1,6 +1,8 @@
+
 usr/games/kfourinline
 usr/games/kfourinlineproc
 usr/share/applications/kde4/kfourinline.desktop
+usr/share/doc/kde4/HTML/en/kfourinline/common
 usr/share/doc/kde4/HTML/en/kfourinline/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kfourinline/index.docbook
 usr/share/icons/hicolor/128x128/apps/kfourinline.png
@@ -17,9 +19,8 @@ usr/share/kde4/apps/kfourinline/grafix/gray_reflection.rc
 usr/share/kde4/apps/kfourinline/grafix/gray_reflection.svg
 usr/share/kde4/apps/kfourinline/grafix/yellow.desktop
 usr/share/kde4/apps/kfourinline/grafix/yellow.rc
-usr/share/kde4/apps/kfourinline/grafix/yellow.svg
 usr/share/kde4/apps/kfourinline/grafix/yellow_reflection.desktop
 usr/share/kde4/apps/kfourinline/grafix/yellow_reflection.rc
+usr/share/kde4/apps/kfourinline/grafix/yellow.svg
 usr/share/kde4/apps/kfourinline/kfourinlineui.rc
 usr/share/kde4/config.kcfg/kwin4.kcfg
-

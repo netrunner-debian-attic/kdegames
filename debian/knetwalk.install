@@ -2,6 +2,7 @@
 ../icons/knetwalk.xpm /usr/share/pixmaps
 usr/games/knetwalk
 usr/share/applications/kde4/knetwalk.desktop
+usr/share/doc/kde4/HTML/en/knetwalk/common
 usr/share/doc/kde4/HTML/en/knetwalk/index.cache.bz2
 usr/share/doc/kde4/HTML/en/knetwalk/index.docbook
 usr/share/icons/hicolor/128x128/apps/knetwalk.png

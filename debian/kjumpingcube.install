@@ -2,6 +2,7 @@
 ../icons/kjumpingcube.xpm /usr/share/pixmaps
 usr/games/kjumpingcube
 usr/share/applications/kde4/kjumpingcube.desktop
+usr/share/doc/kde4/HTML/en/kjumpingcube/common
 usr/share/doc/kde4/HTML/en/kjumpingcube/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kjumpingcube/index.docbook
 usr/share/icons/hicolor/128x128/apps/kjumpingcube.png
