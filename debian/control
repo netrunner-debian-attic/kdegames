@@ -227,8 +227,7 @@ Description: simple turn-based strategy game for KDE 4
 Package: kpat
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, kdebase-data (>= 4:4.0.1-1),
- kdegames-card-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
 Description: solitaire card games for KDE 4
  KPatience is a collection of fourteen solitaire card games, including Klondike,
  Spider, and FreeCell.

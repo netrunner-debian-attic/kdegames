@@ -9,7 +9,7 @@ kdegames (4:4.0.1-1) UNRELEASED; urgency=low
   * Tweak package descriptions.
   * Make dependencies binNMU-friendly.
   * Use source:Version for kdegames metapackage.
-  * Fix erroneous kdebase dependency version from kpat.
+  * Fix erroneous kdebase-data dependency version from kpat.
   * Add Depends: kdebase-runtime-dbg to kdegames-dbg.
   * Add Suggests: kdegames to kdegames-dbg.
 
