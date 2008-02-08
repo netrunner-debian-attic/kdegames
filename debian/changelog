@@ -1,3 +1,9 @@
+kdegames (4:4.0.1-2) UNRELEASED; urgency=low
+
+  * Remove unnecessary build depend on groff-base.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 08 Feb 2008 16:15:08 +0100
+
 kdegames (4:4.0.1-1) experimental; urgency=low
 
   * New upstream release.
@@ -18,7 +24,7 @@ kdegames (4:4.0.1-1) experimental; urgency=low
   * Bump compat/debhelper to 6.
   * Bump build-depends to >= 4:4.0.1.
 
-  +++ Armin Berres:
+  +++ Changes by Armin Berres:
 
   * Update installed files.
 
