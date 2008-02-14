@@ -38,7 +38,7 @@ Description: games from the official KDE 4 release
 
 Package: libkdegames4
 Architecture: any
-Section: games
+Section: libs
 Depends: ${shlibs:Depends}
 Replaces: libkdegames1
 Description: libraries and common files for KDE 4 games
@@ -50,7 +50,7 @@ Description: libraries and common files for KDE 4 games
 Package: kdegames-dbg
 Architecture: any
 Priority: extra
-Section: kde
+Section: libdevel
 Depends: kdebase-runtime-dbg
 Suggests: kdegames (= ${source:Version})
 Description: debugging symbols for the KDE 4 games module

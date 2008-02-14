@@ -1,8 +1,15 @@
 kdegames (4:4.0.1-2) UNRELEASED; urgency=low
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * Remove unnecessary build depend on groff-base.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 08 Feb 2008 16:15:08 +0100
+  +++ Changes by Matthew Rosewarne:
+
+  * Move libkdegames4 to Section: libs.
+  * Move kdegames-dbg to Section: libdevel.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Feb 2008 19:15:32 -0500
 
 kdegames (4:4.0.1-1) experimental; urgency=low
 
