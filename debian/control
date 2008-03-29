@@ -3,8 +3,9 @@ Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdelibs5-dev (>= 4:4.0.2),
- libphonon-dev (>= 4:4.0.2), ggzcore-bin
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
+ kdelibs5-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66), 
+ ggzcore-bin
 Standards-Version: 3.7.3
 Homepage: http://games.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdegames
@@ -15,11 +16,12 @@ Architecture: all
 Section: kde
 Depends: bovo (>= ${source:Version}), katomic (>= ${source:Version}),
  kbattleship (>= ${source:Version}), kblackbox (>= ${source:Version}),
- kbounce (>= ${source:Version}), kgoldrunner (>= ${source:Version}),
- kiriki (>= ${source:Version}), kjumpingcube (>= ${source:Version}),
- klines (>= ${source:Version}), kmahjongg (>= ${source:Version}),
- kmines (>= ${source:Version}), knetwalk (>= ${source:Version}),
- kolf (>= ${source:Version}), konquest (>= ${source:Version}),
+ kbounce (>= ${source:Version}), kdiamond (>= ${source:Version}),
+ kgoldrunner (>= ${source:Version}), kiriki (>= ${source:Version}), 
+ kjumpingcube (>= ${source:Version}), klines (>= ${source:Version}), 
+ kmahjongg (>= ${source:Version}), kmines (>= ${source:Version}), 
+ knetwalk (>= ${source:Version}), kolf (>= ${source:Version}), 
+ kollision (>= ${source:Version}), konquest (>= ${source:Version}),
  kpat (>= ${source:Version}), kreversi (>= ${source:Version}),
  ksame (>= ${source:Version}), kshisen (>= ${source:Version}),
  kspaceduel (>= ${source:Version}), ksudoku (>= ${source:Version}),
@@ -60,7 +62,7 @@ Description: debugging symbols for the KDE 4 games module
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:4.0.2), libkdegames4 (= ${binary:Version})
+Depends: kdelibs5-dev (>= 4:4.0.66), libkdegames4 (= ${binary:Version})
 Description: development files for the KDE 4 games module
  This package contains development files for building software that uses
  libraries from the KDE 4 games module.
@@ -86,7 +88,7 @@ Package: bovo
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Gomoku board game for KDE 4
+Description: gomoku board game for KDE 4
  Bovo is a game where two players take turns placing markers on the board,
  the winner being the first to complete a line of five markers.
  .
@@ -96,7 +98,7 @@ Package: katomic
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Atomix puzzle game for KDE 4
+Description: atomix puzzle game for KDE 4
  KAtomic is a puzzle game in which the player slides atoms around the board to
  assemble a molecule.
  .
@@ -106,7 +108,7 @@ Package: kbattleship
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Battleship board game for KDE 4
+Description: battleship board game for KDE 4
  KBattleship is an implementation of the Battleship game, where two players
  take turns firing at the opponent's ships by guessing their coordinates.
  .
@@ -129,6 +131,17 @@ Depends: ${shlibs:Depends}
 Description: Jezzball arcade game for KDE 4
  KBounce is a game where the player builds walls to confine a number of
  bouncing balls.
+ .
+ This package is part of the KDE 4 games module.
+
+Package: kdiamond
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}
+Description: three-in-a-row game for KDE 4
+ KDiamond is a three-in-a-row game like Bejeweled. It features unlimited fun 
+ with randomly generated games and five difficulty levels with varying number 
+ of diamond colors and board sizes.
  .
  This package is part of the KDE 4 games module.
 
@@ -168,7 +181,7 @@ Package: klines
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Color Lines game for KDE 4
+Description: color lines game for KDE 4
  KLines is a single-player game where the player removes colored balls from the
  board by arranging them into lines of five or more.  However, every time the
  player moves a ball, three more balls are added to the board.
@@ -190,7 +203,7 @@ Package: kmines
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Minesweeper game for KDE 4
+Description: minesweeper game for KDE 4
  KMines is a game where the player finds hidden mines without setting them off.
  .
  This package is part of the KDE 4 games module.
@@ -212,6 +225,19 @@ Depends: ${shlibs:Depends}
 Description: miniature golf game for KDE 4
  Kolf is a miniature golf game for one to ten players.  A variety of courses
  are included, as well as an editor to create new courses.
+ .
+ This package is part of the KDE 4 games module.
+
+Package: kollision
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}
+Description: simple ball dodging game for KDE 4
+ In Kollision you use mouse to control a small blue ball in a closed space
+ environment filled with small red balls, which move about chaotically. 
+ Your goal is to avoid touching any of those red balls with your blue one, 
+ because the moment you do the game will be over. The longer you can stay in 
+ game the higher will your score be.
  .
  This package is part of the KDE 4 games module.
 
@@ -240,7 +266,7 @@ Package: kreversi
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Description: Reversi board game for KDE 4
+Description: reversi board game for KDE 4
  KReversi is a board game where two players place pieces on the board to flip
  the opponent's pieces.  When neither player can flip any more pieces, the
  player with the most pieces on the board wins the game.
