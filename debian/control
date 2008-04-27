@@ -367,7 +367,6 @@ Description: kblocks game
  kblocks game
  .
  This package is part of the KDE 4 games module.
-Depends:
 
 Package: lskat
 Architecture: any
