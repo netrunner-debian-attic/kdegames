@@ -1,3 +1,10 @@
+kdegames (4:4.0.71+svn801741-1) experimental; urgency=low
+
+  * Newer snapshots
+  * Fix link linking thanks to autofixtll.
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 00:51:39 +0200
+
 kdegames (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot. 
