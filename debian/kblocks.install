@@ -1,0 +1,17 @@
+etc/kde4/kblocks.knsrc
+usr/games/kblocks
+usr/share/applications/kde4/kblocks.desktop
+usr/share/doc/kde4/HTML/en/kblocks/common
+usr/share/doc/kde4/HTML/en/kblocks/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kblocks/index.docbook
+usr/share/icons/hicolor/128x128/apps/kblocks.png
+usr/share/icons/hicolor/16x16/apps/kblocks.png
+usr/share/icons/hicolor/22x22/apps/kblocks.png
+usr/share/icons/hicolor/32x32/apps/kblocks.png
+usr/share/icons/hicolor/48x48/apps/kblocks.png
+usr/share/icons/hicolor/64x64/apps/kblocks.png
+usr/share/kde4/apps/kblocks/kblocksui.rc
+usr/share/kde4/apps/kblocks/themes/default.desktop
+usr/share/kde4/apps/kblocks/themes/default_preview.png
+usr/share/kde4/apps/kblocks/themes/default_theme.svg
+usr/share/kde4/config.kcfg/kblocks.kcfg

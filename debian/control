@@ -350,6 +350,25 @@ Description: Connect Four game for KDE
  .
  This package is part of the KDE 4 games module.
 
+Package: kubrick
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kubric game
+ kubric game
+ .
+ This package is part of the KDE 4 games module
+
+Package: kblocks
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kblocks game
+ kblocks game
+ .
+ This package is part of the KDE 4 games module.
+Depends:
+
 Package: lskat
 Architecture: any
 Section: games

@@ -1,6 +1,8 @@
 kdegames (4:4.0.71+svn801741-1) experimental; urgency=low
 
   * Newer snapshots
+  * New games: kubric and kblocks
+  * Changed files in ksudoku
   * Fix link linking thanks to autofixtll.
 
  -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 00:51:39 +0200

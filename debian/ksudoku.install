@@ -88,7 +88,8 @@ usr/share/kde4/apps/ksudoku/Jigsaw.xml
 usr/share/kde4/apps/ksudoku/ksudokuui.rc
 usr/share/kde4/apps/ksudoku/Samurai.desktop
 usr/share/kde4/apps/ksudoku/Samurai.xml
-usr/share/kde4/apps/ksudoku/themes/ksudoku_sample.svg
+usr/share/kde4/apps/ksudoku/themes/default.desktop  
+usr/share/kde4/apps/ksudoku/themes/ksudoku_default.svg
 usr/share/kde4/apps/ksudoku/TinySamurai.desktop
 usr/share/kde4/apps/ksudoku/TinySamurai.xml
 usr/share/kde4/apps/ksudoku/XSudoku.desktop
