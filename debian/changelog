@@ -1,17 +1,18 @@
 kdegames (4:4.0.71+svn801741-1) experimental; urgency=low
 
-  * Newer snapshots
-  * New games: kubric and kblocks
-  * Changed files in ksudoku
-  * Fix link linking thanks to autofixtll.
-
- -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 00:51:39 +0200
-
-kdegames (4:4.0.68+svn794641-1) experimental; urgency=low
-
   * New upstream snapshot. 
+  
+  +++ Changes by Sune Vuorela:
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 28 Mar 2008 23:48:40 +0100
+  * New games: kubric and kblocks.
+  * Update files in ksudoku.
+  * Add patch 97_fix_target_link_libraries.diff. Thanks to autofixtll.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-depends to >= 4.0.72.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 May 2008 18:01:06 +0200
 
 kdegames (4:4.0.66+svn791114-1) experimental; urgency=low
 
