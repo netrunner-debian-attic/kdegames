@@ -1,6 +1,6 @@
 ?package(kspaceduel):\
 	needs="x11"\
-	section="Games/Arcade"\
+	section="Games/Action"\
 	hints="KDE"\
 	title="KDE SpaceDuel"\
 	icon32x32="/usr/share/pixmaps/kspaceduel.xpm"\

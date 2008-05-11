@@ -16,8 +16,9 @@ kdegames (4:4.0.72-1) experimental; urgency=low
   * Add kubrick and kblocks to the kdegames metapackage.
   * Add descriptions to kubrick and kblocks.
   * Remove no longer needed LDFLAGS from debian/rules.
+  * Update menu files to latest policy.
      
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 18:30:30 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 19:07:11 +0200
 
 kdegames (4:4.0.66+svn791114-1) experimental; urgency=low
 
