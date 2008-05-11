@@ -13,10 +13,9 @@ kdegames (4:4.0.72-1) experimental; urgency=low
   * Bump build-depends to >= 4.0.72.
   * Add copyright information for kubrick and kblocks.
   * Add kubrick and kblocks to the kdegames metapackage.
-    
-  * TODO: descriptions for kubrick and kblocks.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 May 2008 18:01:06 +0200
+  * Add descriptions to kubrick and kblocks.
+     
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 18:30:30 +0200
 
 kdegames (4:4.0.66+svn791114-1) experimental; urgency=low
 
