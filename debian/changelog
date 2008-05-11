@@ -11,6 +11,7 @@ kdegames (4:4.0.72-1) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Bump build-depends to >= 4.0.72.
+  * Add build depend on libglu1-mesa-dev for KSudoku.
   * Add copyright information for kubrick and kblocks.
   * Add kubrick and kblocks to the kdegames metapackage.
   * Add descriptions to kubrick and kblocks.
