@@ -1,6 +1,5 @@
 #!/usr/bin/make -f
  
-export LDFLAGS+="-Wl,--as-needed"
 include debian/cdbs/kde.mk
 
 DEB_CMAKE_EXTRA_FLAGS := -DBIN_INSTALL_DIR=/usr/games
