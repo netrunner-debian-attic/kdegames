@@ -26,7 +26,8 @@ Depends: bovo (>= ${source:Version}), katomic (>= ${source:Version}),
  ksame (>= ${source:Version}), kshisen (>= ${source:Version}),
  kspaceduel (>= ${source:Version}), ksudoku (>= ${source:Version}),
  ksquares (>= ${source:Version}), ktuberling (>= ${source:Version}),
- kfourinline (>= ${source:Version}), lskat (>= ${source:Version})
+ kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
+ kubrick (>= ${source:Version}), kblocks (>= ${source:Version})
 Description: games from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -354,16 +355,16 @@ Package: kubrick
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: kubric game
+Description: game based on Rubik's Cube for KDE
  kubric game
  .
- This package is part of the KDE 4 games module
+ This package is part of the KDE 4 games module.
 
 Package: kblocks
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: kblocks game
+Description: a falling blocks game for KDE
  kblocks game
  .
  This package is part of the KDE 4 games module.

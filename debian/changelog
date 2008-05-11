@@ -1,16 +1,20 @@
-kdegames (4:4.0.71+svn801741-1) experimental; urgency=low
+kdegames (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot. 
   
   +++ Changes by Sune Vuorela:
 
-  * New games: kubric and kblocks.
+  * New games: kubrick and kblocks.
   * Update files in ksudoku.
   * Add patch 97_fix_target_link_libraries.diff. Thanks to autofixtll.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Bump build-depends to >= 4.0.72.
+  * Add copyright information for kubrick and kblocks.
+  * Add kubrick and kblocks to the kdegames metapackage.
+    
+  * TODO: descriptions for kubrick and kblocks.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 May 2008 18:01:06 +0200
 
