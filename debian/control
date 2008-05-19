@@ -27,7 +27,8 @@ Depends: bovo (>= ${source:Version}), katomic (>= ${source:Version}),
  kspaceduel (>= ${source:Version}), ksudoku (>= ${source:Version}),
  ksquares (>= ${source:Version}), ktuberling (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
- kubrick (>= ${source:Version}), kblocks (>= ${source:Version})
+ kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
+ kbreakout (>= ${source:Version}), ksirk (>= ${source:Version})
 Description: games from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
