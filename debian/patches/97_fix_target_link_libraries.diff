@@ -1,5 +1,3 @@
-Index: b/libkdegames/CMakeLists.txt
-===================================================================
 --- a/libkdegames/CMakeLists.txt
 +++ b/libkdegames/CMakeLists.txt
 @@ -81,7 +81,7 @@

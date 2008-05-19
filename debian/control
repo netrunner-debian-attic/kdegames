@@ -3,8 +3,8 @@ Section: games
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6.0), quilt, 
- kdelibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72), 
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6.0), quilt,
+ kdelibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin
 Standards-Version: 3.7.3
 Homepage: http://games.kde.org/
@@ -382,5 +382,32 @@ Section: games
 Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
 Description: Lieutnant Skat card game for KDE
  Lieutnant Skat is a simplified variant of the Skat card game for two players.
+ .
+ This package is part of the KDE 4 games module.
+
+Package: kbreakout
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Breakout arcade game for KDE 4
+ KBreakout is a single player falling blocks puzzle arcade game.
+ .
+ This package is part of the KDE 4 games module.
+
+Package: ksirk
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Risk strategy game for KDE 4
+ KsirK is a strategy game inspired by the well known game Risk. It is a
+ multi-player network-enabled game with an AI. The goal of the game is simply
+ to conquer the World. It is done by attacking your neighbours with your
+ armies. At the beginning of the game, countries are distributed to all the
+ players. Each country contain one army represented by an infantryman. Each
+ player has some armies to distribute to his countries. On each turn, each
+ player can attack his neighbours, eventually conquering one or more countries.
+ At the end of each turn, some bonus armies are distributed to the players in
+ function of the number of countries they own. The winner is the player that
+ conquered all the world.
  .
  This package is part of the KDE 4 games module.

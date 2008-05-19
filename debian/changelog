@@ -1,7 +1,16 @@
+kdegames (4:4.0.74-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Add libqt4-opengl-dev build dependency.
+  * Add kbreakout and ksirk games.
+  * Update installed files.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 19 May 2008 00:01:39 +0200
+
 kdegames (4:4.0.72-1) experimental; urgency=low
 
-  * New upstream snapshot. 
-  
+  * New upstream snapshot.
+
   +++ Changes by Sune Vuorela:
 
   * New games: kubrick and kblocks.
@@ -17,12 +26,12 @@ kdegames (4:4.0.72-1) experimental; urgency=low
   * Add descriptions to kubrick and kblocks.
   * Remove no longer needed LDFLAGS from debian/rules.
   * Update menu files to latest policy.
-     
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 19:07:11 +0200
 
 kdegames (4:4.0.66+svn791114-1) experimental; urgency=low
 
-  * First KDE 4.1 snapshot packaged, 
+  * First KDE 4.1 snapshot packaged,
   * New games: kdiamond and kollision!
   * Update installed files.
 
