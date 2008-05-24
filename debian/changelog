@@ -1,3 +1,10 @@
+kdegames (4:4.0.80-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Update ksudoku.install file.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 24 May 2008 13:34:44 +0200
+
 kdegames (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.
