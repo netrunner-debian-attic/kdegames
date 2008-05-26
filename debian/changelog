@@ -1,4 +1,4 @@
-kdegames (4:4.0.80-1) UNRELEASED; urgency=low
+kdegames (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update ksudoku.install file.
