@@ -1,4 +1,4 @@
-etc/kde4/ksudokurc
+usr/share/kde4/config/ksudokurc
 ../icons/ksudoku-16.xpm /usr/share/pixmaps
 ../icons/ksudoku.xpm /usr/share/pixmaps
 usr/games/ksudoku

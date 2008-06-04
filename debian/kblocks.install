@@ -1,4 +1,4 @@
-etc/kde4/kblocks.knsrc
+usr/share/kde4/config/kblocks.knsrc
 usr/games/kblocks
 usr/share/applications/kde4/kblocks.desktop
 usr/share/doc/kde4/HTML/en/kblocks/common

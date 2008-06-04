@@ -1,6 +1,6 @@
 ../icons/kgoldrunner-16.xpm /usr/share/pixmaps
 ../icons/kgoldrunner.xpm /usr/share/pixmaps
-etc/kde4/kgoldrunner.knsrc
+usr/share/kde4/config/kgoldrunner.knsrc
 usr/games/kgoldrunner
 usr/share/applications/kde4/KGoldrunner.desktop
 usr/share/doc/kde4/HTML/en/kgoldrunner/*

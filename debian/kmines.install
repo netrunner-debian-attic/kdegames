@@ -1,4 +1,4 @@
-etc/kde4/kmines.knsrc
+usr/share/kde4/config/kmines.knsrc
 ../icons/kmines-16.xpm /usr/share/pixmaps
 ../icons/kmines.xpm /usr/share/pixmaps
 /usr/games/kmines
