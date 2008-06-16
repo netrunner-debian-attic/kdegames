@@ -1,3 +1,11 @@
+kdegames (4:4.0.82+svn819867-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Bump build-depends to >= 4.0.82.
+  * Updayte build depends on phonon to 4:4.2~.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 16 Jun 2008 08:57:38 +0200
+
 kdegames (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
