@@ -1,3 +1,9 @@
+kdegames (4:4.1.1-1~lenny+1) lenny; urgency=low
+
+  * Backport for Lenny.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 12 Sep 2008 09:28:05 +0200
+
 kdegames (4:4.1.1-1) experimental; urgency=low
 
   * New upstreams release.
