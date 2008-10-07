@@ -1,8 +1,14 @@
-kdegames (4:4.1.1-1~lenny+1) lenny; urgency=low
+kdegames (4:4.1.2-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 12 Sep 2008 09:28:05 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 07 Oct 2008 18:19:34 +0200
+
+kdegames (4:4.1.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 30 Sep 2008 13:29:41 +0200
 
 kdegames (4:4.1.1-1) experimental; urgency=low
 
@@ -13,12 +19,6 @@ kdegames (4:4.1.1-1) experimental; urgency=low
   * Priority: extra -> optional to match overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Aug 2008 16:09:52 +0200
-
-kdegames (4:4.1.0-1~lenny+1) lenny; urgency=low
-
-  * Backport for Lenny.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 20 Aug 2008 00:29:18 +0200
 
 kdegames (4:4.1.0-1) experimental; urgency=low
 
