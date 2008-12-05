@@ -6,8 +6,10 @@ usr/share/applications/kde4/ksirk.desktop
 usr/share/applications/kde4/ksirkskineditor.desktop
 usr/share/doc/kde4/HTML/en/ksirk/
 usr/share/icons/hicolor/*/apps/ksirk.png
+usr/share/icons/locolor/*/apps/ksirk.png
 usr/share/kde4/apps/ksirk/
 usr/share/kde4/apps/ksirkskineditor/
+usr/share/kde4/config/ksirk.knsrc
 usr/share/kde4/config.kcfg/ksirksettings.kcfg
 usr/share/kde4/config.kcfg/ksirkskineditorsettings.kcfg
 

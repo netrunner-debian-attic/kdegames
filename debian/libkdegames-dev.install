@@ -1,4 +1,5 @@
 usr/include/*
+usr/lib/libiris_ksirk.so
 usr/lib/libkdegames.so
 usr/lib/libkggzgames.so
 usr/lib/libkggzmod.so
