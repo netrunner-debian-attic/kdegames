@@ -17,3 +17,6 @@ usr/share/kde4/apps/kdiamond/kdiamondui.rc
 usr/share/kde4/apps/kdiamond/themes/default.desktop
 usr/share/kde4/apps/kdiamond/themes/default.png
 usr/share/kde4/apps/kdiamond/themes/default.svgz
+usr/share/sounds/KDiamond-Stone-Drop.ogg
+usr/share/sounds/KDiamond-Stone-Swap.ogg
+usr/share/sounds/KDiamond-Stone-Touch.ogg

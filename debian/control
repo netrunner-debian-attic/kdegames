@@ -3,10 +3,10 @@ Section: games
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6.0), quilt,
- kdelibs5-dev (>= 4:4.1.3), libphonon-dev (>= 4:4.2.0), libqt4-opengl-dev,
- libglu1-mesa-dev, ggzcore-bin
-Standards-Version: 3.7.3
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
+ kdelibs5-dev (>= 4:4.1.81), libphonon-dev (>= 4:4.2.0), libqt4-opengl-dev,
+ libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev
+Standards-Version: 3.8.0
 Homepage: http://games.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdegames
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdegames
@@ -14,10 +14,12 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdegames
 Package: kdegames
 Architecture: all
 Section: kde
-Depends: bovo (>= ${source:Version}), katomic (>= ${source:Version}),
+Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}), 
+ kapman (>= ${source:Version}), katomic (>= ${source:Version}),
  kbattleship (>= ${source:Version}), kblackbox (>= ${source:Version}),
  kbounce (>= ${source:Version}), kdiamond (>= ${source:Version}),
  kgoldrunner (>= ${source:Version}), kiriki (>= ${source:Version}), 
+ killbots (>= ${source:Version}),
  kjumpingcube (>= ${source:Version}), klines (>= ${source:Version}), 
  kmahjongg (>= ${source:Version}), kmines (>= ${source:Version}), 
  knetwalk (>= ${source:Version}), kolf (>= ${source:Version}), 
@@ -86,6 +88,17 @@ Description: tilesets and backgrounds for Mahjongg games
  .
  This package is part of the KDE 4 games module.
 
+Package: bomber
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: arcade spaceship game for KDE 4
+ Bomber is a game where you fly a spaceship and attempt to bomb the buildings
+ below you. Each pass the spaceship makes, it gets lower and lower. If you've
+ not destroyed a building in your path, you will crash into it. 
+ .
+ This package is part of the KDE 4 games module.
+
 Package: bovo
 Architecture: any
 Section: games
@@ -93,6 +106,20 @@ Depends: ${shlibs:Depends}
 Description: gomoku board game for KDE 4
  Bovo is a game where two players take turns placing markers on the board,
  the winner being the first to complete a line of five markers.
+ .
+ This package is part of the KDE 4 games module.
+
+Package: kapman
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Pac-Man clone for KDE 4
+ Kapman is a clone of the well known game Pac-Man. You must go through the 
+ levels escaping ghosts in a maze. You lose a life when a ghost eats you, but 
+ you can eat the ghosts for a few seconds when eating an energizer. You win 
+ points when eating pills, energizers, and bonus, and you win one life for 
+ each 10,000 points.  When you have eaten all the pills and energizers of a 
+ level, you go to the next level, and the player and ghost speeds increase. 
  .
  This package is part of the KDE 4 games module.
 
@@ -155,6 +182,20 @@ Description: Lode Runner arcade game for KDE 4
  KGoldrunner is a fast-paced platform game where the player must navigate a
  maze while collecting gold nuggets and avoiding enemies.  A variety of level
  packs are included, as well as an editor to create new levels.
+ .
+ This package is part of the KDE 4 games module.
+
+Package: killbots
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: port of the classic BSD console game robots for KDE 4
+ killbots is a simple game of evading killer robots. The robots are numerous 
+ and their sole objective is to destroy you.  Fortunately for you, their 
+ creator has focused on quantity rather than quality and as a result 
+ the robots are severely lacking in intelligence. Your superior wit and 
+ a fancy teleportation device are your only weapons against the never-ending 
+ stream of mindless automatons.
  .
  This package is part of the KDE 4 games module.
 
@@ -412,3 +453,4 @@ Description: Risk strategy game for KDE 4
  conquered all the world.
  .
  This package is part of the KDE 4 games module.
+
