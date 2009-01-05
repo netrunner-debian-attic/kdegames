@@ -8,10 +8,8 @@ DEB_INSTALL_DOCS_ALL :=
 
 DEB_INSTALL_CHANGELOGS_ALL = $(shell for f in ChangeLog CHANGELOG CHANGES; do if test -s $(DEB_SRCDIR)/$(cdbs_curpkg)/$$f; then echo $(DEB_SRCDIR)/$(cdbs_curpkg)/$$f; break; fi; done)
 
-DEB_DH_MAKESHLIBS_ARGS_libkdegames5 := -Vlibkdegames5
-DEB_DH_MAKESHLIBS_ARGS_kolf := -V
+DEB_DH_MAKESHLIBS_ARGS_libkdegames4 := -V
 
-PACKAGES_WITH_LIBS := libkdegames5 kolf
 
 generate-icons:
 	while read src dest; do \
