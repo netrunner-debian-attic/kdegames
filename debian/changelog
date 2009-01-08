@@ -18,6 +18,8 @@ kdegames (4:4.1.96+svn907664-0r1) UNRELEASED; urgency=low
   * Do not build depend on cmake explicitly.
   * Update install files:
     - ksirk now includes the ksirk editor.
+  
+  *TODO: libkdegames4-> 5
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:25:14 +0200
 
