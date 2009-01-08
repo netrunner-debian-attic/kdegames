@@ -1,4 +1,4 @@
-kdegames (4:4.1.87+svn906085-0r2) UNRELEASED; urgency=low
+kdegames (4:4.1.96+svn907664-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -10,7 +10,7 @@ kdegames (4:4.1.87+svn906085-0r2) UNRELEASED; urgency=low
 
   * Add new games: bomber, kapman and killbots.
   * Update kdegame metapackage with the new games.
-  * Bump KDE build depends to 4:4.1.87 and add new build depends on:
+  * Bump KDE build depends to 4:4.1.96 and add new build depends on:
     - libqca2-dev required by ksirk 
     - zlib1g-dev required by the embedded copy of iris shipped in ksirk.
   * Bump Standards-Version to 3.8.0 and add README.source.
