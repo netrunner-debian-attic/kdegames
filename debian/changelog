@@ -14,7 +14,7 @@ kdegames (4:4.1.96+svn908360-0r1) UNRELEASED; urgency=low
     - libqca2-dev required by ksirk 
     - zlib1g-dev required by the embedded copy of iris shipped in ksirk.
   * Bump Standards-Version to 3.8.0 and add README.source.
-  * Update shlibs: it should be libkdegames4 not libkdegames5 and remove kolf.
+  * Update shlibs: remove kolf.
   * Do not build depend on cmake explicitly.
   * Update install files:
     - ksirk now includes the ksirk editor.
