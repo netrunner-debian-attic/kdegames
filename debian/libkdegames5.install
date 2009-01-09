@@ -1,6 +1,7 @@
 usr/lib/libkggzgames.so.4
 usr/lib/libkggzgames.so.4.2.0
-usr/lib/libkdegames.so.*
+usr/lib/libkdegames.so.5
+usr/lib/libkdegames.so.5.0.0
 usr/lib/libkggzmod.so.4
 usr/lib/libkggzmod.so.4.2.0
 usr/lib/libkggznet.so.4
