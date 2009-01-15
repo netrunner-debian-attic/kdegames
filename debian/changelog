@@ -1,16 +1,22 @@
-kdegames (4:4.1.3-2~lenny+1) lenny; urgency=low
+kdegames (4:4.1.4-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 17 Nov 2008 18:46:06 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Jan 2009 13:57:12 +0100
 
-kdegames (4:4.1.3-2) UNRELEASED; urgency=low
+kdegames (4:4.1.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * Bump build-deps
 
   +++ Changes by Modestas Vainius:
 
   * Use sameVersionDep for libkdegames-dev kdelibs5-dev dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:25:14 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Jan 2009 01:07:07 +0100
 
 kdegames (4:4.1.3-1) experimental; urgency=low
 
