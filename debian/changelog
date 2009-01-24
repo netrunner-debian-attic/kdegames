@@ -5,6 +5,8 @@ kdegames (4:4.2.0-0r1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Use sameVersionDep for libkdegames-dev kdelibs5-dev dependency.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -22,7 +24,7 @@ kdegames (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Rename libkdegames4 to libkdegames5 (Closes: #509354) and update control file
     acordingly.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Jan 2009 19:19:29 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:34:10 +0200
 
 kdegames (4:4.1.3-1) experimental; urgency=low
 
