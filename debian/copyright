@@ -13,58 +13,87 @@ license.  The complete text of this license is available in
 
 Authors:
 
+Bomber was written by
+	Copyright (C) 2007-2008 John-Paul Stanford
+This program is distributed under the terms of the GPLv2 or later.
+    
+
 Bovo was written by
     Aron Boström <aron.bostrom@gmail.com>
 (c) 2007, Aron Boström
-This program is distributed under the terms of the GPL v2.
+This program is distributed under the terms of the GPL v2 or later.
+
+Kapman was written by
+    Copyright (C) 2007-2008 Thomas Gallinari <tg8187@yahoo.fr>
+    Copyright (C) 2007-2008 Pierre-Benoit Besse <besse.pb@gmail.com>
+    Copyright (C) 2007-2008 Gael Courcelle <gael.courcelle@gmail.com>
+    Copyright (C) 2007-2008 Alexia Allanic <alexia_allanic@yahoo.fr>
+    Copyright (C) 2007-2008 Nathalie Liesse <nathalie.liesse@gmail.com>
+This program is distributed under the terms of the GPL v2 or later
 
 KAtomic was written by
-    Andreas Wuest <AndreasWuest@gmx.de>
-    Stephan Kulow <coolo@kde.org>
-    Cristian Tibirna <tibirna@kde.org>
-    Dmitry Suzdalev <dimsuz@gmail.com>
-(c) 1998, Andreas Wuest
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 1998 Andreas Wuest <AndreasWuest@gmx.de>
+    Copyright (C) Stephan Kulow <coolo@kde.org>
+    Copyright (C) Cristian Tibirna <tibirna@kde.org>
+    Copyright (C) 2005-2006 Dmitry Suzdalev <dimsuz@gmail.com>
+    Copyright (C) 2007 Carste Niehaus <cniehaus@kde.org>
+This program is distributed under the terms of the GPL v2 or later.
 
-KBackgammon was written by
-    Jens Hoefkens <jens@hoefkens.com>
-    Daren Sawkey <daren@sawkey.net>
-(C) 1999-2001 Jens Hoefkens
-This program is distributed under the terms of the GPL v2.
 
 KBattleship was written by
-    Paolo Capriotti <p.capriotti@gmail.com>
-    Nikolas Zimmermann <wildfox@kde.org>
-    Daniel Molkentin <molkentin@kde.org>
-    Kevin Krammer <kevin.krammer@gmx.at>
-(c) 2000-2005  Nikolas Zimmermann, Daniel Molkentin
-(c) 2007 Paolo Capriotti
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 2007 Paolo Capriotti <p.capriotti@gmail.com>
+    Copyright (C) 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+    Copyright (C) 2000-2001 Nikolas Zimmermann <wildfox@kde.org>
+    Copyright (C) 2000-2001 Daniel Molkentin <molkentin@kde.org>
+This program is distributed under the terms of the GPL v2 or later.
 
 KBlackBox was written by
-    Robert Cimrman <cimrman3@students.zcu.cz>
-    Nicolas Roffet <nicolas-kde@roffet.com>
-(c) 1999-2000, Robert Cimrman
-(c) 2007, Nicolas Roffet
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 1999-2000 Robert Cimrman <cimrman3@students.zcu.cz>
+    Copyright (C) 2007 Nicolas Roffet <nicolas-kde@roffet.com>
+This program is distributed under the terms of the GPL v2 or later.
+
+KBlocks was written by
+    Copyright (C) 2007 Mauricio Piacentini <mauricio@tabuleiro.com>
+This program is distributed under the terms of the GPL v2 or later.
 
 KBounce was written by
-    Stefan Schimanski <schimmi@kde.org>
-    Sandro Sigala <ssigala@globalnet.it>
-    Benjamin Meyer <ben+kbounce@meyerhome.net>
-(c) 2000-2005, Stefan Schimanski
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 2000-2005 Stefan Schimanski <schimmi@kde.org>
+    Copyright (C) 2007 Tomasz Boczkowski <tboczkowski@onet.pl>
+    Copyright (C) 2006 Dmitry Suzdalev <dimsuz@kde.org>
+This program is distributed under the terms of the GPL v2 or later.
+
+KBreakOut was written by
+    Copyright (C) 2007-2008 Fela Winkelmolen <fela.kde@gmail.com>
+    Copyright (C) 2005-2006 Albert Astals Cid <aacid@kde.org>
+    Copyright (C) 2006 Dmitry Suzdalev <dimsuz@kde.org>
+This program is distributed under the terms of the GPL v2 or later.
+
+KDiamond was written by 
+    Copyright (C) Stefan Majewsky <majewsky.stefan@ages-scripte.org>
+This program is distributed under the terms of the GPL v2 or later.
+
+KFourInLine was written by
+    Copyright (C) 1995-2007 Martin Heni <kde@heni-online.de>
+    Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+This program is distributed under the terms of the GPL v2 or later.
 
 KGoldrunner was written by
-    Ian Wadham <ianw2@optusnet.com.au>
-    Marco Krüger <grisuji@gmx.de>
-(C) 2003 Ian Wadham and Marco Krüger
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 2002-2006 Ian Wadham <ianw2@optusnet.com.au>
+    Copyright (C) 2002-2003 Marco Krüger <grisuji@gmx.de>
+    Copyright (C) 2006 Mauricio Piacentini <mauricio@tabuleiro.com>
+    Copyright (C) 2006 Dmitry Suzdalev <dimsuz@gmail.com>
+    Copyright (C) 2007 Luciano Montanero <mikelima@cirulla.net>
+This program is distributed under the terms of the GPL v2 or later.
+
+Killbots was written by
+    Copyright (C) 2006-2008 Parker Coates <parker.coates@gmail.com>
+This program is distributed under the terms of the GPL v2 or later.
+
 
 Kiriki was written by
     Albert Astals Cid <aacid@kde.org>
-(c) 2005-2007 Albert Astals Cid
-This program is distributed under the terms of the GPL v2.
+(c) 2005-2008 Albert Astals Cid
+This program is distributed under the terms of the GPL v2 or later.
 
 KJumpingcube was written by
     Matthias Kiefer <matthias.kiefer@gmx.de>
@@ -73,20 +102,17 @@ KJumpingcube was written by
 This program is distributed under the terms of the GPL v2 or any later version.
 
 Kolor Lines (klines) was written by
-    Roman Merzlyakov <roman@sbrf.barrt.ru>
-    Roman Razilov <Roman.Razilov@gmx.de>
-    Dmitry Suzdalev <dimsuz@gmail.com>
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 2006-2007 Dmitry Suzdalev <dimsuz@gmail.com>
+    Copyright (C) 2000 Roman Merzlyakov <roman@sbrf.barrt.ru>
+    Copyright (C) 2000 Roman Razilov <Roman.Razilov@gmx.de>
+    Copyright (C) 2007 Simon Huerlimann <simon.huerlimann@huerlisi.ch>
+This program is distributed under the terms of the GPL v2 or later.
 
 KMahjongg was written by
-    Mathias Mueller <in5y158@public.uni-hamburg.de>
-    Mauricio Piacentini <mauricio@tabuleiro.com>
-    Albert Astals Cid <astals11@terra.es>
-    David Black <david.black@lutris.com>
-    Michael Haertjens <mhaertjens@modusoperandi.com>
-(c) 1997, Mathias Mueller
-(c) 2006, Mauricio Piacentini
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 1997 Mathias Mueller <in5y158@public.uni-hamburg.de>
+    Copyright (C) 2006-2007 Mauricio Piacentini <mauricio@tabuleiro.com>
+    Copyright (C) 1992-2006 Trolltech  ASA.
+This program is distributed under the terms of the GPL v2 or later.
 
 KMines was written by
     Nicolas Hadacek <hadacek@kde.org>
@@ -97,16 +123,16 @@ KMines was written by
 (c) 2001, Mikhail Kourinny <mkourinny@yahoo.com>
 (c) 2006-2007, Mauricio Piacentini <mauricio@tabuleiro.com>
 (c) 2007, Dmitry Suzdalev <dimsuz@gmail.com>
-This program is distributed under the terms of the GPL v2.
+This program is distributed under the terms of the GPL v2 or later.
 
 knetwalk was written by
-    Fela Winkelmolen <fela.kde@gmail.com>
-    Andi Peredri <andi@ukr.net>
-    Thomas Nagy <tnagy2^8@yahoo.fr>
+    Copyright (C) 2007-2008 Fela Winkelmolen <fela.kde@gmail.com>
+    Copyright (C) 2004-2005 Andi Peredri <andi@ukr.net>
+    Copyright (C) 2005 Thomas Nagy <tnagy2^8@yahoo.fr>
+    Copyright (C) 2007 Simon Huerlimann <simon.huerlimann@huerlimann.ch>
+    Copyright (C) 2007 Dmitry Suzdalev <dimsuz@gmail.com>
     Reinhold Kainhofer <reinhold@kainhofer.com>
-(c) 2004, 2005 Andi Peredri, ported to KDE by Thomas Nagy
-(c) 2007 Fela Winkelmolen
-This program is distributed under the terms of the GPL v2.
+This program is distributed under the terms of the GPL v2 or later.
 
 Kolf was written by
     Jason Katz-Brown <jasonkb@mit.edu>
@@ -118,12 +144,17 @@ Kolf was written by
 (c) 2002-2005, Jason Katz-Brown
 This program is distributed under the terms of the GPL v2.
 
+Kollision was written by
+    Copyright (C) Paolo Capriotti <p.capriotti@gmail.com>
+This program is distributed under the terms of the GPL v2 or later.
+
 Konquest was written by
   Russell Steffen <rsteffen@bayarea.net>
   Stephan Zehetner <s.zehetner@nevox.org>
   Dmitry Suzdalev <dimsuz@gmail.com>
   Inge Wallin   <inge@lysator.liu.se>
   Pierre Ducroquet <pinaraf@gmail.com>
+  Dmitry Suzdalev <dimsuz@gmail.com>
 Copyright (c) 1999-2006, Developers
 This program is distributed under the terms of the GPL v2.
 
@@ -144,7 +175,22 @@ KPatience was written by
     Simon Hürlimann <simon.huerlimann@huerlisi.ch>
 (c) 1995, Paul Olav Tvete
 (c) 2000 Stephan Kulow
-This program is distributed under the terms of the GPL v2.
+(C) 2003 Josh Metzler
+(c) 2007 Simon Huerlimann <simon.huerlimann@huerlisi.ch>
+This program is distributed under the terms of the GPL v2 or later except some files under a more liberal license:
+ * Permission to use, copy, modify, and distribute this software and its
+ * documentation for any purpose and without fee is hereby granted,
+ * provided that the above copyright notice appear in all copies and that
+ * both that copyright notice and this permission notice appear in
+ * supporting documentation.
+ *
+ * This file is provided AS IS with no warranties of any kind.  The author
+ * shall have no liability with respect to the infringement of copyrights,
+ * trade secrets or any patents by this file or any part thereof.  In no
+ * event will the author be liable for any lost revenue or profits or
+ * other special, indirect and consequential damages.
+
+
 
 KReversi was written by
     Mario Weilguni <mweilguni@sime.com>
@@ -152,47 +198,59 @@ KReversi was written by
     Dmitry Suzdalev <dimsuz@gmail.com>
 (c) 1997-2000, Maio Weilguni
 (c) 2004-2006, Inge Wallin
-(c) 2006, Dmitry Suzdalev
+(c) 2006-2007, Dmitry Suzdalev
 This program is distributed under the terms of the GPL v2.
 
 KSame was written by
-    Henrique Pinto <henrique.pinto@kdemail.net>
-    Marcus Kreutzberger <kreutzbe@informatik.mu-luebeck.de>
-(c) 1997-1998 Marcus Kreutzberger
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 2006 Henrique Pinto <henrique.pinto@kdemail.net>
+    Copyright (C) 1997-1998 Marcus Kreutzberger <kreutzbe@informatik.mu-luebeck.de>
+    Copyright (C) 2006 Stephan Kulow <coolo@kde.org>
+    Copyright (C) 2007 Simon Huerlimann <simon.huerlimann@huerlisi.ch>
+This program is distributed under the terms of the GPL v2 or later.
 
 KShisen was written by
-    Dave Corrie <kde@davecorrie.com>
-    Mario Weilguni <mweilguni@sime.com>
-(c) 1997, Maio Weilguni
-(c) 2002-2004 Dave Corrie
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 2002-2004 Dave Corrie <kde@davecorrie.com>
+    Copyright (C) 1997 Mario Weilguni <mweilguni@sime.com>
+    Copyright (C) 2007 Mauricio Piacentini <mauricio@tabuleiro.com>
+This program is distributed under the terms of the GPL v2 or later.
+
+KSirk was written by
+    Copyright (C) 2001-2008 Gael de Chalender <kleag@free.fr>
+    Copyright (C) 2008 Guillaume Pelouas <pelouas@free.fr>
+    Copyright (C) 1995 Jean-Claude Colson and others
+    Copyright (C) 1993-1999 Elan Feingold <elan@aetherworks.com>
+    Copyright (C) 2002-2004 Till Gerken <till@tantalo.net>
+    Copyright (C) 2005-2008 Remko Troncon
+    Copyright (C) 2002 Daniel Stone <dstone@kde.org>
+    Copyright (C) 2006 Olivier Goffart <ogoffart@kde.org>
+    Copyright (C) 2006 Tommi Rantala <tommi.rantala@cs.helsinki.fi>
+    Copyright (C) 2001-2007 Kopete Developers <kopete-devel@kde.org>
+    Copyright (C) 2005-2006 Michael Larouche <larouche@kde.org>
+    Copyright (C) 2008 Igor Janssen <alaves17@gmail.com>
+    Copyright (C) 2001 Burkhard Lehner <Burkhard.Lehner@gmx.de>
+    Copyright (C) 2001-2008 Justin Karneges 
+    Copyright (C) 2005 Jeremie Miller
+    Copyright (C) 2003-2004 Michail Pishchagin
+    Copyright (C) 2002-2003 Simon Josefsson
+This program is distributed under the terms of the GPL v2. It contains some parts under LGPLv2.1 or later and some parts under the MIT/Expat license. Effectively everything is GPLv2.
 
 KSpaceDuel was written by
     Andreas Zehender <az@azweb.de>
     Branan Riley <branan@gmail.com>
+    Dirk Rathlev <dirkrathlev@gmx.de>
 (c) 1998-2001, Andreas Zehender
+(c) 2006-2008, Dirk Rathlev
 This program is distributed under the terms of the GPL v2.
 
 KSquares was written by
-    Matt Williams <matt@milliams.com>
-(c) 2006-2007 Matt Williams
-This program is distributed under the terms of the GPL v2.
-
-Kubrick was written by
-    Ian Wadham <ianw2@optusnet.com.au>
-(c) 2008 Ian Wadham
-This program is distributed under the terms of the GPL v2 or later.
-
-KBlocks was written by
-    Mauricio Piacentini <mauricio@tabuleiro.com>
-(c) 2007-2008 Mauricio Piacentini <mauricio@tabuleiro.com>
+    Copyright (C) 2006-2007 Matt Williams <matt@milliams.com>
+    Copyright (C) 2006 Paolo Capriotti <p.capriotti@gmail.com>
 This program is distributed under the terms of the GPL v2 or later.
 
 KSudoku was written by
-    Francesco Rossi <redsh@email.it>
-    Mick Kappenburg <ksudoku@kappendburg.net> 
-    Johannes Bergmeier <johannes.bergmeier@gmx.net>
+    Copyright (C) 2006-2007 Mick Kappenburg <ksudoku@kappendburg.net> 
+    Copyright (C) 2006-2008 Johannes Bergmeier <johannes.bergmeier@gmx.net>
+    Copyrigth (C) 2007 Francesco Rossi <redsh@email.it>
 (c) 2005-2007 The Ksudoku authors
 This program is distributed under the terms of the GPL v2.
 The ArcBall.cpp and ArcBall.h files are
@@ -225,6 +283,7 @@ Go ahead and just consider Arcball under MIT license for now.
 I'm currently busy with a few projects for a college class so I won't
 be able to "officially" change it until late next week or so.
 """
+
 KTuberling was written by
     Éric Bischoff <ebischoff@nerim.net>
     John Calhoun
@@ -232,29 +291,50 @@ KTuberling was written by
 (c) 1996-2006, The KTuberling Developers
 This program is distributed under the terms of the GPL v2.
 
-KWin4 was written by
-    Martin Heni <kde@heni-online.de>
-    Johann Ollivier Lapeyre <johann.ollivierlapeyre@gmail.com>
-    Eugene Trounev <eugene.trounev@gmail.com>
-    Benjamin Meyer
-(c) 1995-2007, Martin Heni
-This program is distributed under the terms of the GPL v2.
+Kubrick was written by
+    Ian Wadham <ianw2@optusnet.com.au>
+(c) 2008 Ian Wadham
+This program is distributed under the terms of the GPL v2 or later.
+
 
 LSkat was written by
-    Martin Heni <kde@heni-online.de>
-    Eugene Trounev <eugene.trounev@gmail.com>
-    Benjamin Meyer
-(c) 1995-2007, Martin Heni
-This program is distributed under the terms of the GPL v2.
+    Copyright (C) 1995-2007 Martin Heni <kde@heni-online.de>
+This program is distributed under the terms of the GPL v2 or later.
 
 --
 
-libkdegames is distributed under the GNU Lesser General Public License.
+libkdegames is distributed under the GNU Lesser General Public License or GNU library General Public License. Some BSD-ish licenses is also found, rendering everything GNU Lesser General_Public License Version 2.1
 (However, some of the accompanying card decks are GPL.)
+Libkdegames was written by
+    Copyright (C) 2007 Mark A. Taff <kde@marktaff.com>
+    Copyrigth (C) 2001-2004 Nicolas Hadacek <hadacek@kde.org>
+    Copyright (C) 2001-2003 Andreas Beckermann <b_mann@gmx.de>
+    Copyrigth (C) 1998 Sandro Sigala <ssigala@globalnet.it>
+    Copyright (C) 2001 Waldo Bastian <bastian@kde.org>
+    Copyright (C) 2007 Matt Williams <matt@milliams.com>
+    Copyright (C) 2001-2003 Martin Heni <kde@heni-online.de>
+    Copyright (C) 2001 Burkhard Lehner <Burkhard.Lehner@gmx.de>
+    Copyright (C) 2007 David Faure <faure@kde.org>
+    Copyright (C) 2005-2007 Josef Spillner <josef@ggzgaminzone.org>
+    Copyright (C) 2008 Andreas Pakulat <apaku@gmx.de>
+    Copyrigth (C) 2007 Gael de Chalander <kleag@free.fr>
+    Copyright (C) 2006 Maurizio Monge <maurizio.monge@gmail.com>
+    Copyright (C) 2001-2003 Nicolas Hadacek <hadacek@kde.org>
+    Copyright (C) 2006-2007 Mauricio Piacentini <mauricio@tabuleiro.com>
+    Copyright (C) 2007-2008 Nicolas Roffet <nicolas-kde@roffet.com>
+    Copyirght (C) 2007 Pino Toscano <toscano.pino@tiscali.it>
+    Copyright (C) 2007 Dmitry Suzdalev <dimsuz@gmail.com>
+    Copyright (C) 1996 Martynas Kunigelis <martynas.kunigelis@vm.ktu.lt>
+    Copyright (C) 2007 Simon Huerlimann <simon.huerlimann@huerlisi.ch>
+
 
 --
 
 libkmahjongg is distributed under the GNU General Public License.
+Libkmahjongg was written by 
+    Copyright (C) 1997 Mathias Mueller <in5y158@public.uni-hamburg.de>
+    Copyright (C) 2006 Mauricio Piacentini   <mauricio@tabuleiro.com>
+    Copyright (C) 2007 David Faure <faure@kde.org>
 
 --
 
