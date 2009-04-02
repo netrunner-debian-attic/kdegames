@@ -1,3 +1,10 @@
+kdegames (4:4.2.2-1) experimental; urgency=low
+
+  * New upstream
+  * Bump build-deps
+
+ -- Sune Vuorela <debian@pusling.com>  Thu, 02 Apr 2009 09:37:13 +0200
+
 kdegames (4:4.2.1-1) experimental; urgency=low
 
   * New upstream release.
