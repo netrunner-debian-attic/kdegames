@@ -1,4 +1,4 @@
-kdegames (4:4.2.2-1) experimental; urgency=low
+kdegames (4:4.2.2-1) unstable; urgency=low
 
   * New upstream
   * Bump build-deps
