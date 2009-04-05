@@ -1,9 +1,12 @@
 kdegames (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Bugfixes in kpat. (Closes: #376420, #444050, #291007, #422437, #448641)
+    - kmines, it is not longer possible cheat the timer. (Closes: #409310)
+    - knetwalk, game type is shown after restart. (Closes: #417837)
   * Bump build-deps.
 
- -- Sune Vuorela <debian@pusling.com>  Thu, 02 Apr 2009 09:37:13 +0200
+ -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 01:33:00 +0200
 
 kdegames (4:4.2.1-1) experimental; urgency=low
 
