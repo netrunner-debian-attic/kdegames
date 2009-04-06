@@ -57,7 +57,7 @@ Description: libraries and common files for KDE 4 games
 Package: kdegames-dbg
 Architecture: any
 Priority: extra
-Section: libdevel
+Section: debug
 Depends: kdebase-runtime-dbg
 Suggests: kdegames (= ${source:Version})
 Description: debugging symbols for the KDE 4 games module
@@ -74,7 +74,7 @@ Description: development files for the KDE 4 games module
 
 Package: kdegames-card-data
 Architecture: all
-Section: kde
+Section: games
 Description: card decks for KDE 4 games
  This package contains a collection of playing card themes for KDE 4 card games.
  .
@@ -82,7 +82,7 @@ Description: card decks for KDE 4 games
 
 Package: kdegames-mahjongg-data
 Architecture: all
-Section: kde
+Section: games
 Description: tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg
  and KShisen.
