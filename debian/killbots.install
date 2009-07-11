@@ -1,6 +1,7 @@
 usr/games/killbots 
-usr/share/kde4/config.kcfg/killbots.kcfg
 usr/share/applications/kde4/killbots.desktop
 usr/share/doc/kde4/HTML/en/killbots/
-usr/share/kde4/apps/killbots/
 usr/share/icons/hicolor/*/apps/killbots.png
+usr/share/icons/hicolor/scalable/apps/killbots.svgz
+usr/share/kde4/apps/killbots/
+usr/share/kde4/config.kcfg/killbots.kcfg

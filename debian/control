@@ -455,3 +455,16 @@ Description: Risk strategy game for KDE 4
  .
  This package is part of the KDE 4 games module.
 
+Package: ktron
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: tron-like game
+ ktron enables you to do magic
+
+Package: kdesnake
+Architecture: any
+Section: games
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: snake game
+ kdesnake enables you to do magic
