@@ -7,6 +7,7 @@ kdegames (4:4.2.96-1) unstable; urgency=low
 
    * Updated kdesnake/ktron package descriptions from Kubuntu
    * Added kdesnake/ktron to the kdegames metapackage
+   * Changed KDE 4 to KDE in package descriptions throughout
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 11 Jul 2009 23:07:49 +0200
 
