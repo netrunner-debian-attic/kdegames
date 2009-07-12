@@ -470,8 +470,6 @@ Package: kdesnake
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: ktron (<< 4:4.2.96-0ubuntu2)
-Replaces: ktron (<< 4:4.2.96-0ubuntu2)
 Description: Snake race played against the computer
  kdesnake is a fast action game where you steer a snake which has to eat food.
  While eating the snake grows.  But once a player collides with the other
