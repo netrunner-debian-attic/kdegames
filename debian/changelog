@@ -2,6 +2,7 @@ kdegames (4:4.2.96-1) unstable; urgency=low
 
   * New upstream release
     - New games: kdesnake and ktron
+  * Take copyright notes of kdesnake and ktron.
 
   +++ Changes by Scott Kitterman:
 
