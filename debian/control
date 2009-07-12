@@ -19,7 +19,7 @@ Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}),
  kbattleship (>= ${source:Version}), kblackbox (>= ${source:Version}),
  kbounce (>= ${source:Version}), kdiamond (>= ${source:Version}),
  kgoldrunner (>= ${source:Version}), kiriki (>= ${source:Version}), 
- killbots (>= ${source:Version}),
+ killbots (>= ${source:Version}), ktron (>= ${source:Version}),
  kjumpingcube (>= ${source:Version}), klines (>= ${source:Version}), 
  kmahjongg (>= ${source:Version}), kmines (>= ${source:Version}), 
  knetwalk (>= ${source:Version}), kolf (>= ${source:Version}), 
@@ -30,7 +30,8 @@ Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}),
  ksquares (>= ${source:Version}), ktuberling (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
  kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
- kbreakout (>= ${source:Version}), ksirk (>= ${source:Version})
+ kbreakout (>= ${source:Version}), ksirk (>= ${source:Version}),
+ kdesnake (>= ${source:Version})
 Description: games from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -459,12 +460,22 @@ Package: ktron
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: tron-like game
- ktron enables you to do magic
+Description: Tron-like game for KDE 4
+ The object of the game is to avoid running into walls, your own tail,
+ and that of your opponent.
+ .
+ This package is part of the KDE 4 games module.
 
 Package: kdesnake
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: snake game
- kdesnake enables you to do magic
+Conflicts: ktron (<< 4:4.2.96-0ubuntu2)
+Replaces: ktron (<< 4:4.2.96-0ubuntu2)
+Description: Snake race played against the computer
+ kdesnake is a fast action game where you steer a snake which has to eat food.
+ While eating the snake grows.  But once a player collides with the other
+ snake or the wall the game is lost.  This becomes, of course, more and more
+ difficult the longer the snakes grow.
+ .
+ This package is part of the KDE 4 games module.

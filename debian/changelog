@@ -3,6 +3,11 @@ kdegames (4:4.2.96-1) unstable; urgency=low
   * New upstream release
     - New games: kdesnake and ktron
 
+  +++ Changes by Scott Kitterman:
+
+   * Updated kdesnake/ktron package descriptions from Kubuntu
+   * Added kdesnake/ktron to the kdegames metapackage
+
  -- Sune Vuorela <debian@pusling.com>  Sat, 11 Jul 2009 23:07:49 +0200
 
 kdegames (4:4.2.4-1) unstable; urgency=low
