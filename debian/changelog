@@ -1,3 +1,9 @@
+kdegames (4:4.2.98-0~pre1) unstable; urgency=low
+
+  * New upstream release, RC3.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 18:25:12 +0200
+
 kdegames (4:4.2.96-1) unstable; urgency=low
 
   * New upstream release
