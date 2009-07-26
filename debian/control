@@ -6,7 +6,7 @@ Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <an
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
  kdelibs5-dev (>= 4:4.2.4), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev
-Standards-Version: 3.8.0
+Standards-Version: 3.8.2
 Homepage: http://games.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegames
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdegames
@@ -75,7 +75,6 @@ Description: development files for the KDE games module
 
 Package: kdegames-card-data
 Architecture: all
-Section: games
 Description: card decks for KDE games
  This package contains a collection of playing card themes for KDE card games.
  .
@@ -83,7 +82,6 @@ Description: card decks for KDE games
 
 Package: kdegames-mahjongg-data
 Architecture: all
-Section: games
 Description: tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg
  and KShisen.
@@ -92,7 +90,6 @@ Description: tilesets and backgrounds for Mahjongg games
 
 Package: bomber
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: arcade spaceship game for KDE
  Bomber is a game where you fly a spaceship and attempt to bomb the buildings
@@ -103,7 +100,6 @@ Description: arcade spaceship game for KDE
 
 Package: bovo
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: gomoku board game for KDE
  Bovo is a game where two players take turns placing markers on the board,
@@ -113,7 +109,6 @@ Description: gomoku board game for KDE
 
 Package: kapman
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Pac-Man clone for KDE
  Kapman is a clone of the well known game Pac-Man. You must go through the 
@@ -127,7 +122,6 @@ Description: Pac-Man clone for KDE
 
 Package: katomic
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: atomix puzzle game for KDE
  KAtomic is a puzzle game in which the player slides atoms around the board to
@@ -137,7 +131,6 @@ Description: atomix puzzle game for KDE
 
 Package: kbattleship
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: battleship board game for KDE
  KBattleship is an implementation of the Battleship game, where two players
@@ -147,7 +140,6 @@ Description: battleship board game for KDE
 
 Package: kblackbox
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Black Box puzzle game for KDE
  KBlackBox is a game of hide and seek played on an grid of boxes, where the
@@ -157,7 +149,6 @@ Description: Black Box puzzle game for KDE
 
 Package: kbounce
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Jezzball arcade game for KDE
  KBounce is a game where the player builds walls to confine a number of
@@ -167,7 +158,6 @@ Description: Jezzball arcade game for KDE
 
 Package: kdiamond
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: three-in-a-row game for KDE
  KDiamond is a three-in-a-row game like Bejeweled. It features unlimited fun 
@@ -178,7 +168,6 @@ Description: three-in-a-row game for KDE
 
 Package: kgoldrunner
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Lode Runner arcade game for KDE
  KGoldrunner is a fast-paced platform game where the player must navigate a
@@ -189,7 +178,6 @@ Description: Lode Runner arcade game for KDE
 
 Package: killbots
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: port of the classic BSD console game robots for KDE
  killbots is a simple game of evading killer robots. The robots are numerous 
@@ -203,7 +191,6 @@ Description: port of the classic BSD console game robots for KDE
 
 Package: kiriki
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Yahtzee dice game for KDE
  Kiriki is a dice game for up to six players, where each player rolls five dice
@@ -213,7 +200,6 @@ Description: Yahtzee dice game for KDE
 
 Package: kjumpingcube
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: simple tactical game for KDE
  KJumpingcube is a simple tactical game for one or two players, played on a
@@ -224,7 +210,6 @@ Description: simple tactical game for KDE
 
 Package: klines
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: color lines game for KDE
  KLines is a single-player game where the player removes colored balls from the
@@ -235,7 +220,6 @@ Description: color lines game for KDE
 
 Package: kmahjongg
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${source:Version})
 Description: Mahjongg solitaire game for KDE
  KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
@@ -246,7 +230,6 @@ Description: Mahjongg solitaire game for KDE
 
 Package: kmines
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: minesweeper game for KDE
  KMines is a game where the player finds hidden mines without setting them off.
@@ -255,7 +238,6 @@ Description: minesweeper game for KDE
 
 Package: knetwalk
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: wire puzzle game for KDE
  KNetwalk is a puzzle game where the player arranges sections of wire to
