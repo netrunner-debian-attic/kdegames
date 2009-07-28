@@ -1,6 +1,6 @@
-kdegames (4:4.2.98-0~pre1) UNRELEASED; urgency=low
+kdegames (4:4.3.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream release, RC3.
+  * New upstream release.
   * Bump Standards-Version to 3.8.2, no changes required.
   * Remove superflous section fields in debian/control.
 
