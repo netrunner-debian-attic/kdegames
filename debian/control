@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.3.0), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
+ kdelibs5-dev (>= 4:4.3.1), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Homepage: http://games.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegames
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdegames
@@ -247,7 +247,6 @@ Description: wire puzzle game for KDE
 
 Package: kolf
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: miniature golf game for KDE
  Kolf is a miniature golf game for one to ten players.  A variety of courses
@@ -257,7 +256,6 @@ Description: miniature golf game for KDE
 
 Package: kollision
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: simple ball dodging game for KDE
  In Kollision you use mouse to control a small blue ball in a closed space
@@ -270,7 +268,6 @@ Description: simple ball dodging game for KDE
 
 Package: konquest
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: simple turn-based strategy game for KDE
  Konquest is a game of galactic conquest for KDE, where rival empires vie to
@@ -281,7 +278,6 @@ Description: simple turn-based strategy game for KDE
 
 Package: kpat
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
 Description: solitaire card games for KDE
  KPatience is a collection of fourteen solitaire card games, including Klondike,
@@ -291,7 +287,6 @@ Description: solitaire card games for KDE
 
 Package: kreversi
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: reversi board game for KDE
  KReversi is a board game where two players place pieces on the board to flip
@@ -302,7 +297,6 @@ Description: reversi board game for KDE
 
 Package: ksame
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: SameGame puzzle game for KDE
  KSame is a puzzle game where the player removes groups of colored marbles to
@@ -312,7 +306,6 @@ Description: SameGame puzzle game for KDE
 
 Package: kshisen
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${source:Version})
 Description: Shisen-Sho solitaire game for KDE
  KShisen is a Shisen-Sho game where the player removes adjascent pairs of
@@ -322,7 +315,6 @@ Description: Shisen-Sho solitaire game for KDE
 
 Package: kspaceduel
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: SpaceWar! arcade game for KDE
  KSpaceduel is a space battle game for one or two players, where two ships fly
@@ -332,7 +324,6 @@ Description: SpaceWar! arcade game for KDE
 
 Package: ksquares
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Dots and Boxes game for KDE
  KSquares is a game where two players take turns connecting dots on a grid to
@@ -342,7 +333,6 @@ Description: Dots and Boxes game for KDE
 
 Package: ksudoku
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Sudoku puzzle game and solver for KDE
  KSudoku is a Sudoku game and solver, supporting a range of 2D and 3D Sudoku
@@ -353,7 +343,6 @@ Description: Sudoku puzzle game and solver for KDE
 
 Package: ktuberling
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: stamp drawing toy for KDE
  KTuberling is a drawing toy for small children with several activites.
@@ -369,7 +358,6 @@ Description: stamp drawing toy for KDE
 
 Package: kfourinline
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Description: Connect Four game for KDE
  KFourInLine is a game where two players take turns dropping pieces into a grid,
@@ -379,7 +367,6 @@ Description: Connect Four game for KDE
 
 Package: kubrick
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: game based on Rubik's Cube for KDE
  Kubrick is a game based on Rubik's Cube and using OpenGL 3-D graphics 
@@ -394,7 +381,6 @@ Description: game based on Rubik's Cube for KDE
 
 Package: kblocks
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: a falling blocks game for KDE
  KBlocks is a single player falling blocks puzzle game, a Tetris-like 
@@ -404,7 +390,6 @@ Description: a falling blocks game for KDE
 
 Package: lskat
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
 Description: Lieutnant Skat card game for KDE
  Lieutnant Skat is a simplified variant of the Skat card game for two players.
@@ -413,7 +398,6 @@ Description: Lieutnant Skat card game for KDE
 
 Package: kbreakout
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Breakout arcade game for KDE
  KBreakout is a single player falling blocks puzzle arcade game.
@@ -422,7 +406,6 @@ Description: Breakout arcade game for KDE
 
 Package: ksirk
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Risk strategy game for KDE
  KsirK is a strategy game inspired by the well known game Risk. It is a
@@ -440,7 +423,6 @@ Description: Risk strategy game for KDE
 
 Package: ktron
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Tron-like game for KDE
  The object of the game is to avoid running into walls, your own tail,
@@ -450,7 +432,6 @@ Description: Tron-like game for KDE
 
 Package: kdesnake
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Snake race played against the computer
  kdesnake is a fast action game where you steer a snake which has to eat food.

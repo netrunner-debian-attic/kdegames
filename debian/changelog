@@ -1,3 +1,11 @@
+kdegames (4:4.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 3.8.3, no changes required.
+  * Remove superflous Section: games lines.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 12 Sep 2009 16:26:53 +0200
+
 kdegames (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
