@@ -1,4 +1,3 @@
-usr/share/kde4/config/kblocks.knsrc
 usr/games/kblocks
 usr/share/applications/kde4/kblocks.desktop
 usr/share/doc/kde4/HTML/en/kblocks/common
@@ -11,12 +10,13 @@ usr/share/icons/hicolor/32x32/apps/kblocks.png
 usr/share/icons/hicolor/48x48/apps/kblocks.png
 usr/share/icons/hicolor/64x64/apps/kblocks.png
 usr/share/kde4/apps/kblocks/kblocksui.rc
+usr/share/kde4/apps/kblocks/themes/default.desktop
 usr/share/kde4/apps/kblocks/themes/default_block_fall.ogg
 usr/share/kde4/apps/kblocks/themes/default_block_move.ogg
-usr/share/kde4/apps/kblocks/themes/default.desktop
+usr/share/kde4/apps/kblocks/themes/default_old.desktop
 usr/share/kde4/apps/kblocks/themes/default_preview.png
 usr/share/kde4/apps/kblocks/themes/default_theme.svg
-usr/share/kde4/config.kcfg/kblocks.kcfg
-usr/share/kde4/apps/kblocks/themes/default_old.desktop
 usr/share/kde4/apps/kblocks/themes/egyptian.svg
 usr/share/kde4/apps/kblocks/themes/egyptian_preview.png
+usr/share/kde4/config.kcfg/kblocks.kcfg
+usr/share/kde4/config/kblocks.knsrc

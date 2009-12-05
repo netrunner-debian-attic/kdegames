@@ -1,13 +1,13 @@
 ../icons/klines-16.xpm /usr/share/pixmaps
 ../icons/klines.xpm /usr/share/pixmaps
-/usr/games/klines
-/usr/share/applications/kde4/klines.desktop
-/usr/share/doc/kde4/HTML/en/klines/*
-/usr/share/icons/hicolor/128x128/apps/klines.png
-/usr/share/icons/hicolor/16x16/apps/klines.png
-/usr/share/icons/hicolor/22x22/apps/klines.png
-/usr/share/icons/hicolor/32x32/apps/klines.png
-/usr/share/icons/hicolor/48x48/apps/klines.png
-/usr/share/icons/hicolor/64x64/apps/klines.png
-/usr/share/kde4/apps/klines/*
+usr/games/klines
+usr/share/applications/kde4/klines.desktop
+usr/share/doc/kde4/HTML/en/klines/*
+usr/share/icons/hicolor/128x128/apps/klines.png
+usr/share/icons/hicolor/16x16/apps/klines.png
+usr/share/icons/hicolor/22x22/apps/klines.png
+usr/share/icons/hicolor/32x32/apps/klines.png
+usr/share/icons/hicolor/48x48/apps/klines.png
+usr/share/icons/hicolor/64x64/apps/klines.png
+usr/share/kde4/apps/klines/*
 usr/share/kde4/config.kcfg/klines.kcfg

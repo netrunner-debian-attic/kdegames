@@ -1,12 +1,12 @@
 ../icons/kpat-16.xpm /usr/share/pixmaps
 ../icons/kpat.xpm /usr/share/pixmaps
-/usr/games/kpat
-/usr/share/applications/kde4/kpat.desktop
-/usr/share/doc/kde4/HTML/en/kpat/*
-/usr/share/icons/hicolor/128x128/apps/kpat.png
-/usr/share/icons/hicolor/16x16/apps/kpat.png
-/usr/share/icons/hicolor/22x22/apps/kpat.png
-/usr/share/icons/hicolor/32x32/apps/kpat.png
-/usr/share/icons/hicolor/48x48/apps/kpat.png
-/usr/share/icons/hicolor/64x64/apps/kpat.png
-/usr/share/kde4/apps/kpat/*
+usr/games/kpat
+usr/share/applications/kde4/kpat.desktop
+usr/share/doc/kde4/HTML/en/kpat/*
+usr/share/icons/hicolor/128x128/apps/kpat.png
+usr/share/icons/hicolor/16x16/apps/kpat.png
+usr/share/icons/hicolor/22x22/apps/kpat.png
+usr/share/icons/hicolor/32x32/apps/kpat.png
+usr/share/icons/hicolor/48x48/apps/kpat.png
+usr/share/icons/hicolor/64x64/apps/kpat.png
+usr/share/kde4/apps/kpat/*

@@ -18,8 +18,8 @@ usr/share/kde4/apps/kfourinline/grafix/gray_reflection.rc
 usr/share/kde4/apps/kfourinline/grafix/gray_reflection.svg
 usr/share/kde4/apps/kfourinline/grafix/yellow.desktop
 usr/share/kde4/apps/kfourinline/grafix/yellow.rc
+usr/share/kde4/apps/kfourinline/grafix/yellow.svg
 usr/share/kde4/apps/kfourinline/grafix/yellow_reflection.desktop
 usr/share/kde4/apps/kfourinline/grafix/yellow_reflection.rc
-usr/share/kde4/apps/kfourinline/grafix/yellow.svg
 usr/share/kde4/apps/kfourinline/kfourinlineui.rc
 usr/share/kde4/config.kcfg/kwin4.kcfg

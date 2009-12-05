@@ -1,4 +1,3 @@
-usr/share/kde4/config/ksudokurc
 ../icons/ksudoku-16.xpm /usr/share/pixmaps
 ../icons/ksudoku.xpm /usr/share/pixmaps
 usr/games/ksudoku
@@ -10,3 +9,4 @@ usr/share/icons/hicolor/128x128/apps/ksudoku.png
 usr/share/icons/hicolor/16x16/apps/ksudoku.png
 usr/share/icons/hicolor/32x32/apps/ksudoku.png
 usr/share/kde4/apps/ksudoku/
+usr/share/kde4/config/ksudokurc

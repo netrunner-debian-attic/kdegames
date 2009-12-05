@@ -1,12 +1,12 @@
 ../icons/katomic-16.xpm /usr/share/pixmaps
 ../icons/katomic.xpm /usr/share/pixmaps
-/usr/games/katomic
-/usr/share/applications/kde4/katomic.desktop
-/usr/share/doc/kde4/HTML/en/katomic/*
-/usr/share/icons/hicolor/128x128/apps/katomic.png
-/usr/share/icons/hicolor/16x16/apps/katomic.png
-/usr/share/icons/hicolor/22x22/apps/katomic.png
-/usr/share/icons/hicolor/32x32/apps/katomic.png
-/usr/share/icons/hicolor/48x48/apps/katomic.png
-/usr/share/icons/hicolor/64x64/apps/katomic.png
-/usr/share/kde4/apps/katomic/*
+usr/games/katomic
+usr/share/applications/kde4/katomic.desktop
+usr/share/doc/kde4/HTML/en/katomic/*
+usr/share/icons/hicolor/128x128/apps/katomic.png
+usr/share/icons/hicolor/16x16/apps/katomic.png
+usr/share/icons/hicolor/22x22/apps/katomic.png
+usr/share/icons/hicolor/32x32/apps/katomic.png
+usr/share/icons/hicolor/48x48/apps/katomic.png
+usr/share/icons/hicolor/64x64/apps/katomic.png
+usr/share/kde4/apps/katomic/*

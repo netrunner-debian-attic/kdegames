@@ -3,13 +3,12 @@ usr/share/applications/kde4/kubrick.desktop
 usr/share/doc/kde4/HTML/en/kubrick/common
 usr/share/doc/kde4/HTML/en/kubrick/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kubrick/index.docbook
+usr/share/icons/hicolor/128x128/apps/kubrick.png
 usr/share/icons/hicolor/16x16/apps/kubrick.png
+usr/share/icons/hicolor/22x22/apps/kubrick.png
 usr/share/icons/hicolor/32x32/apps/kubrick.png
 usr/share/icons/hicolor/48x48/apps/kubrick.png
-usr/share/icons/hicolor/128x128/apps/kubrick.png
-usr/share/icons/hicolor/22x22/apps/kubrick.png
 usr/share/icons/hicolor/64x64/apps/kubrick.png
-usr/share/kde4/apps/kubrick/themes/default.svgz
 usr/share/kde4/apps/kubrick/kubrickui.rc
 usr/share/kde4/apps/kubrick/m333CTwirl2.kbk
 usr/share/kde4/apps/kubrick/m333Complete.kbk
@@ -34,3 +33,4 @@ usr/share/kde4/apps/kubrick/p333U6.kbk
 usr/share/kde4/apps/kubrick/p333Worm.kbk
 usr/share/kde4/apps/kubrick/p333X2.kbk
 usr/share/kde4/apps/kubrick/p333X6.kbk
+usr/share/kde4/apps/kubrick/themes/default.svgz

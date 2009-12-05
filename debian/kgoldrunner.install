@@ -1,6 +1,5 @@
 ../icons/kgoldrunner-16.xpm /usr/share/pixmaps
 ../icons/kgoldrunner.xpm /usr/share/pixmaps
-usr/share/kde4/config/kgoldrunner.knsrc
 usr/games/kgoldrunner
 usr/share/applications/kde4/KGoldrunner.desktop
 usr/share/doc/kde4/HTML/en/kgoldrunner/*
@@ -11,3 +10,4 @@ usr/share/icons/hicolor/32x32/apps/kgoldrunner.png
 usr/share/icons/hicolor/48x48/apps/kgoldrunner.png
 usr/share/icons/hicolor/64x64/apps/kgoldrunner.png
 usr/share/kde4/apps/kgoldrunner/*
+usr/share/kde4/config/kgoldrunner.knsrc
