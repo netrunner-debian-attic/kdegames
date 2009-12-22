@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev
 Standards-Version: 3.8.3
 Homepage: http://games.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegames
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegames/#_trunk_packages_kdegames_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdegames
 
 Package: kdegames
