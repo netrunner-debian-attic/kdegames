@@ -1,9 +1,20 @@
-kdegames (4:4.3.4-2) UNRELEASED; urgency=low
+kdegames (4:4.4.0-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 17:48:51 +0200
+  [ George Kiagiadakis ]
+  * Add myself as uploader.
+  * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Update installed files.
+
+  * TODO: Add new packages: palapeli, kigo, granatier.
+  * TODO: Package new optional dependency: KAL/Gluon.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Tue, 16 Feb 2010 23:33:32 +0200
 
 kdegames (4:4.3.4-1) unstable; urgency=low
 

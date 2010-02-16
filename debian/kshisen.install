@@ -11,3 +11,5 @@ usr/share/icons/hicolor/48x48/apps/kshisen.png
 usr/share/icons/hicolor/64x64/apps/kshisen.png
 usr/share/kde4/apps/kshisen/*
 usr/share/kde4/config.kcfg/kshisen.kcfg
+usr/share/sounds/kshisen/tile-fall-tile.ogg
+usr/share/sounds/kshisen/tile-touch.ogg

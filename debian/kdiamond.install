@@ -14,9 +14,9 @@ usr/share/kde4/apps/kdiamond/kdiamond.kcfg
 usr/share/kde4/apps/kdiamond/kdiamond.notifyrc
 usr/share/kde4/apps/kdiamond/kdiamondui.rc
 usr/share/kde4/apps/kdiamond/themes/default.desktop
-usr/share/kde4/apps/kdiamond/themes/default.png
-usr/share/kde4/apps/kdiamond/themes/default.svgz
-usr/share/kde4/apps/kdiamond/themes/default_old.desktop
+usr/share/kde4/apps/kdiamond/themes/diamonds.desktop
+usr/share/kde4/apps/kdiamond/themes/diamonds.png
+usr/share/kde4/apps/kdiamond/themes/diamonds.svgz
 usr/share/kde4/apps/kdiamond/themes/egyptian.svgz
 usr/share/kde4/apps/kdiamond/themes/egyptian_preview.png
 usr/share/kde4/apps/kdiamond/themes/funny_zoo.desktop

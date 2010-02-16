@@ -13,10 +13,10 @@ usr/share/kde4/apps/kblocks/kblocksui.rc
 usr/share/kde4/apps/kblocks/themes/default.desktop
 usr/share/kde4/apps/kblocks/themes/default_block_fall.ogg
 usr/share/kde4/apps/kblocks/themes/default_block_move.ogg
-usr/share/kde4/apps/kblocks/themes/default_old.desktop
-usr/share/kde4/apps/kblocks/themes/default_preview.png
-usr/share/kde4/apps/kblocks/themes/default_theme.svg
 usr/share/kde4/apps/kblocks/themes/egyptian.svg
 usr/share/kde4/apps/kblocks/themes/egyptian_preview.png
+usr/share/kde4/apps/kblocks/themes/oxygen.desktop
+usr/share/kde4/apps/kblocks/themes/oxygen.svg
+usr/share/kde4/apps/kblocks/themes/oxygen_preview.png
 usr/share/kde4/config.kcfg/kblocks.kcfg
 usr/share/kde4/config/kblocks.knsrc
