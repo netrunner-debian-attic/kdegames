@@ -2,7 +2,7 @@
  
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
-DEB_CMAKE_EXTRA_FLAGS := -DBIN_INSTALL_DIR=/usr/games
+DEB_CMAKE_EXTRA_FLAGS += -DBIN_INSTALL_DIR=/usr/games
 
 DEB_INSTALL_DOCS_ALL :=
 
