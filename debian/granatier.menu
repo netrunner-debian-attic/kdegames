@@ -1,6 +1,6 @@
 ?package(granatier):\
 	needs="x11"\
-	section="Games/Arcade"\
+	section="Games/Action"\
 	hints="KDE"\
 	title="Granatier"\
 	icon32x32="/usr/share/pixmaps/granatier.xpm"\
