@@ -6,7 +6,7 @@ Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <debian@pusling.c
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
  kdelibs5-dev (>= 4:4.4.0), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
- libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev
+ libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev
 Standards-Version: 3.8.3
 Homepage: http://games.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegames/#_trunk_packages_kdegames_
@@ -32,7 +32,8 @@ Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
  kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
  kbreakout (>= ${source:Version}), ksirk (>= ${source:Version}),
- kdesnake (>= ${source:Version}), palapeli (>= ${source:Version})
+ kdesnake (>= ${source:Version}), palapeli (>= ${source:Version}),
+ granatier (>= ${source:Version}), kigo (>= ${source:Version})
 Description: games from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -451,6 +452,8 @@ Description: puzzle game for KDE4
  pieces are freely moveable.
  .
  Palapeli is the Finnish word for jigsaw puzzle.
+ .
+ This package is part of the KDE games module.
 
 Package: palapeli-data
 Architecture: all
@@ -463,4 +466,28 @@ Description: puzzle game for KDE4 - data files
  pieces are freely moveable.
  .
  Palapeli is the Finnish word for jigsaw puzzle.
+ .
+ This package is part of the KDE games module.
 
+Package: granatier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Bomberman clone
+ Granatier is a clone of the classic Bomberman game,
+ inspired by the work of the Clanbomber clone.
+ .
+ This package is part of the KDE games module.
+
+Package: kigo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Open-source implementation of the popular Go game
+ Kigo is an open-source implementation of the popular Go game. Go is a
+ strategic board game for two players. It is also known as igo (Japanese),
+ weiqi or wei ch'i (Chinese) or baduk (Korean). Go is noted for being rich
+ in strategic complexity despite its simple rules. The game is played by
+ two players who alternately place black and white stones (playing pieces,
+ now usually made of glass or plastic) on the vacant intersections of a grid
+ of 19x19 lines (9x9 or 13x13 for easier games).
+ .
+ This package is part of the KDE games module.

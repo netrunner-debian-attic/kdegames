@@ -1,0 +1,9 @@
+Document: kdegames-doc-html-granatier
+Title: The Granatier Handbook
+Author: Mathias Kraus
+Abstract: This documentation describes the game of Granatier.
+Section: Games/Arcade
+
+Format: HTML
+Index: /usr/share/doc/kde/HTML/en/granatier/index.html
+Files: /usr/share/doc/kde/HTML/en/granatier/*.html

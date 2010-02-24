@@ -1,0 +1,9 @@
+?package(kpat):\
+	needs="x11"\
+	section="Games/Board"\
+	hints="KDE"\
+	title="KiGo"\
+	icon32x32="/usr/share/pixmaps/kigo.xpm"\
+	icon16x16="/usr/share/pixmaps/kigo-16.xpm"\
+	command="/usr/games/kigo"
+

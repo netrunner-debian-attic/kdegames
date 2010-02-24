@@ -1,0 +1,9 @@
+?package(kpat):\
+	needs="x11"\
+	section="Games/Arcade"\
+	hints="KDE"\
+	title="Granatier"\
+	icon32x32="/usr/share/pixmaps/granatier.xpm"\
+	icon16x16="/usr/share/pixmaps/granatier-16.xpm"\
+	command="/usr/games/granatier"
+

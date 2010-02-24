@@ -1,0 +1,15 @@
+../icons/kigo-16.xpm /usr/share/pixmaps
+../icons/kigo.xpm /usr/share/pixmaps
+usr/games/kigo
+usr/share/applications/kde4/kigo.desktop
+usr/share/doc/kde4/HTML/en/kigo/*
+usr/share/kde4/config.kcfg/kigo.kcfg
+usr/share/kde4/config/kigo-games.knsrc
+usr/share/kde4/config/kigo.knsrc
+usr/share/kde4/apps/kigo/*
+usr/share/icons/hicolor/128x128/apps/kigo.png
+usr/share/icons/hicolor/16x16/apps/kigo.png
+usr/share/icons/hicolor/22x22/apps/kigo.png
+usr/share/icons/hicolor/32x32/apps/kigo.png
+usr/share/icons/hicolor/48x48/apps/kigo.png
+usr/share/icons/hicolor/64x64/apps/kigo.png
