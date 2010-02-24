@@ -1,4 +1,4 @@
-?package(kpat):\
+?package(palapeli):\
 	needs="x11"\
 	section="Games/Board"\
 	hints="KDE"\

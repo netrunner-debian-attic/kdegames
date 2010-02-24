@@ -1,4 +1,4 @@
-?package(kpat):\
+?package(kigo):\
 	needs="x11"\
 	section="Games/Board"\
 	hints="KDE"\

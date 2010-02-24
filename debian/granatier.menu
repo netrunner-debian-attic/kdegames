@@ -1,4 +1,4 @@
-?package(kpat):\
+?package(granatier):\
 	needs="x11"\
 	section="Games/Arcade"\
 	hints="KDE"\

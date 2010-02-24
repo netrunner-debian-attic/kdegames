@@ -14,10 +14,8 @@ kdegames (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Update installed files.
 
   [ Xavier Vello ]
-  * Add palapeli, kigo, granatier
-  * Update ktuberling.instal
-
-  * TODO: Package new optional dependency: KAL/Gluon.
+  * Add palapeli, kigo, granatier.
+  * Update ktuberling.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Feb 2010 19:57:35 +0100
 
