@@ -13,10 +13,13 @@ kdegames (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Add build dependency on shared-mime-info.
   * Update installed files.
 
-  * TODO: Add new packages: palapeli, kigo, granatier.
+  [ Xavier Vello ]
+  * Add palapeli, kigo, granatier
+  * Update ktuberling.instal
+
   * TODO: Package new optional dependency: KAL/Gluon.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2010 15:17:40 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Feb 2010 19:57:35 +0100
 
 kdegames (4:4.3.4-1) unstable; urgency=low
 
