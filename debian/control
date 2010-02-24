@@ -6,7 +6,8 @@ Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <debian@pusling.c
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
  kdelibs5-dev (>= 4:4.4.0), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
- libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev
+ libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev,
+ shared-mime-info
 Standards-Version: 3.8.3
 Homepage: http://games.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdegames/#_trunk_packages_kdegames_

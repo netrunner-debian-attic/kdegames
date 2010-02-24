@@ -10,6 +10,7 @@ kdegames (4:4.4.0-0r1) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * Add myself as uploader.
   * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Add build dependency on shared-mime-info.
   * Update installed files.
 
   * TODO: Add new packages: palapeli, kigo, granatier.
