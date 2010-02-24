@@ -1,0 +1,8 @@
+.TH KFOURINLINEPROC 6
+.SH NAME
+kfourinlineproc \- AI backend for kfourinline
+.SH DESCRIPTION
+This program is used internally by kfourinline. Users should not run it
+directly.
+.SH SEE ALSO
+.BR kfourinline (6).

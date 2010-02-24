@@ -12,6 +12,9 @@ kdegames (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
   * Add build dependency on shared-mime-info.
   * Update installed files.
+  * Re-add debian menu icon and manpages to kfourinline
+    (removed accidentaly on the kwin4->kfourline rename)
+    and improve its debian menu title.
 
   [ Xavier Vello ]
   * Add palapeli, kigo, granatier.
