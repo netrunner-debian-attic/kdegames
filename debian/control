@@ -32,7 +32,7 @@ Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
  kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
  kbreakout (>= ${source:Version}), ksirk (>= ${source:Version}),
- kdesnake (>= ${source:Version})
+ kdesnake (>= ${source:Version}), palapeli (>= ${source:Version})
 Description: games from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -441,3 +441,26 @@ Description: Snake race played against the computer
  difficult the longer the snakes grow.
  .
  This package is part of the KDE games module.
+
+Package: palapeli
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, palapeli-data (>= ${source:Version})
+Description: puzzle game for KDE4
+ Palapeli is a jigsaw puzzle game. Unlike other games in that genre,
+ you are not limited to aligning pieces on imaginary grids. The
+ pieces are freely moveable.
+ .
+ Palapeli is the Finnish word for jigsaw puzzle.
+
+Package: palapeli-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: puzzle game for KDE4 - data files
+ Data files (puzzles) for the palapeli puzzle game.
+ .
+ Palapeli is a jigsaw puzzle game. Unlike other games in that genre,
+ you are not limited to aligning pieces on imaginary grids. The
+ pieces are freely moveable.
+ .
+ Palapeli is the Finnish word for jigsaw puzzle.
+

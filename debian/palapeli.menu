@@ -1,0 +1,9 @@
+?package(kpat):\
+	needs="x11"\
+	section="Games/Board"\
+	hints="KDE"\
+	title="Palapeli"\
+	icon32x32="/usr/share/pixmaps/palapeli.xpm"\
+	icon16x16="/usr/share/pixmaps/palapeli-16.xpm"\
+	command="/usr/games/palapeli"
+

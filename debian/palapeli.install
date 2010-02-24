@@ -1,0 +1,17 @@
+../icons/palapeli-16.xpm /usr/share/pixmaps
+../icons/palapeli.xpm /usr/share/pixmaps
+usr/games/libpala-puzzlebuilder
+usr/games/palapeli
+usr/lib/kde4/palapeli_jigsawslicer.so
+usr/lib/kde4/palapeli_rectslicer.so
+usr/lib/kde4/palathumbcreator.so
+usr/lib/libpala.so.0
+usr/lib/libpala.so.0.1.0
+usr/share/applications/kde4/palapeli.desktop
+usr/share/kde4/config/palapeli-collectionrc
+usr/share/kde4/services/palapeli_jigsawslicer.desktop
+usr/share/kde4/services/palapeli_rectslicer.desktop
+usr/share/kde4/services/palathumbcreator.desktop
+usr/share/kde4/services/ServiceMenus/palapeli_servicemenu.desktop
+usr/share/kde4/servicetypes/libpala-slicerplugin.desktop
+usr/share/mime/packages/palapeli-mimetypes.xml
