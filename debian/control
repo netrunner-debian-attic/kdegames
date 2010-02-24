@@ -33,8 +33,8 @@ Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
  kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
  kbreakout (>= ${source:Version}), ksirk (>= ${source:Version}),
- kdesnake (>= ${source:Version}), palapeli (>= ${source:Version}),
- granatier (>= ${source:Version}), kigo (>= ${source:Version})
+ palapeli (>= ${source:Version}), granatier (>= ${source:Version}),
+ kigo (>= ${source:Version})
 Description: games from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -429,17 +429,13 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Tron-like game for KDE
  The object of the game is to avoid running into walls, your own tail,
- and that of your opponent.
+ and that of your opponent, while at the same time you have to try to
+ get your opponent to run into them.
  .
- This package is part of the KDE games module.
-
-Package: kdesnake
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Snake race played against the computer
- kdesnake is a fast action game where you steer a snake which has to eat food.
- While eating the snake grows.  But once a player collides with the other
- snake or the wall the game is lost.  This becomes, of course, more and more
+ KTron also includes kdesnake, a special mode of the game where you can play
+ the classical snake action game. In snake you steer a snake which has to eat
+ food. While eating, the snake grows. But once a player collides with the other
+ snake or the wall, the game is lost. This becomes, of course, more and more
  difficult the longer the snakes grow.
  .
  This package is part of the KDE games module.
