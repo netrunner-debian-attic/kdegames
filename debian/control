@@ -430,6 +430,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdesnake
 Conflicts: kdesnake
+Provides: kdesnake
 Description: Tron-like game for KDE
  The object of the game is to avoid running into walls, your own tail,
  and that of your opponent, while at the same time you have to try to
