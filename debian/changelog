@@ -15,7 +15,7 @@ kdegames (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add build dependency on shared-mime-info.
   * Update installed files.
   * Re-add debian menu icon and manpages to kfourinline
-    (removed accidentaly on the kwin4->kfourline rename)
+    (removed accidentally on the kwin4->kfourline rename)
     and improve its debian menu title.
   * Kill the kdesnake package and move its files to ktron, since
     kdesnake is not a separate game but a special mode of ktron.
