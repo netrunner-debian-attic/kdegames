@@ -459,6 +459,7 @@ Description: puzzle game for KDE4
 Package: palapeli-data
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: palapeli (<< 4:4.4.0)
 Description: puzzle game for KDE4 - data files
  Data files (puzzles) for the palapeli puzzle game.
  .
