@@ -1,4 +1,4 @@
-kdegames (4:4.4.1-0) UNRELEASED; urgency=low
+kdegames (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - makes KSudoku able to solve puzzles again. (Closes: #506339)
@@ -24,7 +24,7 @@ kdegames (4:4.4.1-0) UNRELEASED; urgency=low
   * Add palapeli, kigo, granatier.
   * Update ktuberling.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:31 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Feb 2010 17:52:12 +0200
 
 kdegames (4:4.3.4-1) unstable; urgency=low
 
