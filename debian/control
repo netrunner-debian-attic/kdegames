@@ -483,6 +483,7 @@ Description: Bomberman clone
 Package: kigo
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: gnugo
 Description: Open-source implementation of the popular Go game
  Kigo is an open-source implementation of the popular Go game. Go is a
  strategic board game for two players. It is also known as igo (Japanese),
