@@ -2,6 +2,7 @@ kdegames (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - makes KSudoku able to solve puzzles again. (Closes: #506339)
+    - Bovo now installs its icons in the hicolor theme. (Closes: #562730)
 
   [ Modestas Vainius ]
   * Add myself as uploader.
