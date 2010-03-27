@@ -1,4 +1,4 @@
-kdegames (4:4.4.2-0rc1) UNRELEASED; urgency=low
+kdegames (4:4.4.2-0rc2) UNRELEASED; urgency=low
 
   * New upstream release:
     - makes KSudoku able to solve puzzles again. (Closes: #506339)

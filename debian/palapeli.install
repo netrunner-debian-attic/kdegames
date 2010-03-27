@@ -9,9 +9,9 @@ usr/lib/libpala.so.0
 usr/lib/libpala.so.0.1.0
 usr/share/applications/kde4/palapeli.desktop
 usr/share/kde4/config/palapeli-collectionrc
+usr/share/kde4/services/ServiceMenus/palapeli_servicemenu.desktop
 usr/share/kde4/services/palapeli_jigsawslicer.desktop
 usr/share/kde4/services/palapeli_rectslicer.desktop
 usr/share/kde4/services/palathumbcreator.desktop
-usr/share/kde4/services/ServiceMenus/palapeli_servicemenu.desktop
 usr/share/kde4/servicetypes/libpala-slicerplugin.desktop
 usr/share/mime/packages/palapeli-mimetypes.xml

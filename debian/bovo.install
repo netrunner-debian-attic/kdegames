@@ -3,6 +3,13 @@ usr/share/applications/kde4/bovo.desktop
 usr/share/doc/kde4/HTML/en/bovo/common
 usr/share/doc/kde4/HTML/en/bovo/index.cache.bz2
 usr/share/doc/kde4/HTML/en/bovo/index.docbook
+usr/share/icons/hicolor/128x128/apps/bovo.png
+usr/share/icons/hicolor/16x16/apps/bovo.png
+usr/share/icons/hicolor/22x22/apps/bovo.png
+usr/share/icons/hicolor/32x32/apps/bovo.png
+usr/share/icons/hicolor/48x48/apps/bovo.png
+usr/share/icons/hicolor/64x64/apps/bovo.png
+usr/share/icons/hicolor/scalable/apps/bovo.svgz
 usr/share/kde4/apps/bovo/bovoui.rc
 usr/share/kde4/apps/bovo/themes/gomoku/theme.svg
 usr/share/kde4/apps/bovo/themes/gomoku/themerc
