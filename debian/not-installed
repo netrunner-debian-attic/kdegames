@@ -1,2 +1,6 @@
-./usr/share/apps/cmake/modules/GGZ.cmake
 ./usr/lib/libkolflib.so
+./usr/lib/libpala.so
+./usr/lib/libpala/libpala-config.cmake
+./usr/lib/libpala/pala-targets-debian.cmake
+./usr/lib/libpala/pala-targets.cmake
+./usr/share/apps/cmake/modules/GGZ.cmake
