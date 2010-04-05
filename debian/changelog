@@ -11,6 +11,8 @@ kdegames (4:4.4.2-0rc2) UNRELEASED; urgency=low
   * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump pkg-kde-tools build dependency to 0.6.4.
+  * Add symbol file for libkdegames5: based on 4.3.4, updated for 4.4.2 (i386,
+    amd64).
 
   [ George Kiagiadakis ]
   * Add myself as uploader.
