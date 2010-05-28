@@ -1,9 +1,12 @@
-kdegames (4:4.4.3-3) UNRELEASED; urgency=low
+kdegames (4:4.4.4-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Do not fail if there are missing symbols. libkdegames5 is not important
     enough to warrant such a FTBFS.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 15 May 2010 12:09:31 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:17 +0300
 
 kdegames (4:4.4.3-2) unstable; urgency=low
 
