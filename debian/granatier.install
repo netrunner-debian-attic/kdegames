@@ -2,7 +2,7 @@
 ../icons/granatier.xpm /usr/share/pixmaps
 usr/games/granatier
 usr/share/applications/kde4/granatier.desktop
-usr/share/doc/kde4/HTML/en/granatier/*
+usr/share/doc/kde/HTML/en/granatier/*
 usr/share/icons/hicolor/128x128/apps/granatier.png
 usr/share/icons/hicolor/16x16/apps/granatier.png
 usr/share/icons/hicolor/22x22/apps/granatier.png
