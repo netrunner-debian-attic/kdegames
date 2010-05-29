@@ -2,7 +2,7 @@
 ../icons/katomic.xpm /usr/share/pixmaps
 usr/games/katomic
 usr/share/applications/kde4/katomic.desktop
-usr/share/doc/kde4/HTML/en/katomic/*
+usr/share/doc/kde/HTML/en/katomic/*
 usr/share/icons/hicolor/128x128/apps/katomic.png
 usr/share/icons/hicolor/16x16/apps/katomic.png
 usr/share/icons/hicolor/22x22/apps/katomic.png

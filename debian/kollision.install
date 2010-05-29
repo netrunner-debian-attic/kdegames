@@ -1,8 +1,8 @@
 usr/games/kollision
 usr/share/applications/kde4/kollision.desktop
-usr/share/doc/kde4/HTML/en/kollision/common
-usr/share/doc/kde4/HTML/en/kollision/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kollision/index.docbook
+usr/share/doc/kde/HTML/en/kollision/common
+usr/share/doc/kde/HTML/en/kollision/index.cache.bz2
+usr/share/doc/kde/HTML/en/kollision/index.docbook
 usr/share/icons/hicolor/128x128/apps/kollision.png
 usr/share/icons/hicolor/16x16/apps/kollision.png
 usr/share/icons/hicolor/22x22/apps/kollision.png

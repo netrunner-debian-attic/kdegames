@@ -2,7 +2,7 @@
 ../icons/kreversi.xpm /usr/share/pixmaps
 usr/games/kreversi
 usr/share/applications/kde4/kreversi.desktop
-usr/share/doc/kde4/HTML/en/kreversi/*
+usr/share/doc/kde/HTML/en/kreversi/*
 usr/share/icons/hicolor/128x128/apps/kreversi.png
 usr/share/icons/hicolor/16x16/apps/kreversi.png
 usr/share/icons/hicolor/22x22/apps/kreversi.png

@@ -3,9 +3,9 @@
 usr/games/kfourinline
 usr/games/kfourinlineproc
 usr/share/applications/kde4/kfourinline.desktop
-usr/share/doc/kde4/HTML/en/kfourinline/common
-usr/share/doc/kde4/HTML/en/kfourinline/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kfourinline/index.docbook
+usr/share/doc/kde/HTML/en/kfourinline/common
+usr/share/doc/kde/HTML/en/kfourinline/index.cache.bz2
+usr/share/doc/kde/HTML/en/kfourinline/index.docbook
 usr/share/icons/hicolor/128x128/apps/kfourinline.png
 usr/share/icons/hicolor/16x16/apps/kfourinline.png
 usr/share/icons/hicolor/22x22/apps/kfourinline.png

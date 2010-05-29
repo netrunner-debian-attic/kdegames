@@ -2,7 +2,7 @@
 ../icons/ktuberling.xpm /usr/share/pixmaps
 usr/games/ktuberling
 usr/share/applications/kde4/ktuberling.desktop
-usr/share/doc/kde4/HTML/en/ktuberling/*
+usr/share/doc/kde/HTML/en/ktuberling/*
 usr/share/icons/hicolor/128x128/apps/ktuberling.png
 usr/share/icons/hicolor/128x128/mimetypes/application-x-tuberling.png
 usr/share/icons/hicolor/16x16/apps/ktuberling.png

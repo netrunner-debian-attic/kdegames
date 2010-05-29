@@ -2,7 +2,7 @@
 ../icons/kigo.xpm /usr/share/pixmaps
 usr/games/kigo
 usr/share/applications/kde4/kigo.desktop
-usr/share/doc/kde4/HTML/en/kigo/*
+usr/share/doc/kde/HTML/en/kigo/*
 usr/share/icons/hicolor/128x128/apps/kigo.png
 usr/share/icons/hicolor/16x16/apps/kigo.png
 usr/share/icons/hicolor/22x22/apps/kigo.png

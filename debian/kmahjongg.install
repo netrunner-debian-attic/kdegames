@@ -2,7 +2,7 @@
 ../icons/kmahjongg.xpm /usr/share/pixmaps
 usr/games/kmahjongg
 usr/share/applications/kde4/kmahjongg.desktop
-usr/share/doc/kde4/HTML/en/kmahjongg/*
+usr/share/doc/kde/HTML/en/kmahjongg/*
 usr/share/icons/hicolor/128x128/apps/kmahjongg.png
 usr/share/icons/hicolor/16x16/apps/kmahjongg.png
 usr/share/icons/hicolor/22x22/apps/kmahjongg.png

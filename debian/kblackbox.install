@@ -2,7 +2,7 @@
 ../icons/kblackbox.xpm /usr/share/pixmaps
 usr/games/kblackbox
 usr/share/applications/kde4/kblackbox.desktop
-usr/share/doc/kde4/HTML/en/kblackbox/*
+usr/share/doc/kde/HTML/en/kblackbox/*
 usr/share/icons/hicolor/128x128/apps/kblackbox.png
 usr/share/icons/hicolor/16x16/apps/kblackbox.png
 usr/share/icons/hicolor/22x22/apps/kblackbox.png

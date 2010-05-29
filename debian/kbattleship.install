@@ -2,7 +2,7 @@
 ../icons/kbattleship.xpm /usr/share/pixmaps
 usr/games/kbattleship
 usr/share/applications/kde4/kbattleship.desktop
-usr/share/doc/kde4/HTML/en/kbattleship/*
+usr/share/doc/kde/HTML/en/kbattleship/*
 usr/share/icons/hicolor/128x128/apps/kbattleship.png
 usr/share/icons/hicolor/16x16/apps/kbattleship.png
 usr/share/icons/hicolor/22x22/apps/kbattleship.png

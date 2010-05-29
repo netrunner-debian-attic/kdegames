@@ -2,7 +2,7 @@
 ../icons/kmines.xpm /usr/share/pixmaps
 usr/games/kmines
 usr/share/applications/kde4/kmines.desktop
-usr/share/doc/kde4/HTML/en/kmines/*
+usr/share/doc/kde/HTML/en/kmines/*
 usr/share/icons/hicolor/128x128/apps/kmines.png
 usr/share/icons/hicolor/16x16/apps/kmines.png
 usr/share/icons/hicolor/22x22/apps/kmines.png

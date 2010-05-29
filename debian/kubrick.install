@@ -1,8 +1,8 @@
 usr/games/kubrick
 usr/share/applications/kde4/kubrick.desktop
-usr/share/doc/kde4/HTML/en/kubrick/common
-usr/share/doc/kde4/HTML/en/kubrick/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kubrick/index.docbook
+usr/share/doc/kde/HTML/en/kubrick/common
+usr/share/doc/kde/HTML/en/kubrick/index.cache.bz2
+usr/share/doc/kde/HTML/en/kubrick/index.docbook
 usr/share/icons/hicolor/128x128/apps/kubrick.png
 usr/share/icons/hicolor/16x16/apps/kubrick.png
 usr/share/icons/hicolor/22x22/apps/kubrick.png

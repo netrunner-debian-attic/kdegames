@@ -2,7 +2,7 @@
 ../icons/klines.xpm /usr/share/pixmaps
 usr/games/klines
 usr/share/applications/kde4/klines.desktop
-usr/share/doc/kde4/HTML/en/klines/*
+usr/share/doc/kde/HTML/en/klines/*
 usr/share/icons/hicolor/128x128/apps/klines.png
 usr/share/icons/hicolor/16x16/apps/klines.png
 usr/share/icons/hicolor/22x22/apps/klines.png

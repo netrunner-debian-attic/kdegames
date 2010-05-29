@@ -2,7 +2,7 @@
 ../icons/kshisen.xpm /usr/share/pixmaps
 usr/games/kshisen
 usr/share/applications/kde4/kshisen.desktop
-usr/share/doc/kde4/HTML/en/kshisen/*
+usr/share/doc/kde/HTML/en/kshisen/*
 usr/share/icons/hicolor/128x128/apps/kshisen.png
 usr/share/icons/hicolor/16x16/apps/kshisen.png
 usr/share/icons/hicolor/22x22/apps/kshisen.png
