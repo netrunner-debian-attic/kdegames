@@ -1,3 +1,10 @@
+kdegames (4:4.4.4-2) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * Remove all the leftovers of kbackgammon and ksirtet.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jun 2010 13:05:37 +0200
+
 kdegames (4:4.4.4-1) unstable; urgency=low
 
   * New upstream release.
