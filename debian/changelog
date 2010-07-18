@@ -10,6 +10,7 @@ kdegames (4:4.4.5-1) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Update descriptions
+    - add a s to contain. Closes: 587594
   * Change email address
 
  -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 10:07:47 +0200
