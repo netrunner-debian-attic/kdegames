@@ -190,7 +190,7 @@ kdegames (4:4.2.0-1) experimental; urgency=low
   * Add new games: bomber, kapman and killbots.
   * Update kdegame metapackage with the new games.
   * Bump KDE build depends to 4:4.2.0 and add new build depends on:
-    - libqca2-dev required by ksirk 
+    - libqca2-dev required by ksirk
     - zlib1g-dev required by the embedded copy of iris shipped in ksirk.
   * Update build depends on phonon to 4:4.3.0.
   * Bump Standards-Version to 3.8.0 and add README.source.
@@ -246,7 +246,7 @@ kdegames (4:4.1.1-1) experimental; urgency=low
 
 kdegames (4:4.1.0-1) experimental; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Update build depends versions.
   * Remove 97_fix_target_link_libraries.
 
@@ -384,7 +384,7 @@ kdegames (4:3.98.0~svn755919-1) experimental; urgency=low
 
   * New svn snapshot release to revision 755919.
   * Update Standards-Version to 3.7.3.
-  * Add libphonon-dev build dependency. 
+  * Add libphonon-dev build dependency.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 02 Jan 2008 21:48:03 +0100
 
@@ -464,7 +464,7 @@ kdegames (4:3.5.6-1) experimental; urgency=low
     key and copy over high scores from the old config key if it exists and the
     new one doesn't. Closes: #396563.
   * Make kdegames-dbg depend on kdelibs-dbg to get useful backtraces when
-    debugging. 
+    debugging.
 
   [Ana Beatriz Guerrero Lopez]
   * Add myself to Uploaders.
@@ -794,7 +794,7 @@ kdegames (4:3.0.3-2) experimental; urgency=low
 
 kdegames (4:3.0.3-1) experimental; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Daniel Stone <dstone@kde.org>  Thu, 15 Aug 2002 23:31:30 +1000
 
@@ -1088,7 +1088,7 @@ kdegames (4:2.0-20000925-0) unstable; urgency=low
 
 kdegames (4:2.0-20000920-0) unstable; urgency=low
 
-  * More upstream fixes 
+  * More upstream fixes
 
  -- Ivan E. Moore II <rkrusty@debian.org>  Wed, 20 Sep 2000 23:00:00 -0700
 
