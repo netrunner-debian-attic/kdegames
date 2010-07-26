@@ -407,45 +407,30 @@ kdegames (4:3.97.0-1) experimental; urgency=low
 
 kdegames (4:3.96.0-1) experimental; urgency=low
 
-    * New upstream release.
-    * Bump build dependencies.
-
- -- Armin Berres <armin+debian@space-based.de>  Thu, 15 Nov 2007 15:01:15 +0100
-
-kdegames (4:3.95.2-1) experimental; urgency=low
-
   * New upstream release.
-
-  +++ Changes by Armin Berres:
-
-  * Bump versions of build dependencies.
+  * Bump build dependencies.
   * Update installed files.
   * Remove kbackgammon.
 
- -- Armin Berres <armin+debian@space-based.de>  Fri, 09 Nov 2007 21:25:47 +0000
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 15 Nov 2007 15:01:15 +0100
 
 kdegames (4:3.95.0-1) experimental; urgency=low
 
   * New upstream release: KDE4 beta4
+
+  +++ Changes by Daniel Schepler:
+
+  * Bring previous debian packaging over, update for KDE4.
+
+  +++ Changes by Armin Berres:
+
   * Update *.install files.
   * Update *.links files.
   * Update copyright.
   * Add kjumpingcube and ksudoku and remove ksirtet.
   * Replace ${Source-Version} with appropriate replacements.
 
- -- Armin Berres <armin+debian@space-based.de>  Sun, 28 Oct 2007 01:21:10 +0200
-
-kdegames (4:3.90.1-2) unstable; urgency=low
-
-  * Bring previous debian packaging over, update for KDE4.
-
- -- Daniel Schepler <schepler@debian.org>  Wed, 13 Jun 2007 01:01:31 -0400
-
-kdegames (4:3.90.1-1) unstable; urgency=low
-
-  * Initial release for KDE4.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 22 May 2007 15:16:53 +0200
+ -- Debian Qt/KDE Maintainers <armin+debian@space-based.de>  Sun, 28 Oct 2007 01:21:10 +0200
 
 kdegames (4:3.5.7-2) unstable; urgency=low
 
