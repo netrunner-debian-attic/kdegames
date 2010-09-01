@@ -1,6 +1,7 @@
 ../icons/kpat-16.xpm /usr/share/pixmaps
 ../icons/kpat.xpm /usr/share/pixmaps
 usr/games/kpat
+usr/lib/libkcardgame.so
 usr/share/applications/kde4/kpat.desktop
 usr/share/doc/kde/HTML/en/kpat/*
 usr/share/icons/hicolor/128x128/apps/kpat.png
