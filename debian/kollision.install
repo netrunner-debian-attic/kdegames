@@ -16,8 +16,8 @@ usr/share/icons/oxygen/32x32/apps/kollision.png
 usr/share/icons/oxygen/48x48/apps/kollision.png
 usr/share/icons/oxygen/64x64/apps/kollision.png
 usr/share/icons/oxygen/scalable/apps/kollision.svgz
-usr/share/kde4/apps/kconf_update/kpat_update_cardwidth.upd
 usr/share/kde4/apps/kollision/kollisionui.rc
+usr/share/kde4/apps/kollision/pictures/theme.desktop
 usr/share/kde4/apps/kollision/pictures/theme.svgz
 usr/share/kde4/apps/kollision/sounds/ball_leaving.ogg
 usr/share/kde4/apps/kollision/sounds/hit_wall.ogg

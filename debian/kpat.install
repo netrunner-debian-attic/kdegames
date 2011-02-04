@@ -7,7 +7,12 @@ usr/share/doc/kde/HTML/en/kpat/*
 usr/share/icons/hicolor/128x128/apps/kpat.png
 usr/share/icons/hicolor/16x16/apps/kpat.png
 usr/share/icons/hicolor/22x22/apps/kpat.png
+usr/share/icons/hicolor/24x24/apps/kpat.png
+usr/share/icons/hicolor/256x256/apps/kpat.png
 usr/share/icons/hicolor/32x32/apps/kpat.png
 usr/share/icons/hicolor/48x48/apps/kpat.png
 usr/share/icons/hicolor/64x64/apps/kpat.png
 usr/share/kde4/apps/kpat/*
+usr/share/kde4/config.kcfg/kpat.kcfg
+usr/share/kde4/config/kcardtheme.knsrc
+usr/share/kde4/config/kpat.knsrc

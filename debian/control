@@ -28,7 +28,7 @@ Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}),
  knetwalk (>= ${source:Version}), kolf (>= ${source:Version}), 
  kollision (>= ${source:Version}), konquest (>= ${source:Version}),
  kpat (>= ${source:Version}), kreversi (>= ${source:Version}),
- ksame (>= ${source:Version}), kshisen (>= ${source:Version}),
+ klickety (>= ${source:Version}), kshisen (>= ${source:Version}),
  kspaceduel (>= ${source:Version}), ksudoku (>= ${source:Version}),
  ksquares (>= ${source:Version}), ktuberling (>= ${source:Version}),
  kfourinline (>= ${source:Version}), lskat (>= ${source:Version}),
@@ -299,11 +299,11 @@ Description: reversi board game
  .
  This package is part of the KDE games module.
 
-Package: ksame
+Package: klickety
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: SameGame puzzle game 
- KSame is a puzzle game where the player removes groups of colored marbles to
+ Klickety is a puzzle game where the player removes groups of colored marbles to
  clear the board.
  .
  This package is part of the KDE games module.
