@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.0 amd64
 libkdegames.so.5 libkdegames5 #MINVER#
  _ZN10KCardCache12setBackThemeERK7QString@Base 4:4.3.4
  _ZN10KCardCache13setFrontThemeERK7QString@Base 4:4.3.4
@@ -284,6 +284,7 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZN12KScoreDialog19KScoreDialogPrivate11setupDialogEv@Base 4:4.3.4
  _ZN12KScoreDialog19KScoreDialogPrivate23findTranslatedGroupNameERK10QByteArray@Base 4:4.3.4
  _ZN12KScoreDialog21setConfigGroupWeightsERK4QMapIi10QByteArrayE@Base 4:4.3.4
+ _ZN12KScoreDialog21setHiddenConfigGroupsERK5QListI10QByteArrayE@Base 4:4.6.0
  _ZN12KScoreDialog27addLocalizedConfigGroupNameERK5QPairI10QByteArray7QStringE@Base 4:4.3.4
  _ZN12KScoreDialog28addLocalizedConfigGroupNamesERK4QMapI10QByteArray7QStringE@Base 4:4.3.4
  _ZN12KScoreDialog4execEv@Base 4:4.3.4
@@ -395,6 +396,20 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZN13KGameProgressD0Ev@Base 4:4.3.4
  _ZN13KGameProgressD1Ev@Base 4:4.3.4
  _ZN13KGameProgressD2Ev@Base 4:4.3.4
+ _ZN13KGameRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.0
+ _ZN13KGameRenderer11qt_metacastEPKc@Base 4:4.6.0
+ _ZN13KGameRenderer12themeChangedERK7QString@Base 4:4.6.0
+ _ZN13KGameRenderer14setFrameSuffixERK7QString@Base 4:4.6.0
+ _ZN13KGameRenderer16staticMetaObjectE@Base 4:4.6.0
+ _ZN13KGameRenderer17setFrameBaseIndexEi@Base 4:4.6.0
+ _ZN13KGameRenderer18setStrategyEnabledENS_8StrategyEb@Base 4:4.6.0
+ _ZN13KGameRenderer21setDefaultPrimaryViewEP13QGraphicsView@Base 4:4.6.0
+ _ZN13KGameRenderer8setThemeERK7QString@Base 4:4.6.0
+ _ZN13KGameRendererC1ERK7QStringj@Base 4:4.6.0
+ _ZN13KGameRendererC2ERK7QStringj@Base 4:4.6.0
+ _ZN13KGameRendererD0Ev@Base 4:4.6.0
+ _ZN13KGameRendererD1Ev@Base 4:4.6.0
+ _ZN13KGameRendererD2Ev@Base 4:4.6.0
  _ZN13KGameSequence10nextPlayerEP7KPlayerb@Base 4:4.3.4
  _ZN13KGameSequence11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13KGameSequence11qt_metacastEPKc@Base 4:4.3.4
@@ -817,6 +832,12 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZN17KGamePropertyBaseD0Ev@Base 4:4.3.4
  _ZN17KGamePropertyBaseD1Ev@Base 4:4.3.4
  _ZN17KGamePropertyBaseD2Ev@Base 4:4.3.4
+ _ZN17KGameRenderedItem13receivePixmapERK7QPixmap@Base 4:4.6.0
+ _ZN17KGameRenderedItemC1EP13KGameRendererRK7QStringP13QGraphicsItem@Base 4:4.6.0
+ _ZN17KGameRenderedItemC2EP13KGameRendererRK7QStringP13QGraphicsItem@Base 4:4.6.0
+ _ZN17KGameRenderedItemD0Ev@Base 4:4.6.0
+ _ZN17KGameRenderedItemD1Ev@Base 4:4.6.0
+ _ZN17KGameRenderedItemD2Ev@Base 4:4.6.0
  _ZN18KGameCanvasAdapter10invalidateERK5QRectb@Base 4:4.3.4
  _ZN18KGameCanvasAdapter10invalidateERK7QRegionb@Base 4:4.3.4
  _ZN18KGameCanvasAdapter19ensurePendingUpdateEv@Base 4:4.3.4
@@ -851,6 +872,15 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZN19KGameCanvasAbstractD0Ev@Base 4:4.3.4
  _ZN19KGameCanvasAbstractD1Ev@Base 4:4.3.4
  _ZN19KGameCanvasAbstractD2Ev@Base 4:4.3.4
+ _ZN19KGameRendererClient12setSpriteKeyERK7QString@Base 4:4.6.0
+ _ZN19KGameRendererClient13setRenderSizeERK5QSize@Base 4:4.6.0
+ _ZN19KGameRendererClient15setCustomColorsERK5QHashI6QColorS1_E@Base 4:4.6.0
+ _ZN19KGameRendererClient8setFrameEi@Base 4:4.6.0
+ _ZN19KGameRendererClientC1EP13KGameRendererRK7QString@Base 4:4.6.0
+ _ZN19KGameRendererClientC2EP13KGameRendererRK7QString@Base 4:4.6.0
+ _ZN19KGameRendererClientD0Ev@Base 4:4.6.0
+ _ZN19KGameRendererClientD1Ev@Base 4:4.6.0
+ _ZN19KGameRendererClientD2Ev@Base 4:4.6.0
  _ZN19KStandardGameAction10highscoresEPK7QObjectPKcPS0_@Base 4:4.3.4
  _ZN19KStandardGameAction10loadRecentEPK7QObjectPKcPS0_@Base 4:4.3.4
  _ZN19KStandardGameAction10statisticsEPK7QObjectPKcPS0_@Base 4:4.3.4
@@ -941,6 +971,20 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZN22KGameCanvasTiledPixmapD0Ev@Base 4:4.3.4
  _ZN22KGameCanvasTiledPixmapD1Ev@Base 4:4.3.4
  _ZN22KGameCanvasTiledPixmapD2Ev@Base 4:4.3.4
+ _ZN23KGameRenderedObjectItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem11qt_metacastEPKc@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem12setFixedSizeERK6QSizeF@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem13receivePixmapERK7QPixmap@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem14setPrimaryViewEP13QGraphicsView@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem16staticMetaObjectE@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem9setOffsetERK7QPointF@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItem9setOffsetEdd@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItemC1EP13KGameRendererRK7QStringP13QGraphicsItem@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItemC2EP13KGameRendererRK7QStringP13QGraphicsItem@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItemD0Ev@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItemD1Ev@Base 4:4.6.0
+ _ZN23KGameRenderedObjectItemD2Ev@Base 4:4.6.0
  _ZN24KGameDialogNetworkConfig11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN24KGameDialogNetworkConfig11qt_metacastEPKc@Base 4:4.3.4
  _ZN24KGameDialogNetworkConfig12setConnectedEbb@Base 4:4.3.4
@@ -958,6 +1002,9 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZN24KGameDialogNetworkConfigD0Ev@Base 4:4.3.4
  _ZN24KGameDialogNetworkConfigD1Ev@Base 4:4.3.4
  _ZN24KGameDialogNetworkConfigD2Ev@Base 4:4.3.4
+ _ZN25KGameCanvasRenderedPixmap13receivePixmapERK7QPixmap@Base 4:4.6.0
+ _ZN25KGameCanvasRenderedPixmapC1EP13KGameRendererRK7QStringP19KGameCanvasAbstract@Base 4:4.6.0
+ _ZN25KGameCanvasRenderedPixmapC2EP13KGameRendererRK7QStringP19KGameCanvasAbstract@Base 4:4.6.0
  _ZN5KChat11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KChat11qt_metacastEPKc@Base 4:4.3.4
  _ZN5KChat12removePlayerERK7QString@Base 4:4.3.4
@@ -1273,6 +1320,17 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZNK13KGameProgress8barStyleEv@Base 4:4.3.4
  _ZNK13KGameProgress8sizeHintEv@Base 4:4.3.4
  _ZNK13KGameProgress9barPixmapEv@Base 4:4.3.4
+ _ZNK13KGameRenderer10frameCountERK7QString@Base 4:4.6.0
+ _ZNK13KGameRenderer10metaObjectEv@Base 4:4.6.0
+ _ZNK13KGameRenderer10strategiesEv@Base 4:4.6.0
+ _ZNK13KGameRenderer11frameSuffixEv@Base 4:4.6.0
+ _ZNK13KGameRenderer12spriteExistsERK7QString@Base 4:4.6.0
+ _ZNK13KGameRenderer12spritePixmapERK7QStringRK5QSizeiRK5QHashI6QColorS7_E@Base 4:4.6.0
+ _ZNK13KGameRenderer14boundsOnSpriteERK7QStringi@Base 4:4.6.0
+ _ZNK13KGameRenderer14frameBaseIndexEv@Base 4:4.6.0
+ _ZNK13KGameRenderer18defaultPrimaryViewEv@Base 4:4.6.0
+ _ZNK13KGameRenderer5themeEv@Base 4:4.6.0
+ _ZNK13KGameRenderer9gameThemeEv@Base 4:4.6.0
  _ZNK13KGameSequence10metaObjectEv@Base 4:4.3.4
  _ZNK13KGameSequence13currentPlayerEv@Base 4:4.3.4
  _ZNK13KGameSequence4gameEv@Base 4:4.3.4
@@ -1348,6 +1406,12 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZNK18KGameThemeSelector10metaObjectEv@Base 4:4.3.4
  _ZNK19KGameCanvasAbstract6itemAtERK6QPoint@Base 4:4.3.4
  _ZNK19KGameCanvasAbstract7itemsAtERK6QPoint@Base 4:4.3.4
+ _ZNK19KGameRendererClient10frameCountEv@Base 4:4.6.0
+ _ZNK19KGameRendererClient10renderSizeEv@Base 4:4.6.0
+ _ZNK19KGameRendererClient12customColorsEv@Base 4:4.6.0
+ _ZNK19KGameRendererClient5frameEv@Base 4:4.6.0
+ _ZNK19KGameRendererClient8rendererEv@Base 4:4.6.0
+ _ZNK19KGameRendererClient9spriteKeyEv@Base 4:4.6.0
  _ZNK20KGameCanvasRectangle4rectEv@Base 4:4.3.4
  _ZNK20KGamePropertyHandler10metaObjectEv@Base 4:4.3.4
  _ZNK20KGamePropertyHandler12propertyNameEi@Base 4:4.3.4
@@ -1359,6 +1423,15 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZNK21KChatBaseItemDelegate8sizeHintERK20QStyleOptionViewItemRK11QModelIndex@Base 4:4.3.4
  _ZNK21KChatBaseItemDelegate8sizeHintERK20QStyleOptionViewItemRK11QModelIndexRK7QStringS8_@Base 4:4.3.4
  _ZNK22KGameCanvasTiledPixmap4rectEv@Base 4:4.3.4
+ _ZNK23KGameRenderedObjectItem10metaObjectEv@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem10opaqueAreaEv@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem11primaryViewEv@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem12boundingRectEv@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem12isObscuredByEPK13QGraphicsItem@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem5shapeEv@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem6offsetEv@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem8containsERK7QPointF@Base 4:4.6.0
+ _ZNK23KGameRenderedObjectItem9fixedSizeEv@Base 4:4.6.0
  _ZNK24KGameDialogNetworkConfig10metaObjectEv@Base 4:4.3.4
  _ZNK5KChat10metaObjectEv@Base 4:4.3.4
  _ZNK5KChat15autoAddMessagesEv@Base 4:4.3.4
@@ -1444,6 +1517,7 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZTI12KScoreDialog@Base 4:4.3.4
  _ZTI13KGameLCDClock@Base 4:4.3.4
  _ZTI13KGameProgress@Base 4:4.3.4
+ _ZTI13KGameRenderer@Base 4:4.6.0
  _ZTI13KGameSequence@Base 4:4.3.4
  _ZTI14KChatBaseModel@Base 4:4.3.4
  _ZTI14KGamePopupItem@Base 4:4.3.4
@@ -1464,15 +1538,19 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZTI17KGameCanvasWidget@Base 4:4.3.4
  _ZTI17KGameDialogConfig@Base 4:4.3.4
  _ZTI17KGamePropertyBase@Base 4:4.3.4
+ _ZTI17KGameRenderedItem@Base 4:4.6.0
  _ZTI18KGameCanvasAdapter@Base 4:4.3.4
  _ZTI18KGameCanvasPicture@Base 4:4.3.4
  _ZTI18KGameThemeSelector@Base 4:4.3.4
  _ZTI19KGameCanvasAbstract@Base 4:4.3.4
+ _ZTI19KGameRendererClient@Base 4:4.6.0
  _ZTI20KGameCanvasRectangle@Base 4:4.3.4
  _ZTI20KGamePropertyHandler@Base 4:4.3.4
  _ZTI21KChatBaseItemDelegate@Base 4:4.3.4
  _ZTI22KGameCanvasTiledPixmap@Base 4:4.3.4
+ _ZTI23KGameRenderedObjectItem@Base 4:4.6.0
  _ZTI24KGameDialogNetworkConfig@Base 4:4.3.4
+ _ZTI25KGameCanvasRenderedPixmap@Base 4:4.6.0
  _ZTI5KChat@Base 4:4.3.4
  _ZTI5KGame@Base 4:4.3.4
  _ZTI7KGameIO@Base 4:4.3.4
@@ -1499,6 +1577,7 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZTS12KScoreDialog@Base 4:4.3.4
  _ZTS13KGameLCDClock@Base 4:4.3.4
  _ZTS13KGameProgress@Base 4:4.3.4
+ _ZTS13KGameRenderer@Base 4:4.6.0
  _ZTS13KGameSequence@Base 4:4.3.4
  _ZTS14KChatBaseModel@Base 4:4.3.4
  _ZTS14KGamePopupItem@Base 4:4.3.4
@@ -1519,15 +1598,19 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZTS17KGameCanvasWidget@Base 4:4.3.4
  _ZTS17KGameDialogConfig@Base 4:4.3.4
  _ZTS17KGamePropertyBase@Base 4:4.3.4
+ _ZTS17KGameRenderedItem@Base 4:4.6.0
  _ZTS18KGameCanvasAdapter@Base 4:4.3.4
  _ZTS18KGameCanvasPicture@Base 4:4.3.4
  _ZTS18KGameThemeSelector@Base 4:4.3.4
  _ZTS19KGameCanvasAbstract@Base 4:4.3.4
+ _ZTS19KGameRendererClient@Base 4:4.6.0
  _ZTS20KGameCanvasRectangle@Base 4:4.3.4
  _ZTS20KGamePropertyHandler@Base 4:4.3.4
  _ZTS21KChatBaseItemDelegate@Base 4:4.3.4
  _ZTS22KGameCanvasTiledPixmap@Base 4:4.3.4
+ _ZTS23KGameRenderedObjectItem@Base 4:4.6.0
  _ZTS24KGameDialogNetworkConfig@Base 4:4.3.4
+ _ZTS25KGameCanvasRenderedPixmap@Base 4:4.6.0
  _ZTS5KChat@Base 4:4.3.4
  _ZTS5KGame@Base 4:4.3.4
  _ZTS7KGameIO@Base 4:4.3.4
@@ -1554,6 +1637,7 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZTV12KScoreDialog@Base 4:4.3.4
  _ZTV13KGameLCDClock@Base 4:4.3.4
  _ZTV13KGameProgress@Base 4:4.3.4
+ _ZTV13KGameRenderer@Base 4:4.6.0
  _ZTV13KGameSequence@Base 4:4.3.4
  _ZTV14KChatBaseModel@Base 4:4.3.4
  _ZTV14KGamePopupItem@Base 4:4.3.4
@@ -1574,15 +1658,19 @@ libkdegames.so.5 libkdegames5 #MINVER#
  _ZTV17KGameCanvasWidget@Base 4:4.3.4
  _ZTV17KGameDialogConfig@Base 4:4.3.4
  _ZTV17KGamePropertyBase@Base 4:4.3.4
+ _ZTV17KGameRenderedItem@Base 4:4.6.0
  _ZTV18KGameCanvasAdapter@Base 4:4.3.4
  _ZTV18KGameCanvasPicture@Base 4:4.3.4
  _ZTV18KGameThemeSelector@Base 4:4.3.4
  _ZTV19KGameCanvasAbstract@Base 4:4.3.4
+ _ZTV19KGameRendererClient@Base 4:4.6.0
  _ZTV20KGameCanvasRectangle@Base 4:4.3.4
  _ZTV20KGamePropertyHandler@Base 4:4.3.4
  _ZTV21KChatBaseItemDelegate@Base 4:4.3.4
  _ZTV22KGameCanvasTiledPixmap@Base 4:4.3.4
+ _ZTV23KGameRenderedObjectItem@Base 4:4.6.0
  _ZTV24KGameDialogNetworkConfig@Base 4:4.3.4
+ _ZTV25KGameCanvasRenderedPixmap@Base 4:4.6.0
  _ZTV5KChat@Base 4:4.3.4
  _ZTV5KGame@Base 4:4.3.4
  _ZTV7KGameIO@Base 4:4.3.4
@@ -1603,6 +1691,7 @@ libkdegames.so.5 libkdegames5 #MINVER#
  (c++)"non-virtual thunk to KGameCanvasGroup::invalidate(QRegion const&, bool)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KGameCanvasGroup::topLevelCanvas()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KGameCanvasGroup::~KGameCanvasGroup()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KGameCanvasRenderedPixmap::receivePixmap(QPixmap const&)@Base" 4:4.6.0
  (c++)"non-virtual thunk to KGameCanvasWidget::canvasPosition() const@Base" 4:4.3.4
  (c++)"non-virtual thunk to KGameCanvasWidget::ensureAnimating()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KGameCanvasWidget::ensurePendingUpdate()@Base" 4:4.3.4
@@ -1626,6 +1715,16 @@ libkdegames.so.5 libkdegames5 #MINVER#
  (c++)"non-virtual thunk to KGamePopupItem::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KGamePopupItem::~KGamePopupItem()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KGameProgress::~KGameProgress()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KGameRenderedItem::receivePixmap(QPixmap const&)@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedItem::~KGameRenderedItem()@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::boundingRect() const@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::contains(QPointF const&) const@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::isObscuredBy(QGraphicsItem const*) const@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::opaqueArea() const@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::receivePixmap(QPixmap const&)@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::shape() const@Base" 4:4.6.0
+ (c++)"non-virtual thunk to KGameRenderedObjectItem::~KGameRenderedObjectItem()@Base" 4:4.6.0
  (c++)"non-virtual thunk to KGameThemeSelector::~KGameThemeSelector()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KScoreDialog::~KScoreDialog()@Base" 4:4.3.4
 libkggzgames.so.4 libkdegames5 #MINVER#
