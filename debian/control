@@ -450,6 +450,7 @@ Description: Tron-like snakerace game
 Package: palapeli
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, palapeli-data (>= ${source:Version})
+Recommends: qhull-bin
 Description: jigsaw puzzle game
  Palapeli is a jigsaw puzzle game. Unlike other games in that genre,
  you are not limited to aligning pieces on imaginary grids. The

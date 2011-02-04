@@ -12,6 +12,10 @@ kdegames (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Update symbols file.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
 
+  [ Pino Toscano ]
+  * Make palapeli recommend qhull-bin as it contains `qvoronoi', optionally
+    used to generate irregular grid puzzles.
+
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:35 +0300
 
 kdegames (4:4.4.5-1) unstable; urgency=low
