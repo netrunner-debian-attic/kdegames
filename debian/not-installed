@@ -4,3 +4,12 @@
 ./usr/lib/libpala/pala-targets-debian.cmake
 ./usr/lib/libpala/pala-targets.cmake
 ./usr/share/apps/cmake/modules/GGZ.cmake
+
+# Don't install extra license files.
+./usr/share/kde4/apps/carddecks/svg-nicu-ornamental/AUTHORS
+./usr/share/kde4/apps/carddecks/svg-nicu-ornamental/COPYING
+./usr/share/kde4/apps/carddecks/svg-nicu-white/AUTHORS
+./usr/share/kde4/apps/carddecks/svg-nicu-white/COPYING
+./usr/share/kde4/apps/carddecks/svg-penguins/COPYRIGHT
+./usr/share/kde4/apps/carddecks/svg-xskat-french/COPYRIGHT
+./usr/share/kde4/apps/carddecks/svg-xskat-german/COPYRIGHT
