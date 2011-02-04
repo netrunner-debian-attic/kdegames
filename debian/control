@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.0),
  kdelibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev,
  shared-mime-info
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://games.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegames.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegames.git
@@ -52,7 +52,7 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}
 Replaces: libkdegames1, libkdegames4
-Conflicts: libkdegames4 
+Breaks: libkdegames1, libkdegames4 
 Description: libraries and common files for KDE games
  This package contains shared libraries and common infrastructure used by KDE
  games, including support for the GNU Gaming Zone online gaming environment.
@@ -463,6 +463,7 @@ Package: palapeli-data
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: palapeli (<< 4:4.4.0)
+Breaks: palapeli (<< 4:4.4.0)
 Description: data files for palapeli jigsaw puzzle game
  Data files (puzzles) for the palapeli puzzle game.
  .
