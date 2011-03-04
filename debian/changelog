@@ -7,7 +7,7 @@ kdegames (4:4.6.1-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update installed files.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump kdelibs5-dev build dependency to >= 4:4.6.
   * Update symbols file.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
