@@ -386,7 +386,7 @@ Description: game based on Rubik's Cube
 Package: kblocks
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: a falling blocks game 
+Description: falling blocks game
  KBlocks is a single player falling blocks puzzle game, a Tetris-like 
  replacement for KSirtet.
  .
