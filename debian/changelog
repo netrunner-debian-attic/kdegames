@@ -15,6 +15,7 @@ kdegames (4:4.6.1-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Make palapeli recommend qhull-bin as it contains `qvoronoi', optionally
     used to generate irregular grid puzzles.
+  * Update lintian overrides.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:35 +0300
 
