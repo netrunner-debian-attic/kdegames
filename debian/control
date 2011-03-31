@@ -59,16 +59,6 @@ Description: libraries and common files for KDE games
  .
  This package is part of the KDE games module.
 
-Package: kdegames-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: ${misc:Depends}, kdebase-runtime-dbg
-Suggests: kdegames (= ${source:Version})
-Description: debugging symbols for the KDE games module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE games module.
-
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
@@ -501,3 +491,13 @@ Description: go game
  of 19x19 lines (9x9 or 13x13 for easier games).
  .
  This package is part of the KDE games module.
+
+Package: kdegames-dbg
+Architecture: any
+Priority: extra
+Section: debug
+Depends: ${misc:Depends}, kdebase-runtime-dbg
+Suggests: kdegames (= ${source:Version})
+Description: debugging symbols for the KDE games module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE games module.
