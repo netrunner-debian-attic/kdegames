@@ -1,14 +1,30 @@
 #!/usr/bin/make -f
- 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
-DEB_CMAKE_EXTRA_FLAGS += -DBIN_INSTALL_DIR=/usr/games
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_INSTALL_DOCS_ALL :=
+override_dh_auto_configure:
+	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games
 
-DEB_INSTALL_CHANGELOGS_ALL = $(shell for f in ChangeLog CHANGELOG CHANGES; do if test -s $(DEB_SRCDIR)/$(cdbs_curpkg)/$$f; then echo $(DEB_SRCDIR)/$(cdbs_curpkg)/$$f; break; fi; done)
+.PHONY: override_dh_auto_test
 
-DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
+# Install upstream changelogs for each package if they exist
+upstream_changelogs = $(strip $(wildcard */ChangeLog) $(wildcard */CHANGELOG) $(wildcard */CHANGES))
+ifneq (,$(upstream_changelogs))
+$(upstream_changelogs):
+	$(and $(filter $(firstword $(subst /, ,$@)),$(all_packages)),\
+        dh_installchangelogs $(DHMK_OPTIONS) -p$(firstword $(subst /, ,$@) $@) $@)
+.PHONY: $(upstream_changelogs)
+endif
+
+override_dh_installchangelogs: all_packages := $(shell dh_listpackages)
+override_dh_installchangelogs: $(upstream_changelogs)
+	$(overridden_command) --remaining-packages
+
+override_dh_makeshlibs:
+	$(overridden_command) -V -- -c0
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=kdegames-dbg
 
 generate-icons:
 	while read src dest; do \
