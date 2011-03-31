@@ -17,7 +17,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegames.git
 Package: kdegames
 Architecture: all
 Section: kde
-Depends: bovo (>= ${source:Version}), bomber (>= ${source:Version}), 
+Depends: ${misc:Depends}, bovo (>= ${source:Version}), bomber (>= ${source:Version}), 
  kapman (>= ${source:Version}), katomic (>= ${source:Version}),
  kbattleship (>= ${source:Version}), kblackbox (>= ${source:Version}),
  kbounce (>= ${source:Version}), kdiamond (>= ${source:Version}),
@@ -50,7 +50,7 @@ Description: games from the official KDE release
 Package: libkdegames5
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames1, libkdegames4
 Breaks: libkdegames1, libkdegames4 
 Description: libraries and common files for KDE games
@@ -63,7 +63,7 @@ Package: kdegames-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Depends: kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdegames (= ${source:Version})
 Description: debugging symbols for the KDE games module
  This package contains debugging files used to investigate problems with
@@ -72,13 +72,14 @@ Description: debugging symbols for the KDE games module
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: ${sameVersionDep:kdelibs5-dev:libkdegames5}, libkdegames5 (= ${binary:Version})
+Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames5}, libkdegames5 (= ${binary:Version})
 Description: development files for the KDE games library
  This package contains development files for building software that uses
  libraries from the KDE games module.
 
 Package: kdegames-card-data
 Architecture: all
+Depends: ${misc:Depends}
 Description: card decks for KDE games
  This package contains a collection of playing card themes for KDE card games.
  .
@@ -86,6 +87,7 @@ Description: card decks for KDE games
 
 Package: kdegames-mahjongg-data
 Architecture: all
+Depends: ${misc:Depends}
 Description: tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg
  and KShisen.
@@ -104,7 +106,7 @@ Description: arcade spaceship game
 
 Package: bovo
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gomoku (five in line) board game
  Bovo is a game where two players take turns placing markers on the board,
  the winner being the first to complete a line of five markers.
@@ -126,7 +128,7 @@ Description: Pac-Man clone
 
 Package: katomic
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: atomix puzzle game
  KAtomic is a puzzle game in which the player slides atoms around the board to
  assemble a molecule.
@@ -135,7 +137,7 @@ Description: atomix puzzle game
 
 Package: kbattleship
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: battleship board game
  KBattleship is an implementation of the Battleship game, where two players
  take turns firing at the opponent's ships by guessing their coordinates.
@@ -144,7 +146,7 @@ Description: battleship board game
 
 Package: kblackbox
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Black Box puzzle game
  KBlackBox is a game of hide and seek played on an grid of boxes, where the
  player shoots rays into the grid to deduce the positions of hidden objects.
@@ -153,7 +155,7 @@ Description: Black Box puzzle game
 
 Package: kbounce
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Jezzball arcade game 
  KBounce is a game where the player builds walls to confine a number of
  bouncing balls.
@@ -162,7 +164,7 @@ Description: Jezzball arcade game
 
 Package: kdiamond
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: three-in-a-row game
  KDiamond is a three-in-a-row game like Bejeweled. It features unlimited fun 
  with randomly generated games and five difficulty levels with varying number 
@@ -172,7 +174,7 @@ Description: three-in-a-row game
 
 Package: kgoldrunner
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Lode Runner arcade game
  KGoldrunner is a fast-paced platform game where the player must navigate a
  maze while collecting gold nuggets and avoiding enemies.  A variety of level
@@ -195,7 +197,7 @@ Description: port of the classic BSD console game robots
 
 Package: kiriki
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Yahtzee dice game
  Kiriki is a dice game for up to six players, where each player rolls five dice
  to make combinations with the highest score.
@@ -204,7 +206,7 @@ Description: Yahtzee dice game
 
 Package: kjumpingcube
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple tactical game
  KJumpingcube is a simple tactical game for one or two players, played on a
  grid of numbered squares.  Each turn, players compete for control of the board
@@ -214,7 +216,7 @@ Description: simple tactical game
 
 Package: klines
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: color lines game
  KLines is a single-player game where the player removes colored balls from the
  board by arranging them into lines of five or more.  However, every time the
@@ -224,7 +226,7 @@ Description: color lines game
 
 Package: kmahjongg
 Architecture: any
-Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-mahjongg-data (>= ${source:Version})
 Description: mahjongg solitaire game
  KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
  to clear the board.  A variety of tile layouts are included, as well as an
@@ -234,7 +236,7 @@ Description: mahjongg solitaire game
 
 Package: kmines
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: minesweeper game
  KMines is a game where the player finds hidden mines without setting them off.
  .
@@ -242,7 +244,7 @@ Description: minesweeper game
 
 Package: knetwalk
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: wire puzzle game
  KNetwalk is a puzzle game where the player arranges sections of wire to
  connect all the computers on the board.
@@ -251,7 +253,7 @@ Description: wire puzzle game
 
 Package: kolf
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: miniature golf game
  Kolf is a miniature golf game for one to ten players.  A variety of courses
  are included, as well as an editor to create new courses.
@@ -260,7 +262,7 @@ Description: miniature golf game
 
 Package: kollision
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple ball dodging game 
  In Kollision you use mouse to control a small blue ball in a closed space
  environment filled with small red balls, which move about chaotically. 
@@ -272,7 +274,7 @@ Description: simple ball dodging game
 
 Package: konquest
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: simple turn-based strategy game
  Konquest is a game of galactic conquest for KDE, where rival empires vie to
  conquer planets and crush all opposition.  The game can be played with up to
@@ -282,7 +284,7 @@ Description: simple turn-based strategy game
 
 Package: kpat
 Architecture: any
-Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-card-data (>= ${source:Version})
 Description: solitaire card games 
  KPatience is a collection of fourteen solitaire card games, including Klondike,
  Spider, and FreeCell.
@@ -291,7 +293,7 @@ Description: solitaire card games
 
 Package: kreversi
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: reversi board game
  KReversi is a board game where two players place pieces on the board to flip
  the opponent's pieces.  When neither player can flip any more pieces, the
@@ -301,7 +303,7 @@ Description: reversi board game
 
 Package: klickety
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: SameGame puzzle game 
  Klickety is a puzzle game where the player removes groups of colored marbles to
  clear the board.
@@ -310,7 +312,7 @@ Description: SameGame puzzle game
 
 Package: kshisen
 Architecture: any
-Depends: ${shlibs:Depends}, kdegames-mahjongg-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-mahjongg-data (>= ${source:Version})
 Description: Shisen-Sho solitaire game 
  KShisen is a Shisen-Sho game where the player removes adjascent pairs of
  Mahjongg tiles to clear the board.
@@ -319,7 +321,7 @@ Description: Shisen-Sho solitaire game
 
 Package: kspaceduel
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: SpaceWar! arcade game
  KSpaceduel is a space battle game for one or two players, where two ships fly
  around a star in a struggle to be the only survivor.
@@ -328,7 +330,7 @@ Description: SpaceWar! arcade game
 
 Package: ksquares
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Dots and Boxes game 
  KSquares is a game where two players take turns connecting dots on a grid to
  complete the most squares.
@@ -337,7 +339,7 @@ Description: Dots and Boxes game
 
 Package: ksudoku
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Sudoku puzzle game and solver
  KSudoku is a Sudoku game and solver, supporting a range of 2D and 3D Sudoku
  variants.  In addition to playing Sudoku, it can print Sudoku puzzle sheets
@@ -347,7 +349,7 @@ Description: Sudoku puzzle game and solver
 
 Package: ktuberling
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: stamp drawing toy 
  KTuberling is a drawing toy for small children with several activites.
  .
@@ -362,7 +364,7 @@ Description: stamp drawing toy
 
 Package: kfourinline
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Connect Four game
  KFourInLine is a game where two players take turns dropping pieces into a grid,
  the winner being the first to place four pieces in a line.
@@ -394,7 +396,7 @@ Description: falling blocks game
 
 Package: lskat
 Architecture: any
-Depends: ${shlibs:Depends}, kdegames-card-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-card-data (>= ${source:Version})
 Description: Lieutnant Skat card game
  Lieutnant Skat is a simplified variant of the Skat card game for two players.
  .
@@ -462,7 +464,7 @@ Description: jigsaw puzzle game
 
 Package: palapeli-data
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${misc:Depends}
 Replaces: palapeli (<< 4:4.4.0)
 Breaks: palapeli (<< 4:4.4.0)
 Description: data files for palapeli jigsaw puzzle game
