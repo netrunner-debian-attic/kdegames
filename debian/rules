@@ -12,7 +12,7 @@ upstream_changelogs = $(strip $(wildcard */ChangeLog) $(wildcard */CHANGELOG) $(
 ifneq (,$(upstream_changelogs))
 $(upstream_changelogs):
 	$(and $(filter $(firstword $(subst /, ,$@)),$(all_packages)),\
-        dh_installchangelogs $(DHMK_OPTIONS) -p$(firstword $(subst /, ,$@) $@) $@)
+        if [ -s $@ ]; then dh_installchangelogs $(DHMK_OPTIONS) -p$(firstword $(subst /, ,$@) $@) $@; fi)
 .PHONY: $(upstream_changelogs)
 endif
 
