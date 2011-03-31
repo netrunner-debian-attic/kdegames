@@ -8,6 +8,7 @@ kdegames (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Add ${misc:Depends} to Depends of packages where it was missing.
   * Move kdegames-dbg package to the bottom of the debian/control.
+  * Add ${perl:Depends} to katomic and klickety Depends.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.

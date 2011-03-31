@@ -118,7 +118,7 @@ Description: Pac-Man clone
 
 Package: katomic
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Description: atomix puzzle game
  KAtomic is a puzzle game in which the player slides atoms around the board to
  assemble a molecule.
@@ -293,7 +293,7 @@ Description: reversi board game
 
 Package: klickety
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Description: SameGame puzzle game 
  Klickety is a puzzle game where the player removes groups of colored marbles to
  clear the board.
