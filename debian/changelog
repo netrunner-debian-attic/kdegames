@@ -10,6 +10,7 @@ kdegames (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Move kdegames-dbg package to the bottom of the debian/control.
   * Add ${perl:Depends} to katomic and klickety Depends.
   * Do not install upstream changelog if its size is 0 (affects kgoldrunner).
+  * Override some ldconfig lintian errors in kpat.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
