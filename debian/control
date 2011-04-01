@@ -294,6 +294,8 @@ Description: reversi board game
 Package: klickety
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Replaces: ksame (<< 4:4.6)
+Breaks: ksame (<< 4:4.6)
 Description: SameGame puzzle game
  Klickety is a puzzle game where the player removes groups of colored marbles to
  clear the board.

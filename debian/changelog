@@ -12,6 +12,7 @@ kdegames (4:4.6.1-0r3) UNRELEASED; urgency=low
   * Do not install upstream changelog if its size is 0 (affects kgoldrunner).
   * Override some ldconfig lintian errors in kpat.
   * Provide a transitional ksame package for klickety.
+  * Replace/Break previous versions of ksame in klickety.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
