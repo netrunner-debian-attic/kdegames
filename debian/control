@@ -294,11 +294,18 @@ Description: reversi board game
 Package: klickety
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Description: SameGame puzzle game 
+Description: SameGame puzzle game
  Klickety is a puzzle game where the player removes groups of colored marbles to
  clear the board.
  .
  This package is part of the KDE games module.
+
+Package: ksame
+Architecture: all
+Depends: ${misc:Depends}, klickety
+Description: transitional dummy package for Klickety
+ This is a transitional package for the klickety package. It can be safely
+ removed.
 
 Package: kshisen
 Architecture: any
