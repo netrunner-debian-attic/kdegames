@@ -25,6 +25,8 @@ kdegames (4:4.6.1-0r4) UNRELEASED; urgency=low
     used to generate irregular grid puzzles.
   * Update lintian overrides.
   * Remove article from short description.
+  * Remove conflict of libkdegames5 against libkdegames1, as they have
+    nothing common.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Apr 2011 02:33:17 +0300
 

@@ -51,8 +51,8 @@ Package: libkdegames5
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: libkdegames1, libkdegames4
-Breaks: libkdegames1, libkdegames4 
+Replaces: libkdegames4
+Breaks: libkdegames4
 Description: libraries and common files for KDE games
  This package contains shared libraries and common infrastructure used by KDE
  games, including support for the GNU Gaming Zone online gaming environment.
