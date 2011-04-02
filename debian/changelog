@@ -1,4 +1,4 @@
-kdegames (4:4.6.1-0r4) UNRELEASED; urgency=low
+kdegames (4:4.6.1-0r5) UNRELEASED; urgency=low
 
   * New upstream release
   * Update installed files.
@@ -28,7 +28,7 @@ kdegames (4:4.6.1-0r4) UNRELEASED; urgency=low
   * Remove conflict of libkdegames5 against libkdegames1, as they have
     nothing common.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Apr 2011 02:33:17 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Apr 2011 21:54:14 +0300
 
 kdegames (4:4.4.5-1) unstable; urgency=low
 
