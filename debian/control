@@ -51,8 +51,6 @@ Package: libkdegames5
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: libkdegames4
-Breaks: libkdegames4
 Description: libraries and common files for KDE games
  This package contains shared libraries and common infrastructure used by KDE
  games, including support for the GNU Gaming Zone online gaming environment.
@@ -432,9 +430,6 @@ Description: Risk strategy game
 Package: ktron
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdesnake
-Conflicts: kdesnake
-Provides: kdesnake
 Description: Tron-like snakerace game 
  The object of the game is to avoid running into walls, your own tail,
  and that of your opponent, while at the same time you have to try to
@@ -464,8 +459,6 @@ Description: jigsaw puzzle game
 Package: palapeli-data
 Architecture: all
 Depends: ${misc:Depends}, ${misc:Depends}
-Replaces: palapeli (<< 4:4.4.0)
-Breaks: palapeli (<< 4:4.4.0)
 Description: data files for palapeli jigsaw puzzle game
  Data files (puzzles) for the palapeli puzzle game.
  .

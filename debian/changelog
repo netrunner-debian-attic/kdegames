@@ -19,6 +19,7 @@ kdegames (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Bump kdelibs5-dev build dependency to >= 4:4.6.
   * Update symbols file.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
+  * Clean up pre-squeeze Replaces/Breaks/Conflicts.
 
   [ Pino Toscano ]
   * Make palapeli recommend qhull-bin as it contains `qvoronoi', optionally
