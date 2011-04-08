@@ -13,3 +13,6 @@
 ./usr/share/kde4/apps/carddecks/svg-penguins/COPYRIGHT
 ./usr/share/kde4/apps/carddecks/svg-xskat-french/COPYRIGHT
 ./usr/share/kde4/apps/carddecks/svg-xskat-german/COPYRIGHT
+
+# This file is not used since KDE 3.
+./usr/share/kde4/apps/kdegames/pics/star.png
