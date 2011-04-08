@@ -47,20 +47,77 @@ Description: games from the official KDE release
  This metapackage includes a collection of games provided with the official
  release of KDE.
 
-Package: libkdegames5
+Package: libkdegames5a
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdegames5
+Breaks: libkdegames5
 Description: libraries and common files for KDE games
  This package contains shared libraries and common infrastructure used by KDE
  games, including support for the GNU Gaming Zone online gaming environment.
  .
  This package is part of the KDE games module.
 
+Package: libkggzgames4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdegames5
+Breaks: libkdegames5
+Description: libraries and common files for KDE games
+ This package contains a shared library used by KDE games to support the GNU
+ Gaming Zone online gaming environment. This library can be used by game clients
+ to display information about the players and spectators and their associated
+ statistics. It is the visual counterpart to the rather low-level kggzmod
+ library and contains convenience widgets and dialogs.
+ .
+ This package is part of the KDE games module.
+
+Package: libkggzmod4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdegames5
+Breaks: libkdegames5
+Description: libraries and common files for KDE games
+ This package contains a shared library used by KDE games to support the GNU
+ Gaming Zone online gaming environment. This library can be used by game clients
+ .
+ This package is part of the KDE games module.
+
+Package: libkggznet4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdegames5
+Breaks: libkdegames5
+Description: libraries and common files for KDE games
+ This package contains a shared library used by KDE games to support the GNU
+ Gaming Zone online gaming environment. This library is an interface to
+ networking on the GGZ Gaming Zone. The library provides classes to handle
+ low-level protocols for communication between game clients and servers.
+ .
+ This package is part of the KDE games module.
+
+Package: libkmahjongglib4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdegames5
+Breaks: libkdegames5
+Description: libraries and common files for KDE games
+ This package contains a shared library used by KDE game kmahjongg.
+ .
+ This package is part of the KDE games module.
+
 Package: libkdegames-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames5}, libkdegames5 (= ${binary:Version})
+Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames5a},
+ libkdegames5a (= ${binary:Version}), libkggzgames4 (= ${binary:Version}),
+ libkggzmod4 (= ${binary:Version}), libkggznet4 (= ${binary:Version}),
+ libkmahjongglib4 (= ${binary:Version})
 Description: development files for the KDE games library
  This package contains development files for building software that uses
  libraries from the KDE games module.

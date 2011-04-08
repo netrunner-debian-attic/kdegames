@@ -20,6 +20,12 @@ kdegames (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Update symbols file.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Clean up pre-squeeze Replaces/Breaks/Conflicts.
+  * Split and rename libkdegames5, the new packages are:
+    - libkdegames5a
+    - libkggzgames4
+    - libkggzmod4
+    - libkggznet4
+    - libkmahjongglib4
 
   [ Pino Toscano ]
   * Make palapeli recommend qhull-bin as it contains `qvoronoi', optionally
