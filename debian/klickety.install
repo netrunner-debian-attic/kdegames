@@ -1,3 +1,5 @@
+../icons/klickety-16.xpm /usr/share/pixmaps
+../icons/klickety.xpm /usr/share/pixmaps
 usr/games/klickety
 usr/share/applications/kde4/klickety.desktop
 usr/share/applications/kde4/ksame.desktop

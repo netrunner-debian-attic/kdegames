@@ -5,6 +5,7 @@
 /usr/share/icons/hicolor/16x16/apps/kgoldrunner.png	kgoldrunner-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kiriki.png	kiriki-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kjumpingcube.png   kjumpingcube-16.xpm
+/usr/share/icons/hicolor/16x16/apps/klickety.png	klickety-16.xpm
 /usr/share/icons/hicolor/16x16/apps/klines.png	klines-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kmahjongg.png	kmahjongg-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kmines.png	kmines-16.xpm
@@ -13,7 +14,6 @@
 /usr/share/icons/hicolor/16x16/apps/konquest.png	konquest-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kpat.png	kpat-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kreversi.png	kreversi-16.xpm
-/usr/share/icons/hicolor/16x16/apps/ksame.png	ksame-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kshisen.png	kshisen-16.xpm
 /usr/share/icons/hicolor/16x16/apps/kspaceduel.png	kspaceduel-16.xpm
 /usr/share/icons/hicolor/16x16/apps/ksquares.png	ksquares-16.xpm
@@ -28,6 +28,7 @@
 /usr/share/icons/hicolor/32x32/apps/kgoldrunner.png	kgoldrunner.xpm
 /usr/share/icons/hicolor/32x32/apps/kiriki.png	kiriki.xpm
 /usr/share/icons/hicolor/32x32/apps/kjumpingcube.png   kjumpingcube.xpm
+/usr/share/icons/hicolor/32x32/apps/klickety.png	klickety.xpm
 /usr/share/icons/hicolor/32x32/apps/klines.png	klines.xpm
 /usr/share/icons/hicolor/32x32/apps/kmahjongg.png	kmahjongg.xpm
 /usr/share/icons/hicolor/32x32/apps/kmines.png	kmines.xpm
@@ -36,7 +37,6 @@
 /usr/share/icons/hicolor/32x32/apps/konquest.png	konquest.xpm
 /usr/share/icons/hicolor/32x32/apps/kpat.png	kpat.xpm
 /usr/share/icons/hicolor/32x32/apps/kreversi.png	kreversi.xpm
-/usr/share/icons/hicolor/32x32/apps/ksame.png	ksame.xpm
 /usr/share/icons/hicolor/32x32/apps/kshisen.png	kshisen.xpm
 /usr/share/icons/hicolor/32x32/apps/kspaceduel.png	kspaceduel.xpm
 /usr/share/icons/hicolor/32x32/apps/ksquares.png	ksquares.xpm
