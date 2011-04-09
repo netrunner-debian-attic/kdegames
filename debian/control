@@ -53,9 +53,8 @@ Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
-Description: libraries and common files for KDE games
- This package contains shared libraries and common infrastructure used by KDE
- games, including support for the GNU Gaming Zone online gaming environment.
+Description: shared library for KDE games
+ This package contains a shared library used by KDE games.
  .
  This package is part of the KDE games module.
 
@@ -65,7 +64,7 @@ Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
-Description: libraries and common files for KDE games
+Description: GGZ support library for KDE games
  This package contains a shared library used by KDE games to support the GNU
  Gaming Zone online gaming environment. This library can be used by game clients
  to display information about the players and spectators and their associated
@@ -80,9 +79,11 @@ Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
-Description: libraries and common files for KDE games
+Description: GGZ support library for KDE games
  This package contains a shared library used by KDE games to support the GNU
- Gaming Zone online gaming environment. This library can be used by game clients
+ Gaming Zone online gaming environment. This libraryi can be used by game clients
+ to display information about the players and spectators and their associated
+ statistics.
  .
  This package is part of the KDE games module.
 
@@ -92,7 +93,7 @@ Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
-Description: libraries and common files for KDE games
+Description: GGZ support library for KDE games
  This package contains a shared library used by KDE games to support the GNU
  Gaming Zone online gaming environment. This library is an interface to
  networking on the GGZ Gaming Zone. The library provides classes to handle
@@ -106,7 +107,7 @@ Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
-Description: libraries and common files for KDE games
+Description: library for kmahjongg
  This package contains a shared library used by KDE game kmahjongg.
  .
  This package is part of the KDE games module.
