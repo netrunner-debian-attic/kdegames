@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
 libkdegames.so.5 libkdegames5a #MINVER#
  _ZN10KCardCache12setBackThemeERK7QString@Base 4:4.6.2
  _ZN10KCardCache13setFrontThemeERK7QString@Base 4:4.6.2
@@ -461,7 +461,7 @@ libkdegames.so.5 libkdegames5a #MINVER#
  _ZN14KGamePopupItem17mouseReleaseEventEP24QGraphicsSceneMouseEvent@Base 4:4.6.2
  _ZN14KGamePopupItem17onTextItemClickedEv@Base 4:4.6.2
  _ZN14KGamePopupItem17playHideAnimationEv@Base 4:4.6.2
- _ZN14KGamePopupItem17setMessageOpacityEd@Base 4:4.6.2
+ (subst)_ZN14KGamePopupItem17setMessageOpacityE{qreal}@Base 4:4.6.2
  _ZN14KGamePopupItem17setMessageTimeoutEi@Base 4:4.6.2
  _ZN14KGamePopupItem18setBackgroundBrushERK6QBrush@Base 4:4.6.2
  _ZN14KGamePopupItem19setHideOnMouseClickEb@Base 4:4.6.2
@@ -979,7 +979,7 @@ libkdegames.so.5 libkdegames5a #MINVER#
  _ZN23KGameRenderedObjectItem16staticMetaObjectE@Base 4:4.6.2
  _ZN23KGameRenderedObjectItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.6.2
  _ZN23KGameRenderedObjectItem9setOffsetERK7QPointF@Base 4:4.6.2
- _ZN23KGameRenderedObjectItem9setOffsetEdd@Base 4:4.6.2
+ (subst)_ZN23KGameRenderedObjectItem9setOffsetE{qreal}{qreal}@Base 4:4.6.2
  _ZN23KGameRenderedObjectItemC1EP13KGameRendererRK7QStringP13QGraphicsItem@Base 4:4.6.2
  _ZN23KGameRenderedObjectItemC2EP13KGameRendererRK7QStringP13QGraphicsItem@Base 4:4.6.2
  _ZN23KGameRenderedObjectItemD0Ev@Base 4:4.6.2
