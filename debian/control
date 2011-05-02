@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.3),
  kdelibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev,
  shared-mime-info
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://games.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegames.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegames.git
