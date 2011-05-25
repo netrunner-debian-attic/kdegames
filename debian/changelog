@@ -1,4 +1,4 @@
-kdegames (4:4.6.3-0r0) UNRELEASED; urgency=low
+kdegames (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ kdegames (4:4.6.3-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump Standards-Version to 3.9.2; no changes needed.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:30:23 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:34 +0300
 
 kdegames (4:4.6.2-1) experimental; urgency=low
 
