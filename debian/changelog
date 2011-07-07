@@ -15,7 +15,7 @@ kdegames (4:4.6.3-1) unstable; urgency=low
   * Confirm symbol files on more debian arches.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
   * Bump Standards-Version to 3.9.2; no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:34 +0300
