@@ -1,5 +1,9 @@
-kdegames (4:4.6.3-2) UNRELEASED; urgency=low
+kdegames (4:4.6.5-0r0) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2011 12:57:42 +0200
 
