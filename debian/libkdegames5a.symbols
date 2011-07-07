@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkdegames.so.5 libkdegames5a #MINVER#
  _ZN10KCardCache12setBackThemeERK7QString@Base 4:4.6.2
  _ZN10KCardCache13setFrontThemeERK7QString@Base 4:4.6.2
@@ -78,6 +78,9 @@ libkdegames.so.5 libkdegames5a #MINVER#
  _ZN11KCardDialog16staticMetaObjectE@Base 4:4.6.2
  _ZN11KCardDialogC1EP11KCardWidget@Base 4:4.6.2
  _ZN11KCardDialogC2EP11KCardWidget@Base 4:4.6.2
+ _ZN11KCardDialogD0Ev@Base 4:4.6.5
+ _ZN11KCardDialogD1Ev@Base 4:4.6.5
+ _ZN11KCardDialogD2Ev@Base 4:4.6.5
  _ZN11KCardWidget10updateBackEv@Base 4:4.6.2
  _ZN11KCardWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.2
  _ZN11KCardWidget11qt_metacastEPKc@Base 4:4.6.2
@@ -845,6 +848,9 @@ libkdegames.so.5 libkdegames5a #MINVER#
  _ZN18KGameCanvasAdapter9childRectEv@Base 4:4.6.2
  _ZN18KGameCanvasAdapterC1Ev@Base 4:4.6.2
  _ZN18KGameCanvasAdapterC2Ev@Base 4:4.6.2
+ _ZN18KGameCanvasAdapterD0Ev@Base 4:4.6.5
+ _ZN18KGameCanvasAdapterD1Ev@Base 4:4.6.5
+ _ZN18KGameCanvasAdapterD2Ev@Base 4:4.6.5
  _ZN18KGameCanvasPicture10setPictureERK8QPicture@Base 4:4.6.2
  _ZN18KGameCanvasPicture5paintEP8QPainter@Base 4:4.6.2
  _ZN18KGameCanvasPictureC1EP19KGameCanvasAbstract@Base 4:4.6.2
@@ -1005,6 +1011,9 @@ libkdegames.so.5 libkdegames5a #MINVER#
  _ZN25KGameCanvasRenderedPixmap13receivePixmapERK7QPixmap@Base 4:4.6.2
  _ZN25KGameCanvasRenderedPixmapC1EP13KGameRendererRK7QStringP19KGameCanvasAbstract@Base 4:4.6.2
  _ZN25KGameCanvasRenderedPixmapC2EP13KGameRendererRK7QStringP19KGameCanvasAbstract@Base 4:4.6.2
+ _ZN25KGameCanvasRenderedPixmapD0Ev@Base 4:4.6.5
+ _ZN25KGameCanvasRenderedPixmapD1Ev@Base 4:4.6.5
+ _ZN25KGameCanvasRenderedPixmapD2Ev@Base 4:4.6.5
  _ZN5KChat11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.2
  _ZN5KChat11qt_metacastEPKc@Base 4:4.6.2
  _ZN5KChat12removePlayerERK7QString@Base 4:4.6.2
@@ -1679,6 +1688,7 @@ libkdegames.so.5 libkdegames5a #MINVER#
  _ZTV9KGameChat@Base 4:4.6.2
  _ZTVN13KExtHighscore4ItemE@Base 4:4.6.2
  _ZTVN13KExtHighscore7ManagerE@Base 4:4.6.2
+ (c++)"non-virtual thunk to KCardDialog::~KCardDialog()@Base" 4:4.6.5
  (c++)"non-virtual thunk to KCardWidget::~KCardWidget()@Base" 4:4.6.2
  (c++)"non-virtual thunk to KChat::~KChat()@Base" 4:4.6.2
  (c++)"non-virtual thunk to KChatBase::~KChatBase()@Base" 4:4.6.2
@@ -1691,6 +1701,7 @@ libkdegames.so.5 libkdegames5a #MINVER#
  (c++)"non-virtual thunk to KGameCanvasGroup::topLevelCanvas()@Base" 4:4.6.2
  (c++)"non-virtual thunk to KGameCanvasGroup::~KGameCanvasGroup()@Base" 4:4.6.2
  (c++)"non-virtual thunk to KGameCanvasRenderedPixmap::receivePixmap(QPixmap const&)@Base" 4:4.6.2
+ (c++)"non-virtual thunk to KGameCanvasRenderedPixmap::~KGameCanvasRenderedPixmap()@Base" 4:4.6.5
  (c++)"non-virtual thunk to KGameCanvasWidget::canvasPosition() const@Base" 4:4.6.2
  (c++)"non-virtual thunk to KGameCanvasWidget::ensureAnimating()@Base" 4:4.6.2
  (c++)"non-virtual thunk to KGameCanvasWidget::ensurePendingUpdate()@Base" 4:4.6.2
