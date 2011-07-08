@@ -1,3 +1,4 @@
 kpat: shlib-without-versioned-soname usr/lib/libkcardgame.so libkcardgame.so
 kpat: postinst-must-call-ldconfig usr/lib/libkcardgame.so
 kpat: postrm-should-call-ldconfig usr/lib/libkcardgame.so
+kpat: package-name-doesnt-match-sonames libkcardgame
