@@ -2,7 +2,7 @@
 ../icons/kolf.xpm /usr/share/pixmaps
 usr/games/kolf
 usr/lib/libkolfprivate.so.4
-usr/lib/libkolfprivate.so.4.6.0
+usr/lib/libkolfprivate.so.4.7.0
 usr/share/applications/kde4/kolf.desktop
 usr/share/doc/kde/HTML/en/kolf/*
 usr/share/icons/hicolor/128x128/apps/kolf.png

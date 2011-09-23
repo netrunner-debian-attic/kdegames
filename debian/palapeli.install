@@ -1,6 +1,5 @@
 ../icons/palapeli-16.xpm /usr/share/pixmaps
 ../icons/palapeli.xpm /usr/share/pixmaps
-usr/games/libpala-puzzlebuilder
 usr/games/palapeli
 usr/lib/kde4/palapeli_goldbergslicer.so
 usr/lib/kde4/palapeli_jigsawslicer.so

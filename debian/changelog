@@ -7,6 +7,7 @@ kdegames (4:4.7.1-0r0) UNRELEASED; urgency=low
     - Bump kdelibs5-dev to >= 4:4.7.
     - Added libopenal-dev (required by KGoldrunner and Granatier).
     - Added libsndfile1-dev (required by KGoldrunner).
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 20:30:23 +0100
 
