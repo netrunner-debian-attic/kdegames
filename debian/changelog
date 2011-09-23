@@ -1,3 +1,10 @@
+kdegames (4:4.7.1-0r0) UNRELEASED; urgency=low
+
+  [ Daniele E. Domenichelli ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 20:30:23 +0100
+
 kdegames (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release.
