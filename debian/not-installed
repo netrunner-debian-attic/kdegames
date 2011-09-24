@@ -16,3 +16,46 @@
 
 # This file is not used since KDE 3.
 ./usr/share/kde4/apps/kdegames/pics/star.png
+
+# Don't install compiled python files
+./usr/share/kde4/apps/kajongg/about.pyc
+./usr/share/kde4/apps/kajongg/animation.pyc
+./usr/share/kde4/apps/kajongg/background.pyc
+./usr/share/kde4/apps/kajongg/backgroundselector.pyc
+./usr/share/kde4/apps/kajongg/board.pyc
+./usr/share/kde4/apps/kajongg/client.pyc
+./usr/share/kde4/apps/kajongg/common.pyc
+./usr/share/kde4/apps/kajongg/config.pyc
+./usr/share/kde4/apps/kajongg/deferredutil.pyc
+./usr/share/kde4/apps/kajongg/differ.pyc
+./usr/share/kde4/apps/kajongg/game.pyc
+./usr/share/kde4/apps/kajongg/games.pyc
+./usr/share/kde4/apps/kajongg/genericdelegates.pyc
+./usr/share/kde4/apps/kajongg/guiutil.pyc
+./usr/share/kde4/apps/kajongg/handboard.pyc
+./usr/share/kde4/apps/kajongg/humanclient.pyc
+./usr/share/kde4/apps/kajongg/kde.pyc
+./usr/share/kde4/apps/kajongg/meld.pyc
+./usr/share/kde4/apps/kajongg/message.pyc
+./usr/share/kde4/apps/kajongg/modeltest.pyc
+./usr/share/kde4/apps/kajongg/move.pyc
+./usr/share/kde4/apps/kajongg/player.pyc
+./usr/share/kde4/apps/kajongg/playerlist.pyc
+./usr/share/kde4/apps/kajongg/playfield.pyc
+./usr/share/kde4/apps/kajongg/predefined.pyc
+./usr/share/kde4/apps/kajongg/qt4reactor.pyc
+./usr/share/kde4/apps/kajongg/query.pyc
+./usr/share/kde4/apps/kajongg/rulesetselector.pyc
+./usr/share/kde4/apps/kajongg/scoring.pyc
+./usr/share/kde4/apps/kajongg/scoringengine.pyc
+./usr/share/kde4/apps/kajongg/server.pyc
+./usr/share/kde4/apps/kajongg/sound.pyc
+./usr/share/kde4/apps/kajongg/statesaver.pyc
+./usr/share/kde4/apps/kajongg/tables.pyc
+./usr/share/kde4/apps/kajongg/tile.pyc
+./usr/share/kde4/apps/kajongg/tileset.pyc
+./usr/share/kde4/apps/kajongg/tilesetselector.pyc
+./usr/share/kde4/apps/kajongg/tree.pyc
+./usr/share/kde4/apps/kajongg/uiwall.pyc
+./usr/share/kde4/apps/kajongg/util.pyc
+./usr/share/kde4/apps/kajongg/wall.pyc

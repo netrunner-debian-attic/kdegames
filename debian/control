@@ -8,8 +8,9 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev,
- shared-mime-info, libopenal-dev, libsndfile1-dev
+ shared-mime-info, libopenal-dev, libsndfile1-dev, python (>= 2.6.6-3~)
 Standards-Version: 3.9.2
+X-Python-Version: >= 2.6, << 3.0
 Homepage: http://games.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegames.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegames.git
@@ -35,7 +36,7 @@ Depends: ${misc:Depends}, bovo (>= ${source:Version}), bomber (>= ${source:Versi
  kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
  kbreakout (>= ${source:Version}), ksirk (>= ${source:Version}),
  palapeli (>= ${source:Version}), granatier (>= ${source:Version}),
- kigo (>= ${source:Version})
+ kigo (>= ${source:Version}), kajongg (>= ${source:Version})
 Description: games from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -549,6 +550,18 @@ Description: go game
  two players who alternately place black and white stones (playing pieces,
  now usually made of glass or plastic) on the vacant intersections of a grid
  of 19x19 lines (9x9 or 13x13 for easier games).
+ .
+ This package is part of the KDE games module.
+
+Package: kajongg
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-twisted-core (>= 8.2.0),
+ python-qt4-sql (>= 4.6), python-kde4 (>= 4.3.0), libsqlite3-0 (>= 3.5.0),
+ libqt4-sql-sqlite (>= 4.6), kdegames-mahjongg-data, vorbis-tools
+Description: classical Mah Jongg game
+ This is the classical Mah Jongg for four players.
+ If you are looking for the Mah Jongg solitaire please use the application
+ kmahjongg.
  .
  This package is part of the KDE games module.
 

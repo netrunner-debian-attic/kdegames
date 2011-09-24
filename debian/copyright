@@ -310,6 +310,18 @@ Those progarms are distributed under the terms of the GPL v2 or later.
 
 --
 
+Kajongg was written by
+   Copyright (C) 2008-2011 Wolfgang Rohdewald <wolfgang@rohdewald.de>
+   Copyright (C) 2006 Mauricio Piacentini <mauricio@tabuleiro.com>
+   Copyright (C) 1997 Mathias Mueller <in5y158@public.uni-hamburg.de>
+   Copyright (c) 2001-2008 Twisted Matrix Laboratories.
+   Copyright (c) 2007-8 Qtrac Ltd. All rights reserved.
+   Copyright (C) 2007 Trolltech ASA. All rights reserved.
+   Twisted Network Programming Essentials by Abe Fettig. Copyright 2006
+This program is distributed under the terms of the GPL v2 or later.
+
+--
+
 libkdegames is distributed under the GNU Lesser General Public License or GNU library General Public License. Some BSD-ish licenses is also found, rendering everything GNU Lesser General_Public License Version 2.1
 (However, some of the accompanying card decks are GPL.)
 Libkdegames was written by

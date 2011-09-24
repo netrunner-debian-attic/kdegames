@@ -1,0 +1,17 @@
+../icons/kajongg-16.xpm /usr/share/pixmaps
+../icons/kajongg.xpm /usr/share/pixmaps
+usr/games/kajongg
+usr/games/kajonggserver
+usr/share/applications/kde4/kajongg.desktop
+usr/share/doc/kde/HTML/en/kajongg/*
+usr/share/icons/hicolor/128x128/apps/kajongg.png
+usr/share/icons/hicolor/16x16/apps/kajongg.png
+usr/share/icons/hicolor/22x22/apps/kajongg.png
+usr/share/icons/hicolor/32x32/apps/kajongg.png
+usr/share/icons/hicolor/48x48/apps/kajongg.png
+usr/share/icons/hicolor/64x64/apps/kajongg.png
+usr/share/icons/hicolor/scalable/actions/games-kajongg-law.svgz
+usr/share/icons/hicolor/scalable/apps/kajongg.svgz
+usr/share/kde4/apps/kajongg/*.py
+usr/share/kde4/apps/kajongg/*.ui
+usr/share/kde4/apps/kajongg/kajonggui.rc

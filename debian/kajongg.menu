@@ -1,0 +1,8 @@
+?package(kajongg):\
+        needs="x11"\
+        section="Games/Board"\
+        hints="KDE"\
+        title="Kajongg"\
+        icon32x32="/usr/share/pixmaps/kajongg.xpm"\
+        icon16x16="/usr/share/pixmaps/kajongg-16.xpm"\
+        command="/usr/games/kajongg"

@@ -8,6 +8,14 @@ kdegames (4:4.7.1-0r0) UNRELEASED; urgency=low
     - Added libopenal-dev (required by KGoldrunner and Granatier).
     - Added libsndfile1-dev (required by KGoldrunner).
   * Update installed files.
+  * Build and install kajongg
+    - Add build dependency to python >= 2.6.6-3~
+    - Build with dh = --with=python2 and override dh_python2
+    - Add cmake flag -DINSTALL_KAJONGG=TRUE
+    - Add icons .install and .menu
+    - Add X-Python-Version tag in control file
+    - Add kajongg package in debian/control file
+    - Add kajongg info in debian/copyright
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Sep 2011 20:30:23 +0100
 

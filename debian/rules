@@ -1,9 +1,11 @@
 #!/usr/bin/make -f
 
+dh = --with=python2
+
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games
+	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games -DINSTALL_KAJONGG=TRUE
 
 .PHONY: override_dh_auto_test
 
@@ -25,6 +27,10 @@ override_dh_makeshlibs:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdegames-dbg
+
+override_dh_python2:
+	$(overridden_command) -p kajongg /usr/share/kde4/apps/kajongg
+	$(overridden_command) -p kajongg /usr/share/kde4/apps/kajonggserver
 
 generate-icons:
 	while read src dest; do \
