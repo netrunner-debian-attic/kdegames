@@ -517,7 +517,7 @@ Description: jigsaw puzzle game
 
 Package: palapeli-data
 Architecture: all
-Depends: ${misc:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}
 Description: data files for palapeli jigsaw puzzle game
  Data files (puzzles) for the palapeli puzzle game.
  .
