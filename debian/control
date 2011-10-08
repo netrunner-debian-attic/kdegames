@@ -3,8 +3,9 @@ Section: games
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
- Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
-Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+ Eshat Cakar <info@eshat.de>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7), libphonon-dev (>= 4:4.3.0), libqt4-opengl-dev,
  libglu1-mesa-dev, ggzcore-bin, libqca2-dev, zlib1g-dev, libeigen2-dev,
@@ -95,10 +96,11 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
 Description: GGZ support library for KDE games
- This package contains a shared library used by KDE games to support the GNU
- Gaming Zone online gaming environment. This library is an interface to
- networking on the GGZ Gaming Zone. The library provides classes to handle
- low-level protocols for communication between game clients and servers.
+ This package contains a shared library used by KDE games to support
+ the GNU Gaming Zone online gaming environment. This library is an
+ interface to networking on the GGZ Gaming Zone. The library provides
+ classes to handle low-level protocols for communication between game
+ clients and servers. 
  .
  This package is part of the KDE games module.
 
