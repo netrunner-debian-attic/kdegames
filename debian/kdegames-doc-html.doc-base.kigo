@@ -1,9 +1,0 @@
-Document: kdegames-doc-html-kigo
-Title: The Kigo Handbook
-Author: Sascha Peilicke
-Abstract: Kigo is an open-source implementation of the popular Go game (also known as Weiqi).
-Section: Games/Board
-
-Format: HTML
-Index: /usr/share/doc/kde/HTML/en/kigo/index.html
-Files: /usr/share/doc/kde/HTML/en/kigo/*.html
