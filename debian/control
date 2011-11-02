@@ -37,7 +37,8 @@ Depends: ${misc:Depends}, bovo (>= ${source:Version}), bomber (>= ${source:Versi
  kubrick (>= ${source:Version}), kblocks (>= ${source:Version}),
  kbreakout (>= ${source:Version}), ksirk (>= ${source:Version}),
  palapeli (>= ${source:Version}), granatier (>= ${source:Version}),
- kigo (>= ${source:Version}), kajongg (>= ${source:Version})
+ kigo (>= ${source:Version})
+Recommends: kajongg (>= ${source:Version})
 Description: games from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
