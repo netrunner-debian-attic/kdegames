@@ -19,6 +19,8 @@ kdegames (4:4.7.2-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Remove duplicated ${misc:Depends} from palapeli-data Depends.
+  * Manage some packages renamings:
+    - kdegames-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Oct 2011 00:19:24 +0200
 

@@ -572,7 +572,7 @@ Package: kdegames-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg
 Suggests: kdegames (= ${source:Version})
 Description: debugging symbols for the KDE games module
  This package contains debugging files used to investigate problems with
