@@ -5,6 +5,9 @@ kdegames (4:4.7.4-0r0) UNRELEASED; urgency=low
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4.7.4.
 
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on more architectures with the 4.7.2 logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 21:10:40 +0100
 
 kdegames (4:4.7.2-1) experimental; urgency=low

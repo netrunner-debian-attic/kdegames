@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkggzgames.so.4 libkggzgames4 #MINVER#
  _ZN15KGGZSeatsDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.2
  _ZN15KGGZSeatsDialog11qt_metacastEPKc@Base 4:4.6.2
@@ -17,6 +17,8 @@ libkggzgames.so.4 libkggzgames4 #MINVER#
  _ZN18KGGZRankingsDialogD0Ev@Base 4:4.6.2
  _ZN18KGGZRankingsDialogD1Ev@Base 4:4.6.2
  _ZN18KGGZRankingsDialogD2Ev@Base 4:4.6.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7KGGZMod13RankingsEventD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7KGGZMod13RankingsEventD2Ev@Base 4:4.7.2
  _ZNK15KGGZSeatsDialog10metaObjectEv@Base 4:4.6.2
  _ZNK18KGGZRankingsDialog10metaObjectEv@Base 4:4.6.2
  _ZTI15KGGZSeatsDialog@Base 4:4.6.2

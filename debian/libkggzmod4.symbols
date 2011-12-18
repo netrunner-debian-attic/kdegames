@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkggzmod.so.4 libkggzmod4 #MINVER#
  _ZN7KGGZMod10BotRequestC1Ei@Base 4:4.6.2
  _ZN7KGGZMod10BotRequestC2Ei@Base 4:4.6.2
@@ -29,6 +29,8 @@ libkggzmod.so.4 libkggzmod4 #MINVER#
  _ZN7KGGZMod15RankingsRequestC2Ev@Base 4:4.6.2
  _ZN7KGGZMod5EventC1ENS0_4TypeE@Base 4:4.6.2
  _ZN7KGGZMod5EventC2ENS0_4TypeE@Base 4:4.6.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7KGGZMod5EventD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7KGGZMod5EventD2Ev@Base 4:4.7.2
  _ZN7KGGZMod6Module11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.2
  _ZN7KGGZMod6Module11qt_metacastEPKc@Base 4:4.6.2
  _ZN7KGGZMod6Module11sendRequestENS_7RequestE@Base 4:4.6.2
@@ -50,6 +52,8 @@ libkggzmod.so.4 libkggzmod4 #MINVER#
  _ZN7KGGZMod6PlayerD2Ev@Base 4:4.6.2
  _ZN7KGGZMod7RequestC1ENS0_4TypeE@Base 4:4.6.2
  _ZN7KGGZMod7RequestC2ENS0_4TypeE@Base 4:4.6.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7KGGZMod7RequestD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7KGGZMod7RequestD2Ev@Base 4:4.7.2
  _ZNK7KGGZMod10Statistics10hasRankingEv@Base 4:4.6.2
  _ZNK7KGGZMod10Statistics12hasHighscoreEv@Base 4:4.6.2
  _ZNK7KGGZMod10Statistics4tiesEv@Base 4:4.6.2
