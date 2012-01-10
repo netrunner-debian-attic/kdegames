@@ -84,7 +84,7 @@ Replaces: libkdegames5
 Breaks: libkdegames5
 Description: GGZ support library for KDE games
  This package contains a shared library used by KDE games to support the GNU
- Gaming Zone online gaming environment. This libraryi can be used by game clients
+ Gaming Zone online gaming environment. This library can be used by game clients
  to display information about the players and spectators and their associated
  statistics.
  .
