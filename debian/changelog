@@ -5,6 +5,9 @@ kdegames (4:4.7.4-2) UNRELEASED; urgency=low
     and being removed from Debian. (Closes: #655398)
   * Fix typo in description of libkggzmod4. (Closes: #655425)
 
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jan 2012 22:34:06 +0100
 
 kdegames (4:4.7.4-1) experimental; urgency=low
