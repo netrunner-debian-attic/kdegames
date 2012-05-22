@@ -126,6 +126,9 @@ Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames5a},
 Description: development files for the KDE games library
  This package contains development files for building software that uses
  libraries from the KDE games module.
+ .
+ This package is part of the KDE games module.
+
 
 Package: kdegames-card-data
 Architecture: all
@@ -577,3 +580,6 @@ Suggests: kdegames (= ${source:Version})
 Description: debugging symbols for the KDE games module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE games module.
+ .
+ This package is part of the KDE games module.
+
