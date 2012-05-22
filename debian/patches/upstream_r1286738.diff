@@ -1,0 +1,29 @@
+Author: Christoph Feck <christoph@maxiom.de>
+Description: Compile with gcc 4.7
+Applied-Upstream: commit:1286738
+
+Index: kdegames/kblocks/KBlocksPlayNetwork.cpp
+===================================================================
+--- kdegames/kblocks/KBlocksPlayNetwork.cpp	(revision 1286737)
++++ kdegames/kblocks/KBlocksPlayNetwork.cpp	(revision 1286738)
+@@ -11,6 +11,8 @@
+ 
+ #ifdef Q_OS_WIN
+ #include <windows.h>
++#else
++#include <unistd.h>
+ #endif
+ 
+ KBlocksPlayNetwork::KBlocksPlayNetwork(int capacity, const string& serverIP, int localPort)
+Index: kdegames/kpat/patsolve/memory.h
+===================================================================
+--- kdegames/kpat/patsolve/memory.h	(revision 1286737)
++++ kdegames/kpat/patsolve/memory.h	(revision 1286738)
+@@ -19,6 +19,7 @@
+ #ifndef MEMORY_H
+ #define MEMORY_H
+ 
++#include <stdlib.h>
+ #include <sys/types.h>
+ 
+ struct TREE;
