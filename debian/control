@@ -367,6 +367,8 @@ Description: SameGame puzzle game
 
 Package: ksame
 Architecture: all
+Priority: extra
+Section: oldlibs
 Depends: ${misc:Depends}, klickety
 Description: transitional dummy package for Klickety
  This is a transitional package for the klickety package. It can be safely
