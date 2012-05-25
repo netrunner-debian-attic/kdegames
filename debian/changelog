@@ -6,6 +6,7 @@ kdegames (4:4.7.4-3) UNRELEASED; urgency=low
   * Add the "standard header" the descriptions of a couple of packages
     needing it.
   * Move the transitional ksame to Section: oldlibs and Priority: extra.
+  * Update the symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Mar 2012 20:30:05 +0100
 
