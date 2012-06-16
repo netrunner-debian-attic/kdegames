@@ -1,6 +1,7 @@
 kdegames (4:4.8.4-0r1) UNRELEASED; urgency=low
 
-  * 
+  * New upstream release
+    - Upstream patch no longer needed
 
  -- Sune Vuorela <sune@debian.org>  Sat, 16 Jun 2012 22:30:55 +0200
 
