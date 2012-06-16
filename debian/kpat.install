@@ -16,3 +16,4 @@ usr/share/kde4/apps/kpat/*
 usr/share/kde4/config.kcfg/kpat.kcfg
 usr/share/kde4/config/kcardtheme.knsrc
 usr/share/kde4/config/kpat.knsrc
+usr/share/mime/packages/kpatience.xml
