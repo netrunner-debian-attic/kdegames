@@ -1,0 +1,20 @@
+Author: Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Description: Query: converting QVariant to python values: accept QVariant.Invalid
+ .
+ and convert it to None. Bug reported by mail by Xavier Besnard (french
+ translator), but I cannot reproduce it.
+ .
+ Local Game: Query: variant type None not implemented for field max(id)
+Applied-Upstream: 4.10, commit:1301756
+
+--- a/kajongg/src/query.py
++++ b/kajongg/src/query.py
+@@ -152,6 +152,8 @@ class Query(object):
+             value = self.query.value(idx).toLongLong()[0]
+         elif valType == QVariant.ULongLong:
+             value = self.query.value(idx).toULongLong()[0]
++        elif valType == QVariant.Invalid:
++            value = None
+         else:
+             raise Exception('Query: variant type %s not implemented for field %s ' % \
+                 (QVariant.typeToName(valType), name))

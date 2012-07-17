@@ -1,5 +1,9 @@
 kdegames (4:4.8.4-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream r1301756 and r1301764 to fix kajongg for newer
+    SQLite/QtSql versions; patches upstream_r1301756.diff and
+    upstream_r1301764.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Jul 2012 13:23:36 +0200
 
