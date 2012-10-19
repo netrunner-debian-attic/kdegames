@@ -8,6 +8,9 @@ kdegames (4:4.8.4-2) UNRELEASED; urgency=low
     - add missing epochs in dependencies needing them
     - tighten kdegames-mahjongg-data to at least the same source version
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add myself to Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Jul 2012 13:23:36 +0200
 
 kdegames (4:4.8.4-1) unstable; urgency=low
