@@ -1,3 +1,9 @@
+kdegames (4:4.8.4-3) UNRELEASED; urgency=low
+
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2012 14:37:28 -0300
+
 kdegames (4:4.8.4-2) unstable; urgency=low
 
   [ Pino Toscano ]
