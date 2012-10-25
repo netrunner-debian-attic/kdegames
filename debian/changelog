@@ -1,3 +1,9 @@
+kdegames (4:4.8.4-4) UNRELEASED; urgency=low
+
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2012 20:35:50 -0300
+
 kdegames (4:4.8.4-3) unstable; urgency=low
 
   * Fix incorrect minimum version of python-qt4-sql which made kajongg
