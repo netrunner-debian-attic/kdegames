@@ -3,6 +3,9 @@ kdegames (4:4.8.4-4) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix typo in last changelog. Thanks Niels Thykier for the pointer!
 
+  [ Adrien Grellier ]
+  * Recommends khelpcenter4 to access the rules inside the games (Closes: #645795) 
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2012 20:35:50 -0300
 
 kdegames (4:4.8.4-3) unstable; urgency=low

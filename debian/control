@@ -149,6 +149,7 @@ Description: tilesets and backgrounds for Mahjongg games
 Package: bomber
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: arcade spaceship game
  Bomber is a game where you fly a spaceship and attempt to bomb the buildings
  below you. Each pass the spaceship makes, it gets lower and lower. If you've
@@ -159,6 +160,7 @@ Description: arcade spaceship game
 Package: bovo
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: gomoku (five in line) board game
  Bovo is a game where two players take turns placing markers on the board,
  the winner being the first to complete a line of five markers.
@@ -168,6 +170,7 @@ Description: gomoku (five in line) board game
 Package: kapman
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Pac-Man clone
  Kapman is a clone of the well known game Pac-Man. You must go through the 
  levels escaping ghosts in a maze. You lose a life when a ghost eats you, but 
@@ -181,6 +184,7 @@ Description: Pac-Man clone
 Package: katomic
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Recommends: khelpcenter4
 Description: atomix puzzle game
  KAtomic is a puzzle game in which the player slides atoms around the board to
  assemble a molecule.
@@ -190,6 +194,7 @@ Description: atomix puzzle game
 Package: kbattleship
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: battleship board game
  KBattleship is an implementation of the Battleship game, where two players
  take turns firing at the opponent's ships by guessing their coordinates.
@@ -199,6 +204,7 @@ Description: battleship board game
 Package: kblackbox
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Black Box puzzle game
  KBlackBox is a game of hide and seek played on an grid of boxes, where the
  player shoots rays into the grid to deduce the positions of hidden objects.
@@ -208,6 +214,7 @@ Description: Black Box puzzle game
 Package: kbounce
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Jezzball arcade game 
  KBounce is a game where the player builds walls to confine a number of
  bouncing balls.
@@ -217,6 +224,7 @@ Description: Jezzball arcade game
 Package: kdiamond
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: three-in-a-row game
  KDiamond is a three-in-a-row game like Bejeweled. It features unlimited fun 
  with randomly generated games and five difficulty levels with varying number 
@@ -227,6 +235,7 @@ Description: three-in-a-row game
 Package: kgoldrunner
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Lode Runner arcade game
  KGoldrunner is a fast-paced platform game where the player must navigate a
  maze while collecting gold nuggets and avoiding enemies.  A variety of level
@@ -237,6 +246,7 @@ Description: Lode Runner arcade game
 Package: killbots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: port of the classic BSD console game robots
  killbots is a simple game of evading killer robots. The robots are numerous 
  and their sole objective is to destroy you.  Fortunately for you, their 
@@ -250,6 +260,7 @@ Description: port of the classic BSD console game robots
 Package: kiriki
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Yahtzee dice game
  Kiriki is a dice game for up to six players, where each player rolls five dice
  to make combinations with the highest score.
@@ -259,6 +270,7 @@ Description: Yahtzee dice game
 Package: kjumpingcube
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: simple tactical game
  KJumpingcube is a simple tactical game for one or two players, played on a
  grid of numbered squares.  Each turn, players compete for control of the board
@@ -269,6 +281,7 @@ Description: simple tactical game
 Package: klines
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: color lines game
  KLines is a single-player game where the player removes colored balls from the
  board by arranging them into lines of five or more.  However, every time the
@@ -279,6 +292,7 @@ Description: color lines game
 Package: kmahjongg
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-mahjongg-data (>= ${source:Version})
+Recommends: khelpcenter4
 Description: mahjongg solitaire game
  KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
  to clear the board.  A variety of tile layouts are included, as well as an
@@ -289,6 +303,7 @@ Description: mahjongg solitaire game
 Package: kmines
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: minesweeper game
  KMines is a game where the player finds hidden mines without setting them off.
  .
@@ -297,6 +312,7 @@ Description: minesweeper game
 Package: knetwalk
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: wire puzzle game
  KNetwalk is a puzzle game where the player arranges sections of wire to
  connect all the computers on the board.
@@ -306,6 +322,7 @@ Description: wire puzzle game
 Package: kolf
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: miniature golf game
  Kolf is a miniature golf game for one to ten players.  A variety of courses
  are included, as well as an editor to create new courses.
@@ -315,6 +332,7 @@ Description: miniature golf game
 Package: kollision
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: simple ball dodging game 
  In Kollision you use mouse to control a small blue ball in a closed space
  environment filled with small red balls, which move about chaotically. 
@@ -327,6 +345,7 @@ Description: simple ball dodging game
 Package: konquest
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: simple turn-based strategy game
  Konquest is a game of galactic conquest for KDE, where rival empires vie to
  conquer planets and crush all opposition.  The game can be played with up to
@@ -337,6 +356,7 @@ Description: simple turn-based strategy game
 Package: kpat
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-card-data (>= ${source:Version})
+Recommends: khelpcenter4
 Description: solitaire card games 
  KPatience is a collection of fourteen solitaire card games, including Klondike,
  Spider, and FreeCell.
@@ -346,6 +366,7 @@ Description: solitaire card games
 Package: kreversi
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: reversi board game
  KReversi is a board game where two players place pieces on the board to flip
  the opponent's pieces.  When neither player can flip any more pieces, the
@@ -358,6 +379,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Replaces: ksame (<< 4:4.6)
 Breaks: ksame (<< 4:4.6)
+Recommends: khelpcenter4
 Description: SameGame puzzle game
  Klickety is a puzzle game where the player removes groups of colored marbles to
  clear the board.
@@ -376,6 +398,7 @@ Description: transitional dummy package for Klickety
 Package: kshisen
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-mahjongg-data (>= ${source:Version})
+Recommends: khelpcenter4
 Description: Shisen-Sho solitaire game 
  KShisen is a Shisen-Sho game where the player removes adjascent pairs of
  Mahjongg tiles to clear the board.
@@ -385,6 +408,7 @@ Description: Shisen-Sho solitaire game
 Package: kspaceduel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: SpaceWar! arcade game
  KSpaceduel is a space battle game for one or two players, where two ships fly
  around a star in a struggle to be the only survivor.
@@ -394,6 +418,7 @@ Description: SpaceWar! arcade game
 Package: ksquares
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Dots and Boxes game 
  KSquares is a game where two players take turns connecting dots on a grid to
  complete the most squares.
@@ -403,6 +428,7 @@ Description: Dots and Boxes game
 Package: ksudoku
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Sudoku puzzle game and solver
  KSudoku is a Sudoku game and solver, supporting a range of 2D and 3D Sudoku
  variants.  In addition to playing Sudoku, it can print Sudoku puzzle sheets
@@ -413,6 +439,7 @@ Description: Sudoku puzzle game and solver
 Package: ktuberling
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: stamp drawing toy 
  KTuberling is a drawing toy for small children with several activites.
  .
@@ -428,6 +455,7 @@ Description: stamp drawing toy
 Package: kfourinline
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Connect Four game
  KFourInLine is a game where two players take turns dropping pieces into a grid,
  the winner being the first to place four pieces in a line.
@@ -437,6 +465,7 @@ Description: Connect Four game
 Package: kubrick
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: game based on Rubik's Cube 
  Kubrick is a game based on Rubik's Cube and using OpenGL 3-D graphics 
  libraries.
@@ -451,6 +480,7 @@ Description: game based on Rubik's Cube
 Package: kblocks
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: falling blocks game
  KBlocks is a single player falling blocks puzzle game, a Tetris-like 
  replacement for KSirtet.
@@ -460,6 +490,7 @@ Description: falling blocks game
 Package: lskat
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-card-data (>= ${source:Version})
+Recommends: khelpcenter4
 Description: Lieutnant Skat card game
  Lieutnant Skat is a simplified variant of the Skat card game for two players.
  .
@@ -468,6 +499,7 @@ Description: Lieutnant Skat card game
 Package: kbreakout
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: ball and paddle game
  kbreakout is a game similar to the classics breakout and xboing, featuring
  a number of added graphical enhancements and effects.  You control a paddle
@@ -479,6 +511,7 @@ Description: ball and paddle game
 Package: ksirk
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Risk strategy game
  KsirK is a strategy game inspired by the well known game Risk. It is a
  multi-player network-enabled game with an AI. The goal of the game is simply
@@ -496,6 +529,7 @@ Description: Risk strategy game
 Package: ktron
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Tron-like snakerace game 
  The object of the game is to avoid running into walls, your own tail,
  and that of your opponent, while at the same time you have to try to
@@ -512,7 +546,7 @@ Description: Tron-like snakerace game
 Package: palapeli
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, palapeli-data (>= ${source:Version})
-Recommends: qhull-bin
+Recommends: qhull-bin, khelpcenter4
 Description: jigsaw puzzle game
  Palapeli is a jigsaw puzzle game. Unlike other games in that genre,
  you are not limited to aligning pieces on imaginary grids. The
@@ -539,6 +573,7 @@ Description: data files for palapeli jigsaw puzzle game
 Package: granatier
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
 Description: Bomberman clone
  Granatier is a clone of the classic Bomberman game,
  inspired by the work of the Clanbomber clone.
@@ -548,7 +583,7 @@ Description: Bomberman clone
 Package: kigo
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: gnugo
+Recommends: gnugo, khelpcenter4
 Description: go game
  Kigo is an open-source implementation of the popular Go game. Go is a
  strategic board game for two players. It is also known as igo (Japanese),
@@ -566,6 +601,7 @@ Depends: ${python:Depends}, ${misc:Depends}, python-twisted-core (>= 8.2.0),
  python-qt4-sql (>= 4.6), python-kde4 (>= 4:4.3.0), libsqlite3-0 (>= 3.5.0),
  libqt4-sql-sqlite (>= 4.6), kdegames-mahjongg-data (>= ${source:Version}),
  vorbis-tools
+Recommends: khelpcenter4
 Description: classical Mah Jongg game
  This is the classical Mah Jongg for four players.
  If you are looking for the Mah Jongg solitaire please use the application
